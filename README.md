@@ -19,9 +19,7 @@ In linux machine, run the following command:
 In macos machine, run the following command:
 ```bash
     openssl rand -base64 741 > keyfile \
-    && sudo chmod 600 keyfile \
-    && sudo chown 999 keyfile \
-    && sudo chgrp 999 keyfile
+    && sudo chmod 600 keyfile 
 ```
 
 

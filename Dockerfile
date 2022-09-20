@@ -1,8 +1,8 @@
 # Build stage
 
-FROM node:14.17.0 AS development
+FROM node:14.17.0-alpine3.13 AS development
 
-RUN apt install make g++
+RUN apk add --no-cache python2 make g++
 RUN npm install -g pnpm   
 RUN pnpm config set auto-install-peers true
 RUN pnpm config set strict-peer-dependencies false
@@ -23,8 +23,8 @@ RUN pnpm build
 
 # Production stage
 
-FROM node:14.17.0 as production
-RUN apt install openssl make g++
+FROM node:14.17.0-alpine3.13 as production
+RUN apk add --no-cache python2 openssl make g++
 
 ENV dockerize_version v0.6.1
 RUN wget https://github.com/jwilder/dockerize/releases/download/$dockerize_version/dockerize-alpine-linux-amd64-$dockerize_version.tar.gz \
