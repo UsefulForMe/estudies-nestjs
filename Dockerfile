@@ -1,6 +1,6 @@
 # Build stage
 
-FROM node:14.17.0-alpine3.13 AS development
+FROM node:14.17.0 AS development
 
 RUN apk add --no-cache python2 make g++
 RUN npm install -g pnpm   
@@ -23,7 +23,7 @@ RUN pnpm build
 
 # Production stage
 
-FROM node:14.17.0-alpine3.13 as production
+FROM node:14.17.0 as production
 RUN apk add --no-cache python2 openssl make g++
 
 ENV dockerize_version v0.6.1

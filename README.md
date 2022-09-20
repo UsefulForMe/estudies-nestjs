@@ -1,4 +1,4 @@
-# **BOOK EXCHANGE AUTH SERVICE GUIDE**
+# **ESTUDIES BACKEND GUIDE**
 - [Linux machine](#linux-machine)
 - [Docker](#docker)
 ## **LINUX MACHINE**
