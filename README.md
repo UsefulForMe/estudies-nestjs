@@ -6,7 +6,25 @@
 - [@nestjs/cli](https://docs.nestjs.com/cli/o*verview)
 - [Node: v14.x](https://nodejs.org/en/download/)
 - [pnpm: 7.x](https://pnpm.io/installation)
-- [Postgresql 14.x](https://www.postgresql.org/download/)
+- [Mongodb 6.x with replicaset](https://www.mongodb.com/try/download/community)
+- Generate a keyfile for mongodb replicaset
+
+In linux machine, run the following command:
+```bash
+    openssl rand -base64 756 > keyfile \
+    && sudo chmod 600 keyfile \
+    && sudo chown 999 keyfile \
+    && sudo chgrp 999 keyfile
+```
+In macos machine, run the following command:
+```bash
+    openssl rand -base64 741 > keyfile \
+    && sudo chmod 600 keyfile \
+    && sudo chown 999 keyfile \
+    && sudo chgrp 999 keyfile
+```
+
+
 ## Steps to setup service using Linux machine
 1) Install the dependencies:
 ```sh
@@ -75,4 +93,6 @@ nano .env
 ```sh
 docker-compose up -d
 ```
+
+
 
