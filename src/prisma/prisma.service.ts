@@ -72,7 +72,6 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
 
         return this[camelCase(model)].createMany({
           data: flattenDeep(modelData),
-          skipDuplicates: true,
         });
       }),
     );

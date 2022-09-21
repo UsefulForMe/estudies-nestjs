@@ -105,6 +105,7 @@ describe('auth.integration.spec.ts', () => {
       const form = {
         email: 'user3@gmail.com',
         password: '123456',
+        type: 'student',
       };
 
       const res = await authController.register(form);
@@ -125,6 +126,7 @@ describe('auth.integration.spec.ts', () => {
       const form = {
         email: 'user1@gmail.com',
         password: '123456',
+        type: 'student',
       };
 
       await expect(authController.register(form)).rejects.toThrowError(error);
@@ -136,6 +138,7 @@ describe('auth.integration.spec.ts', () => {
       const form = {
         email: 'user3@gmail.com',
         password: '123456',
+        type: 'student',
       };
 
       const resRegister = await authController.register(form);
@@ -154,8 +157,8 @@ describe('auth.integration.spec.ts', () => {
         where: { email: form.email },
       });
       expect(userAuth).toBeTruthy();
-      expect(userAuth.isAdmin).toBe(false);
-      expect(userAuth.roles).toEqual(['USER']);
+
+      expect(userAuth.type).toEqual('student');
     });
 
     it('Should throw error when wrong token', async () => {

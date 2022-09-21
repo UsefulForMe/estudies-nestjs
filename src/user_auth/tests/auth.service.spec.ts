@@ -173,6 +173,7 @@ describe('auth.service.spec.ts', () => {
       const data = {
         email: 'example@gmail.com',
         password: '123456',
+        type: 'student',
       };
 
       const result = await authService.register(data);
@@ -198,6 +199,7 @@ describe('auth.service.spec.ts', () => {
       const data = {
         email: 'example@gmail.com',
         password: '123456',
+        type: 'student',
       };
 
       prismaService.userAuth.findFirst = jest.fn().mockImplementation(() => {
@@ -217,6 +219,7 @@ describe('auth.service.spec.ts', () => {
       const data = {
         email: 'example@gmail.com',
         password: '123456',
+        type: 'student',
       };
 
       const error = new Error('Prisma Error');
@@ -245,6 +248,7 @@ describe('auth.service.spec.ts', () => {
       const data = {
         email: 'example@gmail.com',
         password: '123456',
+        type: 'student',
       };
 
       await expect(authService.register(data)).rejects.toThrowError(error);
@@ -275,6 +279,7 @@ describe('auth.service.spec.ts', () => {
         data: {
           email: 'example@gmail.com',
           password: '123456',
+          type: 'student',
         },
       };
       prismaService.userAuth.create = jest.fn();
@@ -299,7 +304,7 @@ describe('auth.service.spec.ts', () => {
         data: {
           email: payload.data.email,
           password: 'hashValue',
-          roles: ['USER'],
+          type: payload.data.type,
         },
       });
 

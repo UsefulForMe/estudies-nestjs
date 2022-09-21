@@ -6,6 +6,9 @@ export class RegisterUserAuthDto {
 
   @IsNotEmpty()
   password: string;
+
+  @IsNotEmpty()
+  type: string;
 }
 
 export class LoginUserAuthReqDto {
@@ -29,7 +32,5 @@ export class JwtUserResDto {
   email: string;
 
   @IsNotEmpty()
-  isAdmin: boolean;
-
-  roles: string[];
+  type: string;
 }

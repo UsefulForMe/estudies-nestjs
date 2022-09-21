@@ -1,14 +1,12 @@
 [
   {
-    "id": "2",
     "email": "user1@gmail.com",
     "password": "$2b$10$OIjB2S/3Wen0M18EyHjIquNgySMIDHH25yXSZZENSD0qkoiZNhDVi",
-    "roles": ["USER"]
+    "type": "student"
   },
   {
-    "id": "3",
     "email": "user2@gmail.com",
     "password": "$2b$10$OIjB2S/3Wen0M18EyHjIquNgySMIDHH25yXSZZENSD0qkoiZNhDVi",
-    "roles": ["USER"]
+    "type": "student"
   }
 ]

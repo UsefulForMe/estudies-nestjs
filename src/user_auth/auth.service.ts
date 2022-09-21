@@ -71,6 +71,7 @@ export class AuthService {
       data: {
         email: user.email,
         password: user.password,
+        type: user.type,
       },
     });
 
@@ -105,7 +106,7 @@ export class AuthService {
       data: {
         email: payload.data.email,
         password: hash,
-        roles: ['USER'],
+        type: payload.data.type,
       },
     });
 

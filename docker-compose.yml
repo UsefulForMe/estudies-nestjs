@@ -5,7 +5,7 @@ services:
     container_name: estudies_app
     env_file: .env
     ports:
-      - "${HTTP_SERVER_PORT}:${HTTP_SERVER_PORT}"
+      - '${HTTP_SERVER_PORT}:${HTTP_SERVER_PORT}'
     restart: always
     networks:
       - estudies_network
@@ -32,7 +32,7 @@ services:
       test: test $$(echo "rs.initiate({_id:'${MONGO_REPLICA_SET_NAME}',members:[{_id:0, host:'${MONGO_HOST}:${MONGO_PORT}'}]}).ok || rs.status().ok" | mongosh -u ${MONGO_INITDB_ROOT_USERNAME} -p ${MONGO_INITDB_ROOT_PASSWORD} --quiet) -eq 1
       interval: 10s
       start_period: 30s
-    command: "--bind_ip_all --keyFile /opt/keyfile/keyfile --replSet rs0"
+    command: '--bind_ip_all --keyFile /opt/keyfile/keyfile --replSet rs0'
 
   estudies_redis:
     image: redis:latest
@@ -41,7 +41,7 @@ services:
     command: >
       --requirepass ${REDIS_PASSWORD}
     ports:
-      - "${REDIS_PORT}:6379"
+      - '${REDIS_PORT}:6379'
     restart: always
     networks:
       - estudies_network
@@ -49,8 +49,5 @@ services:
 networks:
   estudies_network:
 
-
 volumes:
   mongo_data:
-
-
