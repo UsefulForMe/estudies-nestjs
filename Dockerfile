@@ -15,9 +15,9 @@ COPY package.json .
 COPY pnpm-lock.yaml .
 COPY prisma/ ./prisma/
 
-RUN pnpm i
+RUN pnpm i --production
 
-COPY . .
+COPY ./ /usr/src/app/
 
 RUN pnpm build
 

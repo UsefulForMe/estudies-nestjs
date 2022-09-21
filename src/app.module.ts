@@ -8,6 +8,7 @@ import { LoggerModule } from 'src/logger/logger.module';
 import { PrismaModule } from './prisma/prisma.module';
 import { RedisModule } from './redis/redis.module';
 import { MailModule } from 'src/mail/mail.module';
+import { ResourceModule } from './resource/resource.module';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { MailModule } from 'src/mail/mail.module';
     AppConfigModule,
     AuthModule,
     MailModule,
+    ResourceModule,
   ],
 })
 export class AppModule {
