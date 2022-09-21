@@ -82,6 +82,7 @@ describe('auth.controller.spec.ts', () => {
       const form: RegisterUserAuthDto = {
         email: 'example@gmail.com',
         password: '123456',
+        type: 'student',
       };
       const result = await authController.register(form);
 
@@ -99,6 +100,7 @@ describe('auth.controller.spec.ts', () => {
       const form: RegisterUserAuthDto = {
         email: 'example@gmail.com',
         password: '123456',
+        type: 'student',
       };
 
       await expect(authController.register(form)).rejects.toThrowError(error);

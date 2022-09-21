@@ -6,19 +6,15 @@ import {
   Injectable,
   Param,
   Post,
-  Request,
-  Response,
   UnauthorizedException,
-  UseGuards,
 } from '@nestjs/common';
 import { ApiBody, ApiTags } from '@nestjs/swagger';
+import { AppConfigService } from 'src/config/app-config.service';
 import {
   LoginUserAuthReqDto,
   RegisterUserAuthDto,
 } from 'src/user_auth/auth.dto';
 import { AuthService } from 'src/user_auth/auth.service';
-import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
-import { AppConfigService } from 'src/config/app-config.service';
 
 @Injectable()
 @ApiTags('auth')
@@ -85,26 +81,10 @@ export class AuthController {
     if (!isVerified) {
       throw new UnauthorizedException();
     }
+
     return {
       statusCode: HttpStatus.OK,
       message: 'success',
     };
-  }
-  @UseGuards(JwtAuthGuard)
-  @Get('verify')
-  async verify(@Request() req, @Response() res) {
-    if (!req.user) {
-      throw new UnauthorizedException();
-    }
-
-    const headerConfig = this.appConfigService.getHeaderConfig();
-    res.set(headerConfig.userId, req.user.id);
-    if (req.user.isAdmin) {
-      res.set(headerConfig.isAdmin, true);
-    }
-    res.json({
-      statusCode: HttpStatus.OK,
-      message: 'success',
-    });
   }
 }
