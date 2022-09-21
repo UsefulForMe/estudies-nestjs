@@ -29,7 +29,7 @@ services:
       - mongo_data:${MONGO_DATA}
       - ./:/opt/keyfile/
     healthcheck:
-      test: test $$(echo "rs.initiate({_id:'${MONGO_REPLICA_SET_NAME}',members:[{_id:0, host:'${MONGO_HOST}:${MONGO_PORT}'}]}).ok || rs.status().ok" | mongo -u ${MONGO_INITDB_ROOT_USERNAME} -p ${MONGO_INITDB_ROOT_PASSWORD} --quiet) -eq 1
+      test: test $$(echo "rs.initiate({_id:'${MONGO_REPLICA_SET_NAME}',members:[{_id:0, host:'${MONGO_HOST}:${MONGO_PORT}'}]}).ok || rs.status().ok" | mongosh -u ${MONGO_INITDB_ROOT_USERNAME} -p ${MONGO_INITDB_ROOT_PASSWORD} --quiet) -eq 1
       interval: 10s
       start_period: 30s
     command: "--bind_ip_all --keyFile /opt/keyfile/keyfile --replSet rs0"

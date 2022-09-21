@@ -1,8 +1,8 @@
 # Build stage
 
-FROM node:14.17.0 AS development
+FROM --platform=linux/amd64 node:14.17.0 AS development
 
-RUN apt install make g++
+RUN apt install make g++ python3
 RUN npm install -g pnpm   
 RUN pnpm config set auto-install-peers true
 RUN pnpm config set strict-peer-dependencies false
@@ -15,9 +15,9 @@ COPY package.json .
 COPY pnpm-lock.yaml .
 COPY prisma/ ./prisma/
 
-RUN pnpm i
+RUN pnpm i --production
 
-COPY . .
+COPY ./ /usr/src/app/
 
 RUN pnpm build
 
