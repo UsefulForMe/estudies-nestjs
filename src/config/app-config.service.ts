@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { configKeys } from 'src/config/constants';
-import { RedisConfig } from 'src/types';
+import { CoreConfig, MailConfig, RedisConfig } from 'src/types';
 
 @Injectable()
 export class AppConfigService {
@@ -26,6 +26,22 @@ export class AppConfigService {
       password: this.configService.get(configKeys.REDIS_PASSWORD),
       db: this.configService.get(configKeys.REDIS_DB),
       ex: this.configService.get(configKeys.REDIS_EX),
+    };
+  }
+  get mailConfig(): MailConfig {
+    return {
+      host: this.configService.get(configKeys.SMTP_HOST),
+      port: this.configService.get(configKeys.SMTP_PORT),
+      username: this.configService.get(configKeys.SMTP_USERNAME),
+      password: this.configService.get(configKeys.SMTP_PASSWORD),
+      secure: this.configService.get(configKeys.SMTP_SECURE),
+      from: this.configService.get(configKeys.SMTP_FROM),
+    };
+  }
+
+  get coreConfig(): CoreConfig {
+    return {
+      url: this.configService.get(configKeys.APP_URL),
     };
   }
 }

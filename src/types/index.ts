@@ -10,3 +10,16 @@ export interface HeaderConfig {
   userId: string;
   isAdmin: string;
 }
+
+export interface MailConfig {
+  host: string;
+  username: string;
+  password: string;
+  port: number;
+  secure: boolean;
+  from: string;
+}
+
+export interface CoreConfig {
+  url: string;
+}

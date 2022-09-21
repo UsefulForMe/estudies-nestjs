@@ -81,6 +81,7 @@ export class AuthController {
     if (!isVerified) {
       throw new UnauthorizedException();
     }
+
     return {
       statusCode: HttpStatus.OK,
       message: 'success',

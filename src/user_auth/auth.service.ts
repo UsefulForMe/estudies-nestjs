@@ -15,6 +15,7 @@ import { AppLoggerService } from 'src/logger/logger.service';
 import { PrismaService } from 'src/prisma/prisma.service';
 import { RedisService } from 'src/redis/redis.service';
 import TimeUtil from 'src/utils/time/time';
+import { MailService } from 'src/mail/mail.service';
 
 @Injectable()
 export class AuthService {
@@ -25,6 +26,7 @@ export class AuthService {
     private readonly jwtService: JwtService,
     private readonly appConfig: AppConfigService,
     private readonly bryptService: BcryptService,
+    private readonly mailService: MailService,
   ) {}
 
   async login(credentials: LoginUserAuthReqDto): Promise<LoginUserAuthResDto> {
@@ -81,7 +83,14 @@ export class AuthService {
       'EX',
       this.appConfig.redisConfig.ex,
     );
-
+    await this.mailService
+      .sendMailConfirm(
+        user.email,
+        `${this.appConfig.coreConfig.url}/auth/register/verify/${verifyToken}`,
+      )
+      .catch((err) => {
+        console.log(err);
+      });
     return verifyToken;
   }
 
