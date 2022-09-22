@@ -18,9 +18,9 @@ model UserAuth {
 model Resource {
   id             String   @id @default(auto()) @map("_id") @db.ObjectId
   name           String
-  types          String
-  links          String
-  subjectClassId String?   @db.ObjectId
+  type           String
+  link           String
+  subjectClassId String?  @db.ObjectId
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
 }
