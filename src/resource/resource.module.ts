@@ -2,20 +2,11 @@
 import { Module } from '@nestjs/common';
 import { ResourceController } from './resource.controller';
 import { ResourceService } from './resource.service';
-import { MongooseModule } from '@nestjs/mongoose';
-import { ResourceDTO, ResourceSchema } from './schema/resource.schema';
+import { PrismaModule } from 'src/prisma/prisma.module';
 
 @Module({
-  imports: [
-    MongooseModule.forFeature([
-      {
-        name: "Resource",
-        schema: ResourceSchema,
-      },
-    ]),
-  ],
+  imports: [PrismaModule],
   controllers: [ResourceController],
   providers: [ResourceService],
-  exports:[ResourceModule]
 })
 export class ResourceModule {}

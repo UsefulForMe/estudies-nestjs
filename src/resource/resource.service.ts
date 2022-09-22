@@ -1,46 +1,41 @@
 /* eslint-disable prettier/prettier */
 import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@nestjs/mongoose';
-import { ResourceDocument, ResourceDTO } from './schema/resource.schema';
-
-import { Model } from 'mongoose';
-import { CreateResourceDto } from './dto/create-resource.dto';
-import { UpdateResourceDto } from './dto/update.resource.dto';
+import { PrismaService } from 'src/prisma/prisma.service';
+import { Resource } from '@prisma/client';
 
 @Injectable()
 export class ResourceService {
-  constructor(
-    @InjectModel("Resource")
-    private readonly modelResource: Model<ResourceDocument>,
-  ) {}
+  constructor(private readonly prismaService: PrismaService) {}
 
-  async findAll(): Promise<ResourceDTO[]> {
-    return await this.modelResource.find().exec();
+  async findAll(): Promise<Resource[]> {
+    return await this.prismaService.resource.findMany();
   }
 
-  async findById(id: string): Promise<ResourceDTO> {
-    return await this.modelResource.findById(id).exec();
+  async findById(id: string): Promise<Resource> {
+    return await this.prismaService.resource.findUnique({
+      where: { id: id },
+    });
   }
 
-  async createResource(
-    createResource: CreateResourceDto,
-  ): Promise<ResourceDTO> {
-    return await new this.modelResource({
-      ...createResource,
-      createdAt: new Date(),
-    }).save();
+  async createResource(createResource: any): Promise<Resource> {
+    return this.prismaService.resource.create({
+      data: createResource,
+    });
   }
 
   async updateResource(
     id: string,
-    updateResource: UpdateResourceDto,
-  ): Promise<ResourceDTO> {
-    return await this.modelResource
-      .findByIdAndUpdate(id, updateResource)
-      .exec();
+    updateResource: any,
+  ): Promise<Resource> {
+    return await this.prismaService.resource.update({
+      where: { id: id },
+      data: updateResource,
+    });
   }
 
-  async deleteResource(id: string): Promise<ResourceDTO> {
-    return await this.modelResource.findByIdAndDelete(id).exec();
+  async deleteResource(id: string): Promise<Resource> {
+    return await this.prismaService.resource.delete({
+      where: { id: id },
+    });
   }
 }

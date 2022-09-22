@@ -14,3 +14,13 @@ model UserAuth {
   roles    String[]
   isAdmin  Boolean  @default(false)
 }
+
+model Resource {
+  id             String   @id @default(auto()) @map("_id") @db.ObjectId
+  name           String
+  types          String
+  links          String
+  subjectClassId String?   @db.ObjectId
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}

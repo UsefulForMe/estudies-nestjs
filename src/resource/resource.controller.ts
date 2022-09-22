@@ -7,8 +7,6 @@ import {
   Post,
   Put,
 } from '@nestjs/common';
-import { CreateResourceDto } from './dto/create-resource.dto';
-import { UpdateResourceDto } from './dto/update.resource.dto';
 import { ResourceService } from './resource.service';
 
 @Controller('resource')
@@ -25,16 +23,15 @@ export class ResourceController {
   }
 
   @Post('create')
-  async create(@Body() createResource: CreateResourceDto) {
+  async create(@Body() createResource: any) {
     return await this.service.createResource(createResource);
   }
+
   @Put(':id')
-  async update(
-    @Param('id') id: string,
-    @Body() updateResource: UpdateResourceDto,
-  ) {
+  async update(@Param('id') id: string, @Body() updateResource: any) {
     return await this.service.updateResource(id, updateResource);
   }
+
   @Delete(':id')
   async delete(@Param('id') id: string) {
     return await this.service.deleteResource(id);
