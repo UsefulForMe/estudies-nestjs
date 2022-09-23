@@ -19,3 +19,13 @@ model UserAuth {
   password String   @db.String
   type     UserType @default(student)
 }
+
+model Resource {
+  id             String   @id @default(auto()) @map("_id") @db.ObjectId
+  name           String
+  type           String
+  link           String
+  subjectClassId String?  @db.ObjectId
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
