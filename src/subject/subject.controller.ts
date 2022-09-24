@@ -13,7 +13,7 @@ import { SubjectService } from './subject.service';
 export class SubjectController {
   constructor(private readonly service: SubjectService) {}
 
-  @Get('all')
+  @Get()
   async index() {
     return await this.service.findAll();
   }
@@ -23,7 +23,7 @@ export class SubjectController {
     return await this.service.findById(id);
   }
 
-  @Post('create')
+  @Post()
   async create(@Body() createResource: any) {
     return await this.service.createResource(createResource);
   }
