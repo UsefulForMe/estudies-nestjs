@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_student_students",
+  "info": {
+    "displayName": "student"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "parent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "parent.parent"
+    }
+  }
+}

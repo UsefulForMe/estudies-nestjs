@@ -43,7 +43,27 @@
         }
       },
       "component": "parent.parent",
-      "required": true
+      "required": false
+    },
+    "teacher": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "teacher.teacher"
+    },
+    "student": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "student.student"
     }
   }
 }
