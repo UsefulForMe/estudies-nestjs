@@ -34,7 +34,7 @@
       "type": "password",
       "required": true
     },
-    "parents": {
+    "parent": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {

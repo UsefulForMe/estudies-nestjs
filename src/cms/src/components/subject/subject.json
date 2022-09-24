@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_subject_subjects",
+  "info": {
+    "displayName": "subject",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

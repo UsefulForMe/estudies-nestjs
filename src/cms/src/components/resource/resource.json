@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_teacher_teachers",
+  "collectionName": "components_resource_resources",
   "info": {
-    "displayName": "teacher",
+    "displayName": "resource",
     "description": ""
   },
   "options": {},
@@ -10,11 +10,11 @@
       "type": "string",
       "required": true
     },
-    "email": {
-      "type": "email",
+    "type": {
+      "type": "string",
       "required": true
     },
-    "address": {
+    "link": {
       "type": "string",
       "required": true
     }

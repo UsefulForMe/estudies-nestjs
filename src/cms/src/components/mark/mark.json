@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_mark_marks",
+  "info": {
+    "displayName": "mark"
+  },
+  "options": {},
+  "attributes": {
+    "score": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
