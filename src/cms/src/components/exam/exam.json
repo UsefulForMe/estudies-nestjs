@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_exam_exams",
+  "info": {
+    "displayName": "exam",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "mark": {
+      "type": "component",
+      "repeatable": true,
+      "component": "mark.mark"
+    }
+  }
+}
