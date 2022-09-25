@@ -9,6 +9,7 @@ import { PrismaModule } from './prisma/prisma.module';
 import { RedisModule } from './redis/redis.module';
 import { MailModule } from 'src/mail/mail.module';
 import { ResourceModule } from './resource/resource.module';
+import { SubjectModule } from './subject/subject.module';
 
 @Module({
   imports: [
@@ -19,6 +20,7 @@ import { ResourceModule } from './resource/resource.module';
     AuthModule,
     MailModule,
     ResourceModule,
+    SubjectModule,
   ],
 })
 export class AppModule {
