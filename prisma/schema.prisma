@@ -18,21 +18,114 @@ model UserAuth {
   email    String   @unique @db.String
   password String   @db.String
   type     UserType @default(student)
+  student  Student?
+  teacher  Teacher?
+  parents  Parents?
+}
+
+model Student {
+  id       String   @id @default(auto()) @map("_id") @db.ObjectId
+  name     String   @db.String
+  email    String   @unique @db.String
+  address  String   @db.String
+  birthday DateTime @db.Date
+  auth     UserAuth @relation(fields: [authId], references: [id])
+  authId   String   @unique @db.ObjectId
+
+  parentsId String  @db.ObjectId
+  parents   Parents @relation(fields: [parentsId], references: [id])
+
+  createdAt DateTime @default(now()) @db.Date
+  updatedAt DateTime @updatedAt @db.Date
+  mark      Mark[]
+}
+
+model Teacher {
+  id      String   @id @default(auto()) @map("_id") @db.ObjectId
+  name    String   @db.String
+  email   String   @unique @db.String
+  address String   @db.String
+  auth    UserAuth @relation(fields: [authId], references: [id])
+  authId  String   @unique @db.ObjectId
+
+  createdAt DateTime @default(now()) @db.Date
+  updatedAt DateTime @updatedAt @db.Date
+}
+
+model Parents {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  name      String   @db.String
+  email     String   @unique @db.String
+  address   String   @db.String
+  auth      UserAuth @relation(fields: [authId], references: [id])
+  authId    String   @unique @db.ObjectId
+  createdAt DateTime @default(now()) @db.Date
+  updatedAt DateTime @updatedAt @db.Date
+
+  student Student[]
 }
 
 model Resource {
-  id             String   @id @default(auto()) @map("_id") @db.ObjectId
-  name           String
-  type           String
-  link           String
-  subjectClassId String?  @db.ObjectId
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  id   String @id @default(auto()) @map("_id") @db.ObjectId
+  name String
+  type String
+  link String
+
+  subjectClassId String       @db.ObjectId
+  subjectClass   SubjectClass @relation(fields: [subjectClassId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
 
 model Subject {
-  id        String   @id @default(auto()) @map("_id") @db.ObjectId
-  name      String
+  id   String @id @default(auto()) @map("_id") @db.ObjectId
+  name String
+
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
+  subjectClass SubjectClass[]
+}
+
+model SubjectClass {
+  id   String @id @default(auto()) @map("_id") @db.ObjectId
+  name String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  subjectId String  @db.ObjectId
+  subject   Subject @relation(fields: [subjectId], references: [id])
+
+  resource Resource[]
+  exam     Exam[]
+}
+
+model Exam {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  name     String
+  duration Int
+  type     String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  subjectClassId String       @db.ObjectId
+  subjectClass   SubjectClass @relation(fields: [subjectClassId], references: [id])
+  mark           Mark[]
+}
+
+model Mark {
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  score Int
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  examId String @db.ObjectId
+  exam   Exam   @relation(fields: [examId], references: [id])
+
+  studentId String  @db.ObjectId
+  student   Student @relation(fields: [studentId], references: [id])
 }
