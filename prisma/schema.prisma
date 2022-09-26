@@ -24,38 +24,42 @@ model UserAuth {
 }
 
 model Student {
-  id       String   @id @default(auto()) @map("_id") @db.ObjectId
-  name     String   @db.String
-  email    String   @unique @db.String
+  id   String @id @default(auto()) @map("_id") @db.ObjectId
+  name String @db.String
+
   address  String   @db.String
   birthday DateTime @db.Date
   auth     UserAuth @relation(fields: [authId], references: [id])
   authId   String   @unique @db.ObjectId
 
-  parentsId String  @db.ObjectId
-  parents   Parents @relation(fields: [parentsId], references: [id])
+  parentsId String?  @db.ObjectId
+  parents   Parents? @relation(fields: [parentsId], references: [id])
 
   createdAt DateTime @default(now()) @db.Date
   updatedAt DateTime @updatedAt @db.Date
   mark      Mark[]
+
+  subjectClassIds String[]       @db.ObjectId
+  subjectClasses  SubjectClass[] @relation(fields: [subjectClassIds], references: [id])
 }
 
 model Teacher {
-  id      String   @id @default(auto()) @map("_id") @db.ObjectId
-  name    String   @db.String
-  email   String   @unique @db.String
+  id   String @id @default(auto()) @map("_id") @db.ObjectId
+  name String @db.String
+
   address String   @db.String
   auth    UserAuth @relation(fields: [authId], references: [id])
   authId  String   @unique @db.ObjectId
 
-  createdAt DateTime @default(now()) @db.Date
-  updatedAt DateTime @updatedAt @db.Date
+  createdAt    DateTime       @default(now()) @db.Date
+  updatedAt    DateTime       @updatedAt @db.Date
+  subjectClass SubjectClass[]
 }
 
 model Parents {
-  id        String   @id @default(auto()) @map("_id") @db.ObjectId
-  name      String   @db.String
-  email     String   @unique @db.String
+  id   String @id @default(auto()) @map("_id") @db.ObjectId
+  name String @db.String
+
   address   String   @db.String
   auth      UserAuth @relation(fields: [authId], references: [id])
   authId    String   @unique @db.ObjectId
@@ -98,8 +102,13 @@ model SubjectClass {
   subjectId String  @db.ObjectId
   subject   Subject @relation(fields: [subjectId], references: [id])
 
-  resource Resource[]
-  exam     Exam[]
+  teacherId String  @db.ObjectId
+  teacher   Teacher @relation(fields: [teacherId], references: [id])
+
+  resource   Resource[]
+  exam       Exam[]
+  studentIds String[]   @db.ObjectId
+  students   Student[]  @relation(fields: [studentIds], references: [id])
 }
 
 model Exam {

@@ -30,6 +30,11 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
       where: {
         email: sub,
       },
+      include: {
+        student: true,
+        parents: true,
+        teacher: true,
+      },
     });
 
     if (!user) {

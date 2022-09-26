@@ -10,6 +10,7 @@ import { RedisModule } from './redis/redis.module';
 import { MailModule } from 'src/mail/mail.module';
 import { ResourceModule } from './resource/resource.module';
 import { SubjectModule } from './subject/subject.module';
+import { StudentModule } from './student/student.module';
 
 @Module({
   imports: [
@@ -21,6 +22,7 @@ import { SubjectModule } from './subject/subject.module';
     MailModule,
     ResourceModule,
     SubjectModule,
+    StudentModule,
   ],
 })
 export class AppModule {
