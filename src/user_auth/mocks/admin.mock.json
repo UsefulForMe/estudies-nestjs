@@ -1,5 +1,6 @@
 {
   "email": "admin@gmail.com",
   "password": "$2b$10$OIjB2S/3Wen0M18EyHjIquNgySMIDHH25yXSZZENSD0qkoiZNhDVi",
-  "type": "teacher"
+  "type": "student",
+  "isAdmin": true
 }

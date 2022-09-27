@@ -6,19 +6,19 @@ import { PrismaService } from 'src/prisma/prisma.service';
 export class StudentService {
   constructor(private readonly prisma: PrismaService) {}
 
-  async createStudent(req: Prisma.StudentCreateInput) {
+  async create(req: Prisma.StudentCreateInput) {
     return this.prisma.student.create({
       data: req,
     });
   }
 
-  async getStudent(where: Prisma.StudentWhereUniqueInput) {
+  async findUnique(where: Prisma.StudentWhereUniqueInput) {
     return this.prisma.student.findUnique({
       where,
     });
   }
 
-  async updateStudent(
+  async update(
     where: Prisma.StudentWhereUniqueInput,
     data: Prisma.StudentUpdateInput,
   ) {

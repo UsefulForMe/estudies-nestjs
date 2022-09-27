@@ -21,6 +21,8 @@ model UserAuth {
   student  Student?
   teacher  Teacher?
   parents  Parents?
+
+  isAdmin Boolean @default(false)
 }
 
 model Student {
