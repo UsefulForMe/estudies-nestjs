@@ -32,21 +32,21 @@ export class StudentController {
       },
     };
 
-    return this.studentService.createStudent(req);
+    return this.studentService.create(req);
   }
 
   @UseGuards(JwtAuthGuard)
   @Get('/me')
   async getMyProfile(@Request() request) {
     const { user } = request;
-    return this.studentService.getStudent({ authId: user.id });
+    return this.studentService.findUnique({ authId: user.id });
   }
 
   @UseGuards(JwtAuthGuard)
   @Put('/me')
   async updateMyProfile(@Request() request, @Body() body: UpdateStudentReq) {
     const id = get(request, 'user.student.id');
-    return this.studentService.updateStudent(
+    return this.studentService.update(
       {
         id,
       },
@@ -60,14 +60,16 @@ export class StudentController {
     const { user } = request;
 
     const isTeacherOrParent = get(user, 'teacher') || get(user, 'parent');
+    const isMyProfile = get(user, 'student.id') === id;
+    const isAdmin = get(user, 'isAdmin');
 
-    if (!isTeacherOrParent) {
+    if (!isTeacherOrParent && !isMyProfile && !isAdmin) {
       throw new UnauthorizedException(
         'You are not authorized to view this student profile',
       );
     }
 
-    return this.studentService.getStudent({
+    return this.studentService.findUnique({
       id,
     });
   }
@@ -80,14 +82,13 @@ export class StudentController {
     @Body() body: UpdateStudentReq,
   ) {
     const { user } = request;
-
-    if (get(user, 'student.id') !== id) {
+    if (!user.isAdmin) {
       throw new UnauthorizedException(
         'You are not authorized to update this student profile',
       );
     }
 
-    return this.studentService.updateStudent(
+    return this.studentService.update(
       {
         id,
       },
