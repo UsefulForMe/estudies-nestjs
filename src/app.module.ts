@@ -13,6 +13,7 @@ import { ResourceModule } from './resource/resource.module';
 import { StudentModule } from './student/student.module';
 import { SubjectModule } from './subject/subject.module';
 import { TeacherModule } from './teacher/teacher.module';
+import { SubjectClassModule } from './subject-class/subject-class.module';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import { TeacherModule } from './teacher/teacher.module';
     StudentModule,
     ParentsModule,
     TeacherModule,
+    SubjectClassModule,
   ],
 })
 export class AppModule {

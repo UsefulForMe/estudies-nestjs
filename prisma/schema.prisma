@@ -101,6 +101,9 @@ model SubjectClass {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
+  startAt DateTime?
+  endAt   DateTime?
+
   subjectId String  @db.ObjectId
   subject   Subject @relation(fields: [subjectId], references: [id])
 
