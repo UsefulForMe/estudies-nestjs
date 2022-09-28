@@ -4,7 +4,8 @@
     "name": "Vũ Xuân Nhân",
     "address": "thôn Bá Đông||xã Bình Minh||huyện Bình Giang||tỉnh Hải Dương",
     "birthday": "2000-09-04T12:45:00.000Z",
-    "authId": "63344dce2cc99fc7a87fef6f"
+    "authId": "63344dce2cc99fc7a87fef6f",
+    "parentsId": "63344f37770d98995745cabd"
   },
 
   {
@@ -12,6 +13,7 @@
     "name": "Vũ Xuân Trọng",
     "address": "thôn Bá Đông||xã Bình Minh||huyện Bình Giang||tỉnh Hải Dương",
     "birthday": "2000-09-04T12:45:00.000Z",
-    "authId": "63344dce2cc99fc7a87fef6e"
+    "authId": "63344dce2cc99fc7a87fef6e",
+    "parentsId": "63344f37770d98995745cabe"
   }
 ]

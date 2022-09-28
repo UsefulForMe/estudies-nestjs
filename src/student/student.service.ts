@@ -15,6 +15,10 @@ export class StudentService {
   async findUnique(where: Prisma.StudentWhereUniqueInput) {
     return this.prisma.student.findUnique({
       where,
+      include: {
+        subjectClasses: true,
+        parents: true,
+      },
     });
   }
 
