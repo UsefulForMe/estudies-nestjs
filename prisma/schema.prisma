@@ -31,11 +31,11 @@ model Student {
 
   address  String   @db.String
   birthday DateTime @db.Date
-  auth     UserAuth @relation(fields: [authId], references: [id])
+  auth     UserAuth @relation(fields: [authId], references: [id], onDelete: SetNull)
   authId   String   @unique @db.ObjectId
 
   parentsId String?  @db.ObjectId
-  parents   Parents? @relation(fields: [parentsId], references: [id])
+  parents   Parents? @relation(fields: [parentsId], references: [id], onDelete: SetNull)
 
   createdAt DateTime @default(now()) @db.Date
   updatedAt DateTime @updatedAt @db.Date
@@ -50,7 +50,7 @@ model Teacher {
   name String @db.String
 
   address String   @db.String
-  auth    UserAuth @relation(fields: [authId], references: [id])
+  auth    UserAuth @relation(fields: [authId], references: [id], onDelete: SetNull)
   authId  String   @unique @db.ObjectId
 
   createdAt    DateTime       @default(now()) @db.Date
@@ -63,7 +63,7 @@ model Parents {
   name String @db.String
 
   address   String   @db.String
-  auth      UserAuth @relation(fields: [authId], references: [id])
+  auth      UserAuth @relation(fields: [authId], references: [id], onDelete: SetNull)
   authId    String   @unique @db.ObjectId
   createdAt DateTime @default(now()) @db.Date
   updatedAt DateTime @updatedAt @db.Date
@@ -78,7 +78,7 @@ model Resource {
   link String
 
   subjectClassId String       @db.ObjectId
-  subjectClass   SubjectClass @relation(fields: [subjectClassId], references: [id])
+  subjectClass   SubjectClass @relation(fields: [subjectClassId], references: [id], onDelete: SetNull)
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -97,6 +97,7 @@ model Subject {
 model SubjectClass {
   id   String @id @default(auto()) @map("_id") @db.ObjectId
   name String
+  code String @unique
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -105,10 +106,10 @@ model SubjectClass {
   endAt   DateTime?
 
   subjectId String  @db.ObjectId
-  subject   Subject @relation(fields: [subjectId], references: [id])
+  subject   Subject @relation(fields: [subjectId], references: [id], onDelete: SetNull)
 
   teacherId String  @db.ObjectId
-  teacher   Teacher @relation(fields: [teacherId], references: [id])
+  teacher   Teacher @relation(fields: [teacherId], references: [id], onDelete: SetNull)
 
   resource   Resource[]
   exam       Exam[]
@@ -126,7 +127,7 @@ model Exam {
   updatedAt DateTime @updatedAt
 
   subjectClassId String       @db.ObjectId
-  subjectClass   SubjectClass @relation(fields: [subjectClassId], references: [id])
+  subjectClass   SubjectClass @relation(fields: [subjectClassId], references: [id], onDelete: SetNull)
   mark           Mark[]
 }
 
@@ -138,8 +139,8 @@ model Mark {
   updatedAt DateTime @updatedAt
 
   examId String @db.ObjectId
-  exam   Exam   @relation(fields: [examId], references: [id])
+  exam   Exam   @relation(fields: [examId], references: [id], onDelete: SetNull)
 
   studentId String  @db.ObjectId
-  student   Student @relation(fields: [studentId], references: [id])
+  student   Student @relation(fields: [studentId], references: [id], onDelete: SetNull)
 }

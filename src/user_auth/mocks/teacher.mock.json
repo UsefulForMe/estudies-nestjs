@@ -1,0 +1,14 @@
+[
+  {
+    "id": "63344dce2cc99fc7a87fef5f",
+    "email": "teacher1@gmail.com",
+    "password": "$2b$10$OIjB2S/3Wen0M18EyHjIquNgySMIDHH25yXSZZENSD0qkoiZNhDVi",
+    "type": "teacher"
+  },
+  {
+    "id": "63344dce2cc99fc7a87fef5e",
+    "email": "teacher2@gmail.com",
+    "password": "$2b$10$OIjB2S/3Wen0M18EyHjIquNgySMIDHH25yXSZZENSD0qkoiZNhDVi",
+    "type": "teacher"
+  }
+]

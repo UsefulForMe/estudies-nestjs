@@ -18,6 +18,7 @@ export class SubjectClassService {
       include: {
         subject: true,
         teacher: true,
+        students: true,
       },
     });
   }

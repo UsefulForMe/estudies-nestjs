@@ -53,6 +53,19 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
 
     await Promise.all(
       modelKeys.map((model) => {
+        const isHasDir = fs.existsSync(
+          path.resolve(__dirname, `../${snakeCase(model)}/mocks`),
+        );
+
+        console.log(
+          isHasDir,
+          path.resolve(__dirname, `../${snakeCase(model)}/mocks`),
+        );
+
+        if (!isHasDir) {
+          return;
+        }
+
         const files = fs.readdirSync(
           path.resolve(__dirname, `../${snakeCase(model)}/mocks`),
         );

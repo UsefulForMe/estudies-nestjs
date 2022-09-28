@@ -1,11 +1,13 @@
 [
   {
-    "email": "user1@gmail.com",
+    "id": "63344dce2cc99fc7a87fef6f",
+    "email": "student1@gmail.com",
     "password": "$2b$10$OIjB2S/3Wen0M18EyHjIquNgySMIDHH25yXSZZENSD0qkoiZNhDVi",
     "type": "student"
   },
   {
-    "email": "user2@gmail.com",
+    "id": "63344dce2cc99fc7a87fef6e",
+    "email": "student2@gmail.com",
     "password": "$2b$10$OIjB2S/3Wen0M18EyHjIquNgySMIDHH25yXSZZENSD0qkoiZNhDVi",
     "type": "student"
   }

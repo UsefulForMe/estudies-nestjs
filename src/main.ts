@@ -41,10 +41,10 @@ bootstrap();
 
 function setupSwagger(app: INestApplication) {
   const config = new DocumentBuilder()
-    .setTitle('Book auth example')
-    .setDescription('The book auth API description')
+    .setTitle('Estudies')
+    .setDescription('The Estudies API documentation')
     .setVersion('1.0')
-    .addTag('auth')
+    .addTag('estudies')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('docs', app, document);

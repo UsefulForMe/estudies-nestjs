@@ -1,0 +1,131 @@
+[
+  {
+    "id": "6334522f86fc86afaa303d73",
+    "name": "Triết học"
+  },
+  {
+    "id": "6334523986fc86afaa303d74",
+    "name": "Xác suất thống kê"
+  },
+  {
+    "id": "63345274bc99f68709096e69",
+    "name": "Toán cao cấp"
+  },
+  {
+    "id": "6334528dbc99f68709096e6a",
+    "name": "Logic học"
+  },
+  {
+    "id": "63345292bc99f68709096e6b",
+    "name": "Tiếng Anh"
+  },
+
+  {
+    "id": "633452f5bc99f68709096e70",
+    "name": "Đường lối quân sự của Đảng"
+  },
+  {
+    "id": "63345301bc99f68709096e71",
+    "name": "Công nghệ đa phương tiện"
+  },
+  {
+    "id": "63345308bc99f68709096e72",
+    "name": "Đảm bảo chất lượng phần mềm"
+  },
+  {
+    "id": "63345312bc99f68709096e73",
+    "name": "Phát triển ứng dụng Game"
+  },
+  {
+    "id": "6334531cbc99f68709096e74",
+    "name": "Quản lý dự án công nghệ thông tin"
+  },
+  {
+    "id": "63345326bc99f68709096e75",
+    "name": "Thực tập doanh nghiệp"
+  },
+  {
+    "id": "6334532dbc99f68709096e76",
+    "name": "Đồ án tốt nghiệp"
+  },
+  {
+    "id": "63345334bc99f68709096e77",
+    "name": "Giải tích"
+  },
+  {
+    "id": "6334533cbc99f68709096e78",
+    "name": "Nhập môn về kỹ thuật"
+  },
+  {
+    "id": "63345344bc99f68709096e79",
+    "name": "Những nguyên lý cơ bản của chủ nghĩa Mác-Lênin"
+  },
+  {
+    "id": "6334534cbc99f68709096e7a",
+    "name": "Bóng bàn 1"
+  },
+  {
+    "id": "63345353bc99f68709096e7b",
+    "name": "Đại số tuyến tính"
+  },
+  {
+    "id": "6334535bbc99f68709096e7c",
+    "name": "Nhập môn lập trình máy tính"
+  },
+  {
+    "id": "63345367bc99f68709096e7d",
+    "name": "Phương pháp số trong lập trình"
+  },
+  {
+    "id": "6334536ebc99f68709096e7e",
+    "name": "Bóng bàn 2"
+  },
+  {
+    "id": "63345375bc99f68709096e7f",
+    "name": "Pháp luật đại cương"
+  },
+  {
+    "id": "6334537bbc99f68709096e80",
+    "name": "Tư tưởng Hồ Chí Minh"
+  },
+  {
+    "id": "63345385bc99f68709096e81",
+    "name": "Toán rời rạc"
+  },
+  {
+    "id": "6334538bbc99f68709096e82",
+    "name": "Cơ sở dữ liệu"
+  },
+  {
+    "id": "63345392bc99f68709096e83",
+    "name": "Kiến trúc máy tính"
+  },
+  {
+    "id": "63345398bc99f68709096e84",
+    "name": "Kỹ thuật lập trình"
+  },
+  {
+    "id": "6334539ebc99f68709096e85",
+    "name": "Thiết kế Web"
+  },
+  {
+    "id": "633453a5bc99f68709096e86",
+    "name": "Cấu trúc dữ liệu và giải thuật"
+  },
+  {
+    "id": "633453adbc99f68709096e87",
+    "name": "Lập trình hướng đối tượng"
+  },
+  {
+    "id": "633453b6bc99f68709096e88",
+    "name": "Nguyên lý hệ điều hành"
+  },
+  {
+    "id": "633453bdbc99f68709096e89",
+    "name": "Nhập môn Công nghệ phần mềm"
+  },
+  {
+    "id": "633453c9bc99f68709096e8a",
+    "name": "Mạng máy tính"
+  }
+]

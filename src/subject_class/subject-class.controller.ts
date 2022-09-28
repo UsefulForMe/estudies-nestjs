@@ -2,6 +2,7 @@ import {
   Body,
   Controller,
   Get,
+  InternalServerErrorException,
   Param,
   Post,
   Put,
@@ -9,16 +10,22 @@ import {
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
+
+import { SubjectService } from 'src/subject/subject.service';
 import {
   CreateSubjectClassReq,
   UpdateSubjectClassReq,
-} from 'src/subject-class/subject-class.dto';
-import { SubjectClassService } from 'src/subject-class/subject-class.service';
+} from 'src/subject_class/subject-class.dto';
+import { SubjectClassService } from 'src/subject_class/subject-class.service';
 import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
+import HelperUtil from 'src/utils/helper/helper';
 
 @Controller('subject-class')
 export class SubjectClassController {
-  constructor(private readonly subjectClassService: SubjectClassService) {}
+  constructor(
+    private readonly subjectClassService: SubjectClassService,
+    private readonly subjectService: SubjectService,
+  ) {}
 
   @UseGuards(JwtAuthGuard)
   @Get()
@@ -32,7 +39,7 @@ export class SubjectClassController {
     @Body() body: CreateSubjectClassReq,
     @Request() req,
   ) {
-    const { subjectId, teacherId, name } = body;
+    const { subjectId, teacherId } = body;
     const { user } = req;
 
     if (!user.isAdmin) {
@@ -41,7 +48,17 @@ export class SubjectClassController {
       );
     }
 
+    const subject = await this.subjectService.findById(subjectId);
+
+    if (!subject) {
+      throw new InternalServerErrorException('Subject not found');
+    }
+    const year = new Date().getFullYear();
+    const randNum = HelperUtil.randomNumberWithLength(4);
+    const name = `SC${randNum}-${subject.name}`;
+    const code = HelperUtil.getSymbolOfText(subject.name) + year + randNum;
     const input = {
+      code,
       name,
       teacher: {
         connect: {
