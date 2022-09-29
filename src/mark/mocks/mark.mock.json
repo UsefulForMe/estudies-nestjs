@@ -1,0 +1,5282 @@
+[
+  {
+    "id": "6335c3937a29dd8c9b4cf953",
+    "score": 0.2,
+    "createdAt": "2022-09-29T16:10:59.439Z",
+    "updatedAt": "2022-09-29T16:10:59.440Z",
+    "examId": "6335bd71d072265f95f982be",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf955",
+    "score": 6.5,
+    "createdAt": "2022-09-29T16:10:59.439Z",
+    "updatedAt": "2022-09-29T16:10:59.440Z",
+    "examId": "6335bd71d072265f95f982bf",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf954",
+    "score": 7.8,
+    "createdAt": "2022-09-29T16:10:59.439Z",
+    "updatedAt": "2022-09-29T16:10:59.439Z",
+    "examId": "6335bd71d072265f95f982bd",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf956",
+    "score": 9,
+    "createdAt": "2022-09-29T16:10:59.439Z",
+    "updatedAt": "2022-09-29T16:10:59.439Z",
+    "examId": "6335bd71d072265f95f982c3",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf957",
+    "score": 9.9,
+    "createdAt": "2022-09-29T16:10:59.439Z",
+    "updatedAt": "2022-09-29T16:10:59.439Z",
+    "examId": "6335bd71d072265f95f982c2",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf95a",
+    "score": 7.2,
+    "createdAt": "2022-09-29T16:10:59.439Z",
+    "updatedAt": "2022-09-29T16:10:59.440Z",
+    "examId": "6335bd71d072265f95f982c4",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf959",
+    "score": 1.6,
+    "createdAt": "2022-09-29T16:10:59.440Z",
+    "updatedAt": "2022-09-29T16:10:59.440Z",
+    "examId": "6335bd71d072265f95f982ce",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf958",
+    "score": 7.5,
+    "createdAt": "2022-09-29T16:10:59.439Z",
+    "updatedAt": "2022-09-29T16:10:59.440Z",
+    "examId": "6335bd71d072265f95f982c1",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf95b",
+    "score": 4.5,
+    "createdAt": "2022-09-29T16:10:59.439Z",
+    "updatedAt": "2022-09-29T16:10:59.440Z",
+    "examId": "6335bd71d072265f95f982c5",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf95c",
+    "score": 2.3,
+    "createdAt": "2022-09-29T16:10:59.440Z",
+    "updatedAt": "2022-09-29T16:10:59.440Z",
+    "examId": "6335bd71d072265f95f982cd",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf95d",
+    "score": 8.3,
+    "createdAt": "2022-09-29T16:10:59.440Z",
+    "updatedAt": "2022-09-29T16:10:59.440Z",
+    "examId": "6335bd71d072265f95f982ca",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf95e",
+    "score": 6.3,
+    "createdAt": "2022-09-29T16:10:59.440Z",
+    "updatedAt": "2022-09-29T16:10:59.441Z",
+    "examId": "6335bd71d072265f95f982c7",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf95f",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.440Z",
+    "updatedAt": "2022-09-29T16:10:59.440Z",
+    "examId": "6335bd71d072265f95f982cb",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf961",
+    "score": 7.5,
+    "createdAt": "2022-09-29T16:10:59.440Z",
+    "updatedAt": "2022-09-29T16:10:59.441Z",
+    "examId": "6335bd71d072265f95f982c6",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf960",
+    "score": 6.1,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.441Z",
+    "examId": "6335bd71d072265f95f982cc",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf962",
+    "score": 6,
+    "createdAt": "2022-09-29T16:10:59.440Z",
+    "updatedAt": "2022-09-29T16:10:59.441Z",
+    "examId": "6335bd71d072265f95f982c9",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf965",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982dd",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf964",
+    "score": 1.1,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.441Z",
+    "examId": "6335bd71d072265f95f982d5",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf963",
+    "score": 6.6,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.441Z",
+    "examId": "6335bd71d072265f95f982d1",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf966",
+    "score": 6.7,
+    "createdAt": "2022-09-29T16:10:59.440Z",
+    "updatedAt": "2022-09-29T16:10:59.440Z",
+    "examId": "6335bd71d072265f95f982c0",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf967",
+    "score": 0.3,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.441Z",
+    "examId": "6335bd71d072265f95f982d2",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf968",
+    "score": 4.2,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982d9",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf969",
+    "score": 4.1,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.441Z",
+    "examId": "6335bd71d072265f95f982d7",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf96a",
+    "score": 6.6,
+    "createdAt": "2022-09-29T16:10:59.440Z",
+    "updatedAt": "2022-09-29T16:10:59.440Z",
+    "examId": "6335bd71d072265f95f982c8",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf96b",
+    "score": 6.7,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982da",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf96c",
+    "score": 0.2,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982d4",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf96e",
+    "score": 7.7,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982d0",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf96f",
+    "score": 4.8,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982e0",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf96d",
+    "score": 6.4,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982de",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf972",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982dc",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf970",
+    "score": 5.6,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982e2",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf971",
+    "score": 5.8,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982df",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf973",
+    "score": 7.7,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982e1",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf974",
+    "score": 7.2,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982e6",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf975",
+    "score": 5.7,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982cf",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf976",
+    "score": 0.2,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982e8",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf978",
+    "score": 3.9,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982ec",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf977",
+    "score": 5,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982e9",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf979",
+    "score": 4.1,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.442Z",
+    "examId": "6335bd71d072265f95f982d3",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf97c",
+    "score": 1.6,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982e4",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf97b",
+    "score": 1.9,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982d6",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf97a",
+    "score": 2.2,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982db",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf97d",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982e3",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf97e",
+    "score": 0.7,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982e5",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf981",
+    "score": 9.8,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982ea",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf97f",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982ee",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf980",
+    "score": 7.2,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982f2",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf982",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982f1",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf983",
+    "score": 2.3,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982f0",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf986",
+    "score": 2.5,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982ef",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf988",
+    "score": 2.2,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982f9",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf987",
+    "score": 7.2,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982f3",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf985",
+    "score": 1.8,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982f6",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf984",
+    "score": 0.4,
+    "createdAt": "2022-09-29T16:10:59.442Z",
+    "updatedAt": "2022-09-29T16:10:59.443Z",
+    "examId": "6335bd71d072265f95f982e7",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf98a",
+    "score": 1.3,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982f8",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf989",
+    "score": 9,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982f5",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf98b",
+    "score": 9.1,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982f7",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf98d",
+    "score": 3.2,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982ed",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf98c",
+    "score": 2.1,
+    "createdAt": "2022-09-29T16:10:59.441Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982d8",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf98e",
+    "score": 3,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982fa",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf98f",
+    "score": 9.2,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982fc",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf992",
+    "score": 2.1,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f98304",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf990",
+    "score": 7.9,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982fb",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf991",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982eb",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf996",
+    "score": 1.6,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982fe",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf994",
+    "score": 7,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982ff",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf993",
+    "score": 8.7,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f98301",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf997",
+    "score": 0.5,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982fd",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf998",
+    "score": 9.6,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f98308",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf995",
+    "score": 9.5,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f98302",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf999",
+    "score": 2.8,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f98303",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf99a",
+    "score": 6.8,
+    "createdAt": "2022-09-29T16:10:59.443Z",
+    "updatedAt": "2022-09-29T16:10:59.444Z",
+    "examId": "6335bd71d072265f95f982f4",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf99b",
+    "score": 1,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98307",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf99c",
+    "score": 4.4,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f9830a",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf99d",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98309",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9a0",
+    "score": 7.6,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98305",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf99e",
+    "score": 1.2,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98300",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9a1",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f9830f",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf99f",
+    "score": 2.2,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98315",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9a2",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98306",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9a3",
+    "score": 8.3,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f9830b",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9a4",
+    "score": 10,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98311",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9a5",
+    "score": 4.3,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98313",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9a7",
+    "score": 3.4,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f9830d",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9a6",
+    "score": 0.6,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98319",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9a8",
+    "score": 1.8,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f9830e",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9a9",
+    "score": 4.5,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98317",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9aa",
+    "score": 0.1,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f9831a",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ab",
+    "score": 9.8,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98312",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ac",
+    "score": 9.5,
+    "createdAt": "2022-09-29T16:10:59.444Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f9830c",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ae",
+    "score": 4.2,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98318",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9af",
+    "score": 3.8,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f9831f",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ad",
+    "score": 0.5,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.445Z",
+    "examId": "6335bd71d072265f95f98310",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9b0",
+    "score": 3.9,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f98321",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9b1",
+    "score": 4.7,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f9831b",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9b2",
+    "score": 2.8,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f9831d",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9b3",
+    "score": 4.2,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f98324",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9b4",
+    "score": 2.6,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f9831e",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9b5",
+    "score": 1.2,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f98322",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9b6",
+    "score": 7.3,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f98323",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9b7",
+    "score": 9.7,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f9832d",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9b8",
+    "score": 4.2,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f98316",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9b9",
+    "score": 7.1,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f98325",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ba",
+    "score": 0.8,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f98320",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9bb",
+    "score": 3,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f9832a",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9bc",
+    "score": 8.3,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f98326",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9bf",
+    "score": 8.2,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f98330",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9bd",
+    "score": 5.8,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f9832b",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9be",
+    "score": 10,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f98327",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9c2",
+    "score": 4.7,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f98329",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9c0",
+    "score": 8.9,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98333",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9c3",
+    "score": 8.4,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98332",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9c1",
+    "score": 5,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f9832f",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9c4",
+    "score": 3.6,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98331",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9c5",
+    "score": 2.5,
+    "createdAt": "2022-09-29T16:10:59.445Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98314",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9c8",
+    "score": 9.4,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98336",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9c9",
+    "score": 3,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.446Z",
+    "examId": "6335bd71d072265f95f9832e",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9c6",
+    "score": 0.7,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98328",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9c7",
+    "score": 6.7,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f9832c",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9cb",
+    "score": 4.8,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f9831c",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ca",
+    "score": 6.6,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f9833e",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9cc",
+    "score": 6.4,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98334",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9cd",
+    "score": 0.4,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f9833b",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ce",
+    "score": 9.1,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98337",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9cf",
+    "score": 5.6,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f9834c",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9d0",
+    "score": 3,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f9833a",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9d2",
+    "score": 6.8,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f9833c",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9d3",
+    "score": 1.7,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98345",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9d1",
+    "score": 0.7,
+    "createdAt": "2022-09-29T16:10:59.446Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98335",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9d4",
+    "score": 1.8,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98343",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9d5",
+    "score": 8.2,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98340",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9db",
+    "score": 6.5,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98339",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9d9",
+    "score": 5.4,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f9833f",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9dc",
+    "score": 5.1,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98344",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9d6",
+    "score": 9.2,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98346",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9d7",
+    "score": 3.2,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f9834b",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9da",
+    "score": 5.5,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98338",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9d8",
+    "score": 6.9,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f9833d",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9dd",
+    "score": 0,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.447Z",
+    "examId": "6335bd71d072265f95f98347",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9de",
+    "score": 8.5,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98348",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9df",
+    "score": 9,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f9834e",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9e3",
+    "score": 9.8,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98353",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9e1",
+    "score": 8.6,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f9834a",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9e2",
+    "score": 1.3,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98351",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9e0",
+    "score": 8.9,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98349",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9e4",
+    "score": 1,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98341",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9e5",
+    "score": 9.9,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f9834d",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9e6",
+    "score": 4.9,
+    "createdAt": "2022-09-29T16:10:59.447Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98342",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9e9",
+    "score": 1.5,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98354",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9e7",
+    "score": 9.5,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f9834f",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ea",
+    "score": 3.3,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98352",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9e8",
+    "score": 2.2,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98361",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9eb",
+    "score": 6.3,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98355",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ed",
+    "score": 5.9,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f9835b",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ec",
+    "score": 8.1,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98356",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ee",
+    "score": 5.3,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f9835a",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ef",
+    "score": 4.3,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f9835f",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9f0",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98357",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9f1",
+    "score": 2.6,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98360",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9f2",
+    "score": 7.5,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98350",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9f3",
+    "score": 2.8,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98363",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9f4",
+    "score": 4.5,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f9835e",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9f5",
+    "score": 2.6,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98364",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9f6",
+    "score": 9.2,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98362",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9f7",
+    "score": 9.3,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f9836e",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9f8",
+    "score": 5.1,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f9835d",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9f9",
+    "score": 0.2,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f9835c",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9fa",
+    "score": 3.8,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98358",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9fb",
+    "score": 9.6,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98367",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9fc",
+    "score": 8.4,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98365",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9fd",
+    "score": 5.6,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98369",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9fe",
+    "score": 3.2,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98366",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cf9ff",
+    "score": 4.8,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.448Z",
+    "examId": "6335bd71d072265f95f98368",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa00",
+    "score": 4.6,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98359",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa01",
+    "score": 8.2,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98371",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa03",
+    "score": 4,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f9836b",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa02",
+    "score": 0.4,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98370",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa05",
+    "score": 3,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f9836c",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa04",
+    "score": 6.3,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f9837b",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa06",
+    "score": 1.6,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f9836f",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa07",
+    "score": 6.7,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98375",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa0a",
+    "score": 5.6,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98373",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa08",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f9836d",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa0b",
+    "score": 0.7,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98376",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa09",
+    "score": 5.6,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98377",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa0c",
+    "score": 6.4,
+    "createdAt": "2022-09-29T16:10:59.448Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f9836a",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa0d",
+    "score": 2.2,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98372",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa11",
+    "score": 10,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98379",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa10",
+    "score": 8.2,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98378",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa0f",
+    "score": 6.8,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f9837e",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa0e",
+    "score": 2,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f9837a",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa12",
+    "score": 3.6,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f98387",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa13",
+    "score": 1.6,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.449Z",
+    "examId": "6335bd71d072265f95f9837c",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa14",
+    "score": 4.1,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98380",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa15",
+    "score": 6.2,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98385",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa16",
+    "score": 3.3,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f9838a",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa17",
+    "score": 9.9,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98383",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa18",
+    "score": 6.9,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98381",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa19",
+    "score": 8.5,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98382",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa1a",
+    "score": 3.3,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98374",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa1b",
+    "score": 6.5,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98384",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa1c",
+    "score": 8.4,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f9837d",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa1d",
+    "score": 8.5,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98395",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa1e",
+    "score": 8.9,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f9837f",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa1f",
+    "score": 8.9,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f9838d",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa20",
+    "score": 0.7,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f9838f",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa21",
+    "score": 1.2,
+    "createdAt": "2022-09-29T16:10:59.449Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98388",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa22",
+    "score": 9.2,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983a3",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa23",
+    "score": 5.6,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f9838e",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa24",
+    "score": 9.6,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f9838b",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa25",
+    "score": 1.6,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f9839e",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa26",
+    "score": 9.9,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f9839c",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa27",
+    "score": 1.5,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983ad",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa28",
+    "score": 5.8,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f98394",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa29",
+    "score": 5.6,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f9839a",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa2a",
+    "score": 3.8,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98390",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa2b",
+    "score": 0.8,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983c3",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa2d",
+    "score": 4.8,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983a5",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa2e",
+    "score": 7.6,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982d8",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa2c",
+    "score": 4.8,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983a0",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa2f",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f9838c",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa30",
+    "score": 9.4,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983c5",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa34",
+    "score": 1.9,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f98393",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa33",
+    "score": 1.5,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983b1",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa31",
+    "score": 4.8,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983b9",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa32",
+    "score": 0.2,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983d4",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa36",
+    "score": 8.7,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983aa",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa35",
+    "score": 3.4,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983af",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa37",
+    "score": 4.2,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983cc",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa38",
+    "score": 4.8,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f9839f",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa3a",
+    "score": 5.5,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983a8",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa39",
+    "score": 2,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983e5",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa3b",
+    "score": 0.1,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983be",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa3c",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983c9",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa3d",
+    "score": 0.5,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983ac",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa3e",
+    "score": 3.4,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982c7",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa3f",
+    "score": 1.3,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f98396",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa41",
+    "score": 8.5,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983d1",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa40",
+    "score": 6.5,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983e6",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa43",
+    "score": 5.5,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983bf",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa42",
+    "score": 6.8,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98392",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa48",
+    "score": 1.2,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983a1",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa45",
+    "score": 7.3,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983ab",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa49",
+    "score": 0.5,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983ce",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa44",
+    "score": 6.6,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98397",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa47",
+    "score": 5.9,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983cf",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa46",
+    "score": 2.1,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983dd",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa4a",
+    "score": 3.9,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f98399",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa4e",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983d2",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa50",
+    "score": 9.5,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983f6",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa51",
+    "score": 3.2,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983fd",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa52",
+    "score": 3.5,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983c7",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa4d",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983de",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa4b",
+    "score": 4.4,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f9839d",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa4c",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f98400",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa4f",
+    "score": 8.2,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983c2",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa53",
+    "score": 0.1,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98398",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa59",
+    "score": 7.7,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983dc",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa55",
+    "score": 8.1,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983d3",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa58",
+    "score": 4.3,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982d2",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa57",
+    "score": 6,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983d8",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa54",
+    "score": 4.6,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983e7",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa5b",
+    "score": 7.7,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983d7",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa5a",
+    "score": 9.2,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f9839b",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa56",
+    "score": 0.4,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983c4",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa5c",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983b8",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa63",
+    "score": 7.4,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982be",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa60",
+    "score": 1.1,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f98406",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa61",
+    "score": 8.8,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983cd",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa64",
+    "score": 0.3,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98386",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa5f",
+    "score": 7.1,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982c0",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa66",
+    "score": 6.3,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983e4",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa62",
+    "score": 8.3,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983b0",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa5d",
+    "score": 3.8,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f982bd",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa65",
+    "score": 5.2,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982e3",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa5e",
+    "score": 9.8,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983fe",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa6d",
+    "score": 3.4,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982c9",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa6a",
+    "score": 4.9,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983cb",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa6c",
+    "score": 0.2,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982c4",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa6e",
+    "score": 6.2,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983a9",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa6b",
+    "score": 0.3,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983b2",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa6f",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983b4",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa68",
+    "score": 6.7,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983d6",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa69",
+    "score": 3.8,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983ae",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa70",
+    "score": 2.4,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98389",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa67",
+    "score": 5.6,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f98401",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa73",
+    "score": 2,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983ba",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa71",
+    "score": 5.2,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983bb",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa72",
+    "score": 0.5,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983e2",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa76",
+    "score": 5.6,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983a7",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa77",
+    "score": 1.5,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983bd",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa75",
+    "score": 3.8,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983a6",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa74",
+    "score": 9.6,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f98404",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa78",
+    "score": 8.5,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982df",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa7b",
+    "score": 0.5,
+    "createdAt": "2022-09-29T16:10:59.450Z",
+    "updatedAt": "2022-09-29T16:10:59.450Z",
+    "examId": "6335bd71d072265f95f98391",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa7c",
+    "score": 8.3,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983b7",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa7e",
+    "score": 0,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.451Z",
+    "examId": "6335bd71d072265f95f983a4",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa7a",
+    "score": 5.5,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983b6",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa79",
+    "score": 4.7,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983c0",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa7d",
+    "score": 1.8,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983d0",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa7f",
+    "score": 1.6,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983bc",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa80",
+    "score": 4.6,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983c1",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa81",
+    "score": 0.9,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983b3",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa82",
+    "score": 1.9,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983b5",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa89",
+    "score": 4.2,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983d5",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa85",
+    "score": 6.4,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983ca",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa84",
+    "score": 5.2,
+    "createdAt": "2022-09-29T16:10:59.451Z",
+    "updatedAt": "2022-09-29T16:10:59.452Z",
+    "examId": "6335bd71d072265f95f983a2",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa87",
+    "score": 7.5,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982c8",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa86",
+    "score": 9,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983da",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa83",
+    "score": 4.7,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983c8",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa88",
+    "score": 6.8,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982e0",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa8a",
+    "score": 2.3,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f98403",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa8b",
+    "score": 9.5,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983ec",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa94",
+    "score": 7.3,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983fc",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa91",
+    "score": 7.8,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982dd",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa8f",
+    "score": 1.4,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983e3",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa8d",
+    "score": 3.9,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983fb",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa92",
+    "score": 0.8,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f982c3",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa95",
+    "score": 4,
+    "createdAt": "2022-09-29T16:10:59.452Z",
+    "updatedAt": "2022-09-29T16:10:59.453Z",
+    "examId": "6335bd71d072265f95f983c6",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa93",
+    "score": 6.1,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982da",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa90",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982d1",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa8e",
+    "score": 4.8,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982d3",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa8c",
+    "score": 3.7,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f98405",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa9c",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983f5",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa99",
+    "score": 3.6,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983db",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa9e",
+    "score": 6.9,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f982bf",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa9d",
+    "score": 1,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f982c5",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa9a",
+    "score": 2.2,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982d7",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa96",
+    "score": 2.1,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982ce",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa98",
+    "score": 8.5,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f982c1",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa9b",
+    "score": 0.2,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983d9",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa9f",
+    "score": 6.7,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982cb",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfa97",
+    "score": 8.9,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983e1",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaa6",
+    "score": 4.3,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983ff",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaa5",
+    "score": 2.3,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983f0",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaa1",
+    "score": 9.2,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982d5",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaa9",
+    "score": 1.8,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983e0",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaa3",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f982c6",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaa7",
+    "score": 5.3,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983fa",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaa8",
+    "score": 7.8,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f982c2",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaa2",
+    "score": 3.8,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982d0",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaa0",
+    "score": 3.2,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983ea",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaa4",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983e9",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaac",
+    "score": 4.8,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982db",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaae",
+    "score": 7.6,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982d4",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfab1",
+    "score": 6.5,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983eb",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfab2",
+    "score": 5.7,
+    "createdAt": "2022-09-29T16:10:59.453Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983df",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaab",
+    "score": 5.7,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982d9",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaaf",
+    "score": 3.2,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f982f2",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfab0",
+    "score": 7.4,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983f2",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfab3",
+    "score": 7.2,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982cc",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaaa",
+    "score": 6,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982d6",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaad",
+    "score": 8.3,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982cd",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfab4",
+    "score": 6.8,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983ef",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfab6",
+    "score": 7.7,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982cf",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfab7",
+    "score": 7.4,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983f3",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfab8",
+    "score": 8.4,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f982f8",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfabc",
+    "score": 4.2,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983f4",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfabb",
+    "score": 8.9,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f9832b",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfab5",
+    "score": 6.7,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.456Z",
+    "examId": "6335bd71d072265f95f982ca",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaba",
+    "score": 1.5,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f98402",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfab9",
+    "score": 3,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983f8",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfac1",
+    "score": 2.2,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f98305",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfabf",
+    "score": 6.9,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983f1",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfac0",
+    "score": 4.7,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f9834d",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfac2",
+    "score": 0.8,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98318",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfac3",
+    "score": 4.3,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f98302",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfac4",
+    "score": 7.1,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983e8",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfabe",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f982fa",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfabd",
+    "score": 4,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983f7",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfac5",
+    "score": 7.1,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982f1",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfac8",
+    "score": 6.6,
+    "createdAt": "2022-09-29T16:10:59.455Z",
+    "updatedAt": "2022-09-29T16:10:59.455Z",
+    "examId": "6335bd71d072265f95f983f9",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfac9",
+    "score": 2.2,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f982f9",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfac7",
+    "score": 9.4,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983ed",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfacd",
+    "score": 0.1,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982dc",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfacb",
+    "score": 0.6,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f98309",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfacc",
+    "score": 5.5,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f982fb",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfac6",
+    "score": 4.9,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f9834c",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaca",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f9832c",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfad0",
+    "score": 3.9,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98346",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfad4",
+    "score": 1.3,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982f7",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfacf",
+    "score": 8.8,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f98338",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cface",
+    "score": 8.1,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f9830a",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfad2",
+    "score": 1.9,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98322",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfad3",
+    "score": 9.1,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f98341",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfad1",
+    "score": 1.7,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982f0",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfad5",
+    "score": 0.1,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f9830b",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfad9",
+    "score": 4.1,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f982e9",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfad6",
+    "score": 2.5,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f9834e",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfadb",
+    "score": 9.7,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f982fc",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfad7",
+    "score": 2.8,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f9833a",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfad8",
+    "score": 1.5,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98317",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfada",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f98303",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfadc",
+    "score": 0.9,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f98335",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfadd",
+    "score": 5.3,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f98332",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfade",
+    "score": 9.7,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98336",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfadf",
+    "score": 7.9,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f982e4",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfae3",
+    "score": 0.1,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982e1",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfae1",
+    "score": 9.2,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f9831d",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfae4",
+    "score": 8.9,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982f4",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfae2",
+    "score": 9.9,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f98300",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfae0",
+    "score": 6.5,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98314",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfae5",
+    "score": 0.2,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98333",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfae6",
+    "score": 7.3,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98321",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfae7",
+    "score": 2.4,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982e5",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfae8",
+    "score": 1.6,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98347",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaec",
+    "score": 8.8,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f9833f",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaee",
+    "score": 5.1,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f98331",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfae9",
+    "score": 7.1,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982eb",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaf0",
+    "score": 3,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98343",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaea",
+    "score": 3.2,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f9831f",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaeb",
+    "score": 8.5,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f9830f",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaed",
+    "score": 3.7,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98310",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaef",
+    "score": 0.6,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98340",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaf1",
+    "score": 7.2,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f9831b",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaf2",
+    "score": 3.3,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f9831a",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaf3",
+    "score": 9.1,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f9832e",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaf4",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98351",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfafb",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98313",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaf8",
+    "score": 1.2,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f982fd",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaf7",
+    "score": 8.2,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982e7",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaf9",
+    "score": 3.2,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f982f6",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfafa",
+    "score": 6.9,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f982f5",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaf5",
+    "score": 1.8,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f98308",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaf6",
+    "score": 3,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982ec",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfafd",
+    "score": 5.7,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98326",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfafc",
+    "score": 0.8,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f982ff",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb01",
+    "score": 8.1,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982f3",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb05",
+    "score": 5.2,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f98306",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb02",
+    "score": 3.5,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98342",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb03",
+    "score": 3.6,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f98327",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfafe",
+    "score": 0.5,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98319",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb04",
+    "score": 3.4,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f982fe",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfaff",
+    "score": 5.5,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f9831e",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb00",
+    "score": 3.9,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f98330",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb06",
+    "score": 8.6,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98316",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb0d",
+    "score": 9.1,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f98307",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb08",
+    "score": 1.7,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982e8",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb0c",
+    "score": 3,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f9830e",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb0a",
+    "score": 5.3,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f9834f",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb07",
+    "score": 4.8,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f98304",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb0b",
+    "score": 1.6,
+    "createdAt": "2022-09-29T16:10:59.454Z",
+    "updatedAt": "2022-09-29T16:10:59.454Z",
+    "examId": "6335bd71d072265f95f983ee",
+    "studentId": "63344f37770d98995745cabd"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb09",
+    "score": 5.8,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f9833c",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb0f",
+    "score": 5.2,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f98315",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb0e",
+    "score": 1.1,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f9830c",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb11",
+    "score": 3.6,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982ea",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb10",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f98334",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb15",
+    "score": 9.2,
+    "createdAt": "2022-09-29T16:10:59.456Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982de",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb18",
+    "score": 5.8,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98311",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb12",
+    "score": 9.4,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98312",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb13",
+    "score": 7,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982e6",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb17",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982ee",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb16",
+    "score": 8.4,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98329",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb14",
+    "score": 8.9,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f9830d",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb19",
+    "score": 5,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98357",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb20",
+    "score": 8.4,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f9832a",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb1a",
+    "score": 4.1,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f9833e",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb1e",
+    "score": 0.4,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f9833d",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb1c",
+    "score": 2.2,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98320",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb1f",
+    "score": 5.6,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98355",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb1d",
+    "score": 8.7,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98324",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb1b",
+    "score": 8.1,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f9832d",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb21",
+    "score": 1.3,
+    "createdAt": "2022-09-29T16:10:59.458Z",
+    "updatedAt": "2022-09-29T16:10:59.458Z",
+    "examId": "6335bd71d072265f95f98301",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb25",
+    "score": 0.8,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f9832f",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb22",
+    "score": 10,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98328",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb26",
+    "score": 5.3,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982ed",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb23",
+    "score": 8.6,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982e2",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb24",
+    "score": 1.5,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f98345",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb27",
+    "score": 4.6,
+    "createdAt": "2022-09-29T16:10:59.457Z",
+    "updatedAt": "2022-09-29T16:10:59.457Z",
+    "examId": "6335bd71d072265f95f982ef",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb2a",
+    "score": 3.6,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f98344",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb29",
+    "score": 6.7,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f98339",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb2d",
+    "score": 8.1,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f9834a",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb2b",
+    "score": 4.4,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98337",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb2c",
+    "score": 9.4,
+    "createdAt": "2022-09-29T16:10:59.460Z",
+    "updatedAt": "2022-09-29T16:10:59.460Z",
+    "examId": "6335bd71d072265f95f9833b",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb28",
+    "score": 8.4,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f9831c",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb31",
+    "score": 6.1,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98361",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb2f",
+    "score": 7.9,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98323",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb2e",
+    "score": 6.1,
+    "createdAt": "2022-09-29T16:10:59.459Z",
+    "updatedAt": "2022-09-29T16:10:59.459Z",
+    "examId": "6335bd71d072265f95f98325",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb32",
+    "score": 5.4,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98365",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb30",
+    "score": 6.8,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98353",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb34",
+    "score": 9.1,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983ca",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb33",
+    "score": 3.6,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98378",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb35",
+    "score": 3.5,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f9835f",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb3b",
+    "score": 3.9,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983bc",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb3a",
+    "score": 4.5,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98363",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb37",
+    "score": 1.4,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98367",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb39",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983ad",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb3e",
+    "score": 2,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98374",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb38",
+    "score": 3.6,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98360",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb3d",
+    "score": 5.5,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98350",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb36",
+    "score": 9,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f9835e",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb3c",
+    "score": 5.4,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98354",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb41",
+    "score": 2.1,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983e2",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb43",
+    "score": 9.8,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983c8",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb40",
+    "score": 6.2,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98352",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb3f",
+    "score": 3.5,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98348",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb45",
+    "score": 9.2,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983b7",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb44",
+    "score": 6.5,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983bb",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb42",
+    "score": 8.2,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983ab",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb46",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f9835d",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb47",
+    "score": 3.2,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98395",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb49",
+    "score": 8.2,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98380",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb4f",
+    "score": 5.5,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f9837b",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb48",
+    "score": 6.8,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98358",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb4c",
+    "score": 5.8,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983c6",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb4b",
+    "score": 2.1,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983d2",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb4d",
+    "score": 8.9,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98373",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb50",
+    "score": 9.5,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f98406",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb4a",
+    "score": 8.5,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983d1",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb4e",
+    "score": 2.9,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983a0",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb52",
+    "score": 1.7,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98364",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb54",
+    "score": 0.3,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98387",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb51",
+    "score": 4.9,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983be",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb55",
+    "score": 1,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983df",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb56",
+    "score": 4.2,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983bf",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb59",
+    "score": 1.2,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983d6",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb57",
+    "score": 8.5,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983d7",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb58",
+    "score": 4.6,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f9838d",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb53",
+    "score": 0.4,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983bd",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb62",
+    "score": 4.4,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983c3",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb5b",
+    "score": 6.1,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983dd",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb5a",
+    "score": 9.4,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983de",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb5f",
+    "score": 5.7,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983cd",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb61",
+    "score": 2.2,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983d5",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb5c",
+    "score": 1.9,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983b9",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb5d",
+    "score": 5.1,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983e0",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb5e",
+    "score": 5.5,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f98349",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb60",
+    "score": 5.1,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983fa",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb63",
+    "score": 3.4,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983a4",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb6d",
+    "score": 4.1,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98356",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb66",
+    "score": 0.9,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983d3",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb6a",
+    "score": 7,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983cb",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb68",
+    "score": 6.3,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983cf",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb67",
+    "score": 9,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98392",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb6c",
+    "score": 5.7,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983a8",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb69",
+    "score": 8.2,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983dc",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb6b",
+    "score": 8.4,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983c7",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb64",
+    "score": 5.2,
+    "createdAt": "2022-09-29T16:10:59.461Z",
+    "updatedAt": "2022-09-29T16:10:59.461Z",
+    "examId": "6335bd71d072265f95f9834b",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb65",
+    "score": 3.6,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983ae",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb73",
+    "score": 1.1,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983c5",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb6f",
+    "score": 6,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983b0",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb70",
+    "score": 6.9,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983b5",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb6e",
+    "score": 3.4,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f9837d",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb74",
+    "score": 2.7,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983b3",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb77",
+    "score": 6.2,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983d0",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb76",
+    "score": 6.3,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983e1",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb71",
+    "score": 2.7,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983c2",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb75",
+    "score": 0.8,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f9836a",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb72",
+    "score": 4.3,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f9836e",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb78",
+    "score": 9.9,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98386",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb7c",
+    "score": 5.2,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f9839f",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb80",
+    "score": 1.7,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f9836b",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb7f",
+    "score": 7.4,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98370",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb7d",
+    "score": 3.4,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983a1",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb81",
+    "score": 6.8,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f9839c",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb79",
+    "score": 9.1,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98375",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb7a",
+    "score": 0.9,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983a9",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb7b",
+    "score": 0.6,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983a7",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb7e",
+    "score": 6.1,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f9837c",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb82",
+    "score": 5.9,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983d9",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb8a",
+    "score": 4,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f98393",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb87",
+    "score": 3.7,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983b4",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb89",
+    "score": 4.4,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983a5",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb83",
+    "score": 6.7,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983ec",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb86",
+    "score": 3,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983da",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb84",
+    "score": 8.4,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98396",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb8b",
+    "score": 1.7,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983b8",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb88",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f9839b",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb85",
+    "score": 2.2,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f9836c",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb8c",
+    "score": 9.4,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983af",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb8f",
+    "score": 9.1,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f98399",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb8e",
+    "score": 5.2,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f9839d",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb94",
+    "score": 5.6,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983b2",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb95",
+    "score": 5.1,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983aa",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb90",
+    "score": 2.8,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98381",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb93",
+    "score": 6.3,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983a6",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb96",
+    "score": 9.2,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.470Z",
+    "examId": "6335bd71d072265f95f983fd",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb91",
+    "score": 3.5,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f9835b",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb92",
+    "score": 8.9,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983ba",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb8d",
+    "score": 3.4,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98397",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb9a",
+    "score": 0.4,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98359",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb9b",
+    "score": 7.6,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983f2",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb9d",
+    "score": 0.4,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f9837e",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb98",
+    "score": 0.4,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f98389",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb9f",
+    "score": 6.7,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98394",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb9c",
+    "score": 7.8,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98385",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb99",
+    "score": 3,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f9836f",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb9e",
+    "score": 8.6,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f9838c",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfb97",
+    "score": 6.9,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983db",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfba2",
+    "score": 4,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983b1",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfba5",
+    "score": 8.1,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98377",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfba4",
+    "score": 5.8,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f9837a",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfba0",
+    "score": 4.7,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98372",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfba1",
+    "score": 8.6,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f9839e",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfba3",
+    "score": 0.5,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98383",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfba7",
+    "score": 8.9,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f9838b",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfba6",
+    "score": 9.2,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983ac",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfba8",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98384",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfba9",
+    "score": 6.9,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f9839a",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbaa",
+    "score": 0.9,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98391",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbaf",
+    "score": 8,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98366",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbab",
+    "score": 6.7,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983a3",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbac",
+    "score": 9.3,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f9838f",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbad",
+    "score": 9.9,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f9838a",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbae",
+    "score": 5.1,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98390",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbb1",
+    "score": 5.4,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98382",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbb0",
+    "score": 9.3,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f9835c",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbb2",
+    "score": 1.3,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98376",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbb3",
+    "score": 9.4,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98369",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbbb",
+    "score": 8.7,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f9836d",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbb5",
+    "score": 8.6,
+    "createdAt": "2022-09-29T16:10:59.465Z",
+    "updatedAt": "2022-09-29T16:10:59.465Z",
+    "examId": "6335bd71d072265f95f983a2",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbb9",
+    "score": 3.6,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98368",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbb4",
+    "score": 3.4,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f9835a",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbb8",
+    "score": 4.6,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98388",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbb6",
+    "score": 7.5,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98371",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbb7",
+    "score": 4.4,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f98398",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbba",
+    "score": 3.4,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983c4",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbbc",
+    "score": 7.1,
+    "createdAt": "2022-09-29T16:10:59.462Z",
+    "updatedAt": "2022-09-29T16:10:59.462Z",
+    "examId": "6335bd71d072265f95f98362",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbbd",
+    "score": 5.1,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983fe",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbc5",
+    "score": 1.4,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983f9",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbc4",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f98379",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbc1",
+    "score": 0.2,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983f6",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbc3",
+    "score": 7,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983e9",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbc0",
+    "score": 9.9,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983f5",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbbe",
+    "score": 5.3,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983ef",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbbf",
+    "score": 7,
+    "createdAt": "2022-09-29T16:10:59.464Z",
+    "updatedAt": "2022-09-29T16:10:59.464Z",
+    "examId": "6335bd71d072265f95f9838e",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbc2",
+    "score": 7.2,
+    "createdAt": "2022-09-29T16:10:59.463Z",
+    "updatedAt": "2022-09-29T16:10:59.463Z",
+    "examId": "6335bd71d072265f95f9837f",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbc6",
+    "score": 3.6,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983e3",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbc7",
+    "score": 5.4,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983d8",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbc8",
+    "score": 0.1,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983ed",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbcf",
+    "score": 6.4,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983d4",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbcd",
+    "score": 3.7,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983b6",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbc9",
+    "score": 7,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983eb",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbcb",
+    "score": 0,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983e5",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbca",
+    "score": 8.1,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983ff",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbce",
+    "score": 1.7,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983f3",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbcc",
+    "score": 0.9,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.470Z",
+    "examId": "6335bd71d072265f95f98402",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbd2",
+    "score": 9.6,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983e7",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbd6",
+    "score": 7.2,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983f8",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbd4",
+    "score": 3.2,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983fc",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbd0",
+    "score": 8.6,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983f0",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbd1",
+    "score": 7.3,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983ea",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbd7",
+    "score": 2.4,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983f1",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbd3",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.470Z",
+    "examId": "6335bd71d072265f95f98405",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbd5",
+    "score": 1.8,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983ce",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbd8",
+    "score": 4.5,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.470Z",
+    "examId": "6335bd71d072265f95f98404",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbd9",
+    "score": 1.4,
+    "createdAt": "2022-09-29T16:10:59.467Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983cc",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbe1",
+    "score": 4.3,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.466Z",
+    "examId": "6335bd71d072265f95f983c1",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbdc",
+    "score": 6.2,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983c0",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbe2",
+    "score": 3.1,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983fb",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbdd",
+    "score": 0.9,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.470Z",
+    "examId": "6335bd71d072265f95f98400",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbdf",
+    "score": 7.8,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983f4",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbde",
+    "score": 1.2,
+    "createdAt": "2022-09-29T16:10:59.466Z",
+    "updatedAt": "2022-09-29T16:10:59.467Z",
+    "examId": "6335bd71d072265f95f983c9",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbda",
+    "score": 5.5,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f98403",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbe0",
+    "score": 5.9,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983ee",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbdb",
+    "score": 6.3,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.470Z",
+    "examId": "6335bd71d072265f95f98401",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbe4",
+    "score": 4.9,
+    "createdAt": "2022-09-29T16:10:59.469Z",
+    "updatedAt": "2022-09-29T16:10:59.469Z",
+    "examId": "6335bd71d072265f95f983f7",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbe5",
+    "score": 8.2,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983e4",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbe3",
+    "score": 0.9,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983e8",
+    "studentId": "63344f37770d98995745cabe"
+  },
+  {
+    "id": "6335c3937a29dd8c9b4cfbe6",
+    "score": 6.6,
+    "createdAt": "2022-09-29T16:10:59.468Z",
+    "updatedAt": "2022-09-29T16:10:59.468Z",
+    "examId": "6335bd71d072265f95f983e6",
+    "studentId": "63344f37770d98995745cabe"
+  }
+]
