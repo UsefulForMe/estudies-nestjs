@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "6335bd71d072265f95f982be",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.190Z",
+    "updatedAt": "2022-09-29T15:44:49.190Z",
+    "subjectClassId": "633459c42103f884c90a25fa"
+  },
+  {
+    "id": "6335bd71d072265f95f982bf",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.190Z",
+    "updatedAt": "2022-09-29T15:44:49.190Z",
+    "subjectClassId": "633459c42103f884c90a25fa"
+  },
+  {
+    "id": "6335bd71d072265f95f982c0",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.190Z",
+    "updatedAt": "2022-09-29T15:44:49.190Z",
+    "subjectClassId": "633459c42103f884c90a25fa"
+  },
+  {
+    "id": "6335bd71d072265f95f982bd",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.190Z",
+    "updatedAt": "2022-09-29T15:44:49.190Z",
+    "subjectClassId": "633459c42103f884c90a25fa"
+  },
+  {
+    "id": "6335bd71d072265f95f982c2",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.190Z",
+    "updatedAt": "2022-09-29T15:44:49.191Z",
+    "subjectClassId": "63345afef6eca878bf9882b2"
+  },
+  {
+    "id": "6335bd71d072265f95f982c3",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.190Z",
+    "updatedAt": "2022-09-29T15:44:49.191Z",
+    "subjectClassId": "63345afef6eca878bf9882b2"
+  },
+  {
+    "id": "6335bd71d072265f95f982c1",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.191Z",
+    "updatedAt": "2022-09-29T15:44:49.191Z",
+    "subjectClassId": "63345b05f6eca878bf9882b4"
+  },
+  {
+    "id": "6335bd71d072265f95f982c4",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.191Z",
+    "updatedAt": "2022-09-29T15:44:49.192Z",
+    "subjectClassId": "63345afef6eca878bf9882b2"
+  },
+  {
+    "id": "6335bd71d072265f95f982c5",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.191Z",
+    "updatedAt": "2022-09-29T15:44:49.192Z",
+    "subjectClassId": "63345b03f6eca878bf9882b3"
+  },
+  {
+    "id": "6335bd71d072265f95f982c6",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.191Z",
+    "updatedAt": "2022-09-29T15:44:49.191Z",
+    "subjectClassId": "63345b03f6eca878bf9882b3"
+  },
+  {
+    "id": "6335bd71d072265f95f982c7",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.191Z",
+    "updatedAt": "2022-09-29T15:44:49.191Z",
+    "subjectClassId": "63345b03f6eca878bf9882b3"
+  },
+  {
+    "id": "6335bd71d072265f95f982cb",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.192Z",
+    "subjectClassId": "63345b0af6eca878bf9882b5"
+  },
+  {
+    "id": "6335bd71d072265f95f982ca",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.191Z",
+    "updatedAt": "2022-09-29T15:44:49.192Z",
+    "subjectClassId": "63345b03f6eca878bf9882b3"
+  },
+  {
+    "id": "6335bd71d072265f95f982c8",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.192Z",
+    "subjectClassId": "63345b0af6eca878bf9882b5"
+  },
+  {
+    "id": "6335bd71d072265f95f982c9",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.192Z",
+    "subjectClassId": "63345b0af6eca878bf9882b5"
+  },
+  {
+    "id": "6335bd71d072265f95f982ce",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.192Z",
+    "subjectClassId": "63345b0ff6eca878bf9882b6"
+  },
+  {
+    "id": "6335bd71d072265f95f982cd",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.190Z",
+    "updatedAt": "2022-09-29T15:44:49.191Z",
+    "subjectClassId": "63345afef6eca878bf9882b2"
+  },
+  {
+    "id": "6335bd71d072265f95f982cc",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.191Z",
+    "updatedAt": "2022-09-29T15:44:49.192Z",
+    "subjectClassId": "63345afef6eca878bf9882b2"
+  },
+  {
+    "id": "6335bd71d072265f95f982cf",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.191Z",
+    "updatedAt": "2022-09-29T15:44:49.191Z",
+    "subjectClassId": "63345b03f6eca878bf9882b3"
+  },
+  {
+    "id": "6335bd71d072265f95f982d0",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.192Z",
+    "subjectClassId": "63345b05f6eca878bf9882b4"
+  },
+  {
+    "id": "6335bd71d072265f95f982d1",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b05f6eca878bf9882b4"
+  },
+  {
+    "id": "6335bd71d072265f95f982d2",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b10f6eca878bf9882b7"
+  },
+  {
+    "id": "6335bd71d072265f95f982d3",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.190Z",
+    "updatedAt": "2022-09-29T15:44:49.190Z",
+    "subjectClassId": "633459c42103f884c90a25fa"
+  },
+  {
+    "id": "6335bd71d072265f95f982d5",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.192Z",
+    "subjectClassId": "63345b05f6eca878bf9882b4"
+  },
+  {
+    "id": "6335bd71d072265f95f982d4",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b10f6eca878bf9882b7"
+  },
+  {
+    "id": "6335bd71d072265f95f982d6",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b0ff6eca878bf9882b6"
+  },
+  {
+    "id": "6335bd71d072265f95f982d7",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b0ff6eca878bf9882b6"
+  },
+  {
+    "id": "6335bd71d072265f95f982d8",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b0af6eca878bf9882b5"
+  },
+  {
+    "id": "6335bd71d072265f95f982d9",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b10f6eca878bf9882b7"
+  },
+  {
+    "id": "6335bd71d072265f95f982da",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b14f6eca878bf9882b8"
+  },
+  {
+    "id": "6335bd71d072265f95f982dd",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b0af6eca878bf9882b5"
+  },
+  {
+    "id": "6335bd71d072265f95f982dc",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b0ff6eca878bf9882b6"
+  },
+  {
+    "id": "6335bd71d072265f95f982db",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.192Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b05f6eca878bf9882b4"
+  },
+  {
+    "id": "6335bd71d072265f95f982e0",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b1af6eca878bf9882ba"
+  },
+  {
+    "id": "6335bd71d072265f95f982e1",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b14f6eca878bf9882b8"
+  },
+  {
+    "id": "6335bd71d072265f95f982de",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b14f6eca878bf9882b8"
+  },
+  {
+    "id": "6335bd71d072265f95f982df",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b10f6eca878bf9882b7"
+  },
+  {
+    "id": "6335bd71d072265f95f982e3",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.193Z",
+    "subjectClassId": "63345b14f6eca878bf9882b8"
+  },
+  {
+    "id": "6335bd71d072265f95f982e2",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b15f6eca878bf9882b9"
+  },
+  {
+    "id": "6335bd71d072265f95f982e4",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b10f6eca878bf9882b7"
+  },
+  {
+    "id": "6335bd71d072265f95f982e5",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b15f6eca878bf9882b9"
+  },
+  {
+    "id": "6335bd71d072265f95f982e6",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b14f6eca878bf9882b8"
+  },
+  {
+    "id": "6335bd71d072265f95f982e7",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b1af6eca878bf9882ba"
+  },
+  {
+    "id": "6335bd71d072265f95f982e8",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b15f6eca878bf9882b9"
+  },
+  {
+    "id": "6335bd71d072265f95f982e9",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b1af6eca878bf9882ba"
+  },
+  {
+    "id": "6335bd71d072265f95f982ea",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.193Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b0ff6eca878bf9882b6"
+  },
+  {
+    "id": "6335bd71d072265f95f982ec",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b1cf6eca878bf9882bb"
+  },
+  {
+    "id": "6335bd71d072265f95f982eb",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b1cf6eca878bf9882bb"
+  },
+  {
+    "id": "6335bd71d072265f95f982ed",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b26f6eca878bf9882be"
+  },
+  {
+    "id": "6335bd71d072265f95f982ee",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b21f6eca878bf9882bc"
+  },
+  {
+    "id": "6335bd71d072265f95f982ef",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b21f6eca878bf9882bc"
+  },
+  {
+    "id": "6335bd71d072265f95f982f0",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.194Z",
+    "subjectClassId": "63345b1af6eca878bf9882ba"
+  },
+  {
+    "id": "6335bd71d072265f95f982f2",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b1cf6eca878bf9882bb"
+  },
+  {
+    "id": "6335bd71d072265f95f982f3",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b1af6eca878bf9882ba"
+  },
+  {
+    "id": "6335bd71d072265f95f982f1",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b15f6eca878bf9882b9"
+  },
+  {
+    "id": "6335bd71d072265f95f982f4",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b1cf6eca878bf9882bb"
+  },
+  {
+    "id": "6335bd71d072265f95f982f5",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b15f6eca878bf9882b9"
+  },
+  {
+    "id": "6335bd71d072265f95f982f6",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b21f6eca878bf9882bc"
+  },
+  {
+    "id": "6335bd71d072265f95f982f8",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b21f6eca878bf9882bd"
+  },
+  {
+    "id": "6335bd71d072265f95f982f9",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b26f6eca878bf9882be"
+  },
+  {
+    "id": "6335bd71d072265f95f982fa",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b21f6eca878bf9882bc"
+  },
+  {
+    "id": "6335bd71d072265f95f982f7",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b21f6eca878bf9882bd"
+  },
+  {
+    "id": "6335bd71d072265f95f982ff",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b21f6eca878bf9882bd"
+  },
+  {
+    "id": "6335bd71d072265f95f98302",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b27f6eca878bf9882bf"
+  },
+  {
+    "id": "6335bd71d072265f95f982fd",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b26f6eca878bf9882be"
+  },
+  {
+    "id": "6335bd71d072265f95f982fe",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b26f6eca878bf9882be"
+  },
+  {
+    "id": "6335bd71d072265f95f982fc",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.194Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b1cf6eca878bf9882bb"
+  },
+  {
+    "id": "6335bd71d072265f95f98303",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b2df6eca878bf9882c0"
+  },
+  {
+    "id": "6335bd71d072265f95f982fb",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.195Z",
+    "subjectClassId": "63345b27f6eca878bf9882bf"
+  },
+  {
+    "id": "6335bd71d072265f95f98304",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b21f6eca878bf9882bc"
+  },
+  {
+    "id": "6335bd71d072265f95f98301",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b2df6eca878bf9882c0"
+  },
+  {
+    "id": "6335bd71d072265f95f98300",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b21f6eca878bf9882bd"
+  },
+  {
+    "id": "6335bd71d072265f95f98308",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b2df6eca878bf9882c0"
+  },
+  {
+    "id": "6335bd71d072265f95f98305",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b27f6eca878bf9882bf"
+  },
+  {
+    "id": "6335bd71d072265f95f9830a",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b21f6eca878bf9882bd"
+  },
+  {
+    "id": "6335bd71d072265f95f98306",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b2ef6eca878bf9882c1"
+  },
+  {
+    "id": "6335bd71d072265f95f98307",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b26f6eca878bf9882be"
+  },
+  {
+    "id": "6335bd71d072265f95f98309",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.195Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b27f6eca878bf9882bf"
+  },
+  {
+    "id": "6335bd71d072265f95f9830b",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b2ef6eca878bf9882c1"
+  },
+  {
+    "id": "6335bd71d072265f95f9830c",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63345b34f6eca878bf9882c2"
+  },
+  {
+    "id": "6335bd71d072265f95f9830e",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63345b34f6eca878bf9882c2"
+  },
+  {
+    "id": "6335bd71d072265f95f9830f",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b34f6eca878bf9882c2"
+  },
+  {
+    "id": "6335bd71d072265f95f9830d",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b2df6eca878bf9882c0"
+  },
+  {
+    "id": "6335bd71d072265f95f98311",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63345b35f6eca878bf9882c3"
+  },
+  {
+    "id": "6335bd71d072265f95f98310",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b2ef6eca878bf9882c1"
+  },
+  {
+    "id": "6335bd71d072265f95f98312",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b27f6eca878bf9882bf"
+  },
+  {
+    "id": "6335bd71d072265f95f98315",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63345b2ef6eca878bf9882c1"
+  },
+  {
+    "id": "6335bd71d072265f95f98316",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63345b35f6eca878bf9882c3"
+  },
+  {
+    "id": "6335bd71d072265f95f98317",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63345b34f6eca878bf9882c2"
+  },
+  {
+    "id": "6335bd71d072265f95f98313",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.196Z",
+    "subjectClassId": "63345b2df6eca878bf9882c0"
+  },
+  {
+    "id": "6335bd71d072265f95f98314",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63345b35f6eca878bf9882c3"
+  },
+  {
+    "id": "6335bd71d072265f95f98318",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63345b2ef6eca878bf9882c1"
+  },
+  {
+    "id": "6335bd71d072265f95f98319",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "6334686bf6eca878bf9882c4"
+  },
+  {
+    "id": "6335bd71d072265f95f9831b",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "6334686bf6eca878bf9882c4"
+  },
+  {
+    "id": "6335bd71d072265f95f9831a",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63346874f6eca878bf9882c5"
+  },
+  {
+    "id": "6335bd71d072265f95f9831c",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63346874f6eca878bf9882c5"
+  },
+  {
+    "id": "6335bd71d072265f95f9831d",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.196Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63345b35f6eca878bf9882c3"
+  },
+  {
+    "id": "6335bd71d072265f95f9831e",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63345b35f6eca878bf9882c3"
+  },
+  {
+    "id": "6335bd71d072265f95f9831f",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63345b34f6eca878bf9882c2"
+  },
+  {
+    "id": "6335bd71d072265f95f98320",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "6334686bf6eca878bf9882c4"
+  },
+  {
+    "id": "6335bd71d072265f95f98321",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63346875f6eca878bf9882c6"
+  },
+  {
+    "id": "6335bd71d072265f95f98322",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "6334686bf6eca878bf9882c4"
+  },
+  {
+    "id": "6335bd71d072265f95f98323",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63346874f6eca878bf9882c5"
+  },
+  {
+    "id": "6335bd71d072265f95f98324",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346875f6eca878bf9882c6"
+  },
+  {
+    "id": "6335bd71d072265f95f98325",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "6334686bf6eca878bf9882c4"
+  },
+  {
+    "id": "6335bd71d072265f95f98326",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "6334687ff6eca878bf9882c7"
+  },
+  {
+    "id": "6335bd71d072265f95f98327",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63346875f6eca878bf9882c6"
+  },
+  {
+    "id": "6335bd71d072265f95f98328",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346874f6eca878bf9882c5"
+  },
+  {
+    "id": "6335bd71d072265f95f9832b",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "633468a3f6eca878bf9882cf"
+  },
+  {
+    "id": "6335bd71d072265f95f98329",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.197Z",
+    "subjectClassId": "63346874f6eca878bf9882c5"
+  },
+  {
+    "id": "6335bd71d072265f95f9832a",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468bdf6eca878bf9882d6"
+  },
+  {
+    "id": "6335bd71d072265f95f9832d",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346896f6eca878bf9882cb"
+  },
+  {
+    "id": "6335bd71d072265f95f9832c",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468cff6eca878bf9882db"
+  },
+  {
+    "id": "6335bd71d072265f95f9832e",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468abf6eca878bf9882d1"
+  },
+  {
+    "id": "6335bd71d072265f95f98331",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346889f6eca878bf9882ca"
+  },
+  {
+    "id": "6335bd71d072265f95f98330",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346889f6eca878bf9882ca"
+  },
+  {
+    "id": "6335bd71d072265f95f9832f",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346888f6eca878bf9882c9"
+  },
+  {
+    "id": "6335bd71d072265f95f98332",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468aef6eca878bf9882d2"
+  },
+  {
+    "id": "6335bd71d072265f95f98334",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "6334689cf6eca878bf9882cd"
+  },
+  {
+    "id": "6335bd71d072265f95f98333",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468bcf6eca878bf9882d5"
+  },
+  {
+    "id": "6335bd71d072265f95f98335",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c3f6eca878bf9882d7"
+  },
+  {
+    "id": "6335bd71d072265f95f98336",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c9f6eca878bf9882da"
+  },
+  {
+    "id": "6335bd71d072265f95f98339",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468b7f6eca878bf9882d4"
+  },
+  {
+    "id": "6335bd71d072265f95f98337",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468aef6eca878bf9882d2"
+  },
+  {
+    "id": "6335bd71d072265f95f9833c",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346875f6eca878bf9882c6"
+  },
+  {
+    "id": "6335bd71d072265f95f98338",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c9f6eca878bf9882da"
+  },
+  {
+    "id": "6335bd71d072265f95f9833e",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346896f6eca878bf9882cb"
+  },
+  {
+    "id": "6335bd71d072265f95f9833a",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468abf6eca878bf9882d1"
+  },
+  {
+    "id": "6335bd71d072265f95f9833d",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346889f6eca878bf9882ca"
+  },
+  {
+    "id": "6335bd71d072265f95f9833b",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "6334687ff6eca878bf9882c7"
+  },
+  {
+    "id": "6335bd71d072265f95f98341",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346881f6eca878bf9882c8"
+  },
+  {
+    "id": "6335bd71d072265f95f98345",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.197Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346875f6eca878bf9882c6"
+  },
+  {
+    "id": "6335bd71d072265f95f98344",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468a6f6eca878bf9882d0"
+  },
+  {
+    "id": "6335bd71d072265f95f98343",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468bdf6eca878bf9882d6"
+  },
+  {
+    "id": "6335bd71d072265f95f98342",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468b3f6eca878bf9882d3"
+  },
+  {
+    "id": "6335bd71d072265f95f9833f",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468aef6eca878bf9882d2"
+  },
+  {
+    "id": "6335bd71d072265f95f98347",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "6334689cf6eca878bf9882cd"
+  },
+  {
+    "id": "6335bd71d072265f95f98346",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "63346897f6eca878bf9882cc"
+  },
+  {
+    "id": "6335bd71d072265f95f98340",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468a6f6eca878bf9882d0"
+  },
+  {
+    "id": "6335bd71d072265f95f98348",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "633468a3f6eca878bf9882cf"
+  },
+  {
+    "id": "6335bd71d072265f95f9834c",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346881f6eca878bf9882c8"
+  },
+  {
+    "id": "6335bd71d072265f95f9834b",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "6334689ef6eca878bf9882ce"
+  },
+  {
+    "id": "6335bd71d072265f95f9834e",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346881f6eca878bf9882c8"
+  },
+  {
+    "id": "6335bd71d072265f95f9834d",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468a6f6eca878bf9882d0"
+  },
+  {
+    "id": "6335bd71d072265f95f9834a",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346888f6eca878bf9882c9"
+  },
+  {
+    "id": "6335bd71d072265f95f98349",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468bcf6eca878bf9882d5"
+  },
+  {
+    "id": "6335bd71d072265f95f98351",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "6334689ef6eca878bf9882ce"
+  },
+  {
+    "id": "6335bd71d072265f95f9834f",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346888f6eca878bf9882c9"
+  },
+  {
+    "id": "6335bd71d072265f95f98353",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468b3f6eca878bf9882d3"
+  },
+  {
+    "id": "6335bd71d072265f95f98352",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "6334689cf6eca878bf9882cd"
+  },
+  {
+    "id": "6335bd71d072265f95f98354",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346881f6eca878bf9882c8"
+  },
+  {
+    "id": "6335bd71d072265f95f98350",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468bcf6eca878bf9882d5"
+  },
+  {
+    "id": "6335bd71d072265f95f98355",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468aef6eca878bf9882d2"
+  },
+  {
+    "id": "6335bd71d072265f95f98357",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468a6f6eca878bf9882d0"
+  },
+  {
+    "id": "6335bd71d072265f95f98356",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "633468a3f6eca878bf9882cf"
+  },
+  {
+    "id": "6335bd71d072265f95f98358",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346897f6eca878bf9882cc"
+  },
+  {
+    "id": "6335bd71d072265f95f9835f",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "6334687ff6eca878bf9882c7"
+  },
+  {
+    "id": "6335bd71d072265f95f9835d",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468b7f6eca878bf9882d4"
+  },
+  {
+    "id": "6335bd71d072265f95f9835e",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468b3f6eca878bf9882d3"
+  },
+  {
+    "id": "6335bd71d072265f95f98360",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468abf6eca878bf9882d1"
+  },
+  {
+    "id": "6335bd71d072265f95f98359",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "6334689cf6eca878bf9882cd"
+  },
+  {
+    "id": "6335bd71d072265f95f9835c",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "63346897f6eca878bf9882cc"
+  },
+  {
+    "id": "6335bd71d072265f95f9835b",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468bcf6eca878bf9882d5"
+  },
+  {
+    "id": "6335bd71d072265f95f9835a",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468b7f6eca878bf9882d4"
+  },
+  {
+    "id": "6335bd71d072265f95f98361",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "6334689cf6eca878bf9882cd"
+  },
+  {
+    "id": "6335bd71d072265f95f98362",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468abf6eca878bf9882d1"
+  },
+  {
+    "id": "6335bd71d072265f95f98363",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468a6f6eca878bf9882d0"
+  },
+  {
+    "id": "6335bd71d072265f95f98367",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468aef6eca878bf9882d2"
+  },
+  {
+    "id": "6335bd71d072265f95f98368",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "633468a3f6eca878bf9882cf"
+  },
+  {
+    "id": "6335bd71d072265f95f98364",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "6334687ff6eca878bf9882c7"
+  },
+  {
+    "id": "6335bd71d072265f95f98365",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346896f6eca878bf9882cb"
+  },
+  {
+    "id": "6335bd71d072265f95f9836a",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "6334689ef6eca878bf9882ce"
+  },
+  {
+    "id": "6335bd71d072265f95f98366",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468b7f6eca878bf9882d4"
+  },
+  {
+    "id": "6335bd71d072265f95f98369",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346881f6eca878bf9882c8"
+  },
+  {
+    "id": "6335bd71d072265f95f9836c",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346896f6eca878bf9882cb"
+  },
+  {
+    "id": "6335bd71d072265f95f9836b",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468bdf6eca878bf9882d6"
+  },
+  {
+    "id": "6335bd71d072265f95f9836e",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346896f6eca878bf9882cb"
+  },
+  {
+    "id": "6335bd71d072265f95f9836d",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468b3f6eca878bf9882d3"
+  },
+  {
+    "id": "6335bd71d072265f95f98370",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "6334689ef6eca878bf9882ce"
+  },
+  {
+    "id": "6335bd71d072265f95f9836f",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468b3f6eca878bf9882d3"
+  },
+  {
+    "id": "6335bd71d072265f95f98371",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c3f6eca878bf9882d7"
+  },
+  {
+    "id": "6335bd71d072265f95f98373",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468abf6eca878bf9882d1"
+  },
+  {
+    "id": "6335bd71d072265f95f98372",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468b7f6eca878bf9882d4"
+  },
+  {
+    "id": "6335bd71d072265f95f98375",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346889f6eca878bf9882ca"
+  },
+  {
+    "id": "6335bd71d072265f95f98374",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c9f6eca878bf9882d9"
+  },
+  {
+    "id": "6335bd71d072265f95f98376",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c9f6eca878bf9882d9"
+  },
+  {
+    "id": "6335bd71d072265f95f9837b",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c9f6eca878bf9882da"
+  },
+  {
+    "id": "6335bd71d072265f95f98378",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "633468a3f6eca878bf9882cf"
+  },
+  {
+    "id": "6335bd71d072265f95f9837c",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "6334687ff6eca878bf9882c7"
+  },
+  {
+    "id": "6335bd71d072265f95f9837a",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c4f6eca878bf9882d8"
+  },
+  {
+    "id": "6335bd71d072265f95f9837d",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468bdf6eca878bf9882d6"
+  },
+  {
+    "id": "6335bd71d072265f95f98377",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346888f6eca878bf9882c9"
+  },
+  {
+    "id": "6335bd71d072265f95f9837e",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346897f6eca878bf9882cc"
+  },
+  {
+    "id": "6335bd71d072265f95f98379",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.198Z",
+    "subjectClassId": "63346888f6eca878bf9882c9"
+  },
+  {
+    "id": "6335bd71d072265f95f9837f",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c9f6eca878bf9882d9"
+  },
+  {
+    "id": "6335bd71d072265f95f98380",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.199Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346897f6eca878bf9882cc"
+  },
+  {
+    "id": "6335bd71d072265f95f98387",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.198Z",
+    "updatedAt": "2022-09-29T15:44:49.199Z",
+    "subjectClassId": "63346889f6eca878bf9882ca"
+  },
+  {
+    "id": "6335bd71d072265f95f98381",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468c9f6eca878bf9882da"
+  },
+  {
+    "id": "6335bd71d072265f95f98386",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c4f6eca878bf9882d8"
+  },
+  {
+    "id": "6335bd71d072265f95f98382",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.200Z",
+    "updatedAt": "2022-09-29T15:44:49.200Z",
+    "subjectClassId": "6334689ef6eca878bf9882ce"
+  },
+  {
+    "id": "6335bd71d072265f95f98383",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c3f6eca878bf9882d7"
+  },
+  {
+    "id": "6335bd71d072265f95f98388",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c4f6eca878bf9882d8"
+  },
+  {
+    "id": "6335bd71d072265f95f98385",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468bcf6eca878bf9882d5"
+  },
+  {
+    "id": "6335bd71d072265f95f98384",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468c9f6eca878bf9882da"
+  },
+  {
+    "id": "6335bd71d072265f95f98389",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c9f6eca878bf9882d9"
+  },
+  {
+    "id": "6335bd71d072265f95f9838a",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468cff6eca878bf9882dc"
+  },
+  {
+    "id": "6335bd71d072265f95f9838b",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468e2f6eca878bf9882e1"
+  },
+  {
+    "id": "6335bd71d072265f95f9838d",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468d4f6eca878bf9882dd"
+  },
+  {
+    "id": "6335bd71d072265f95f9838f",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468cff6eca878bf9882dc"
+  },
+  {
+    "id": "6335bd71d072265f95f9838c",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468cff6eca878bf9882dc"
+  },
+  {
+    "id": "6335bd71d072265f95f9838e",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468d4f6eca878bf9882dd"
+  },
+  {
+    "id": "6335bd71d072265f95f98391",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468cff6eca878bf9882dc"
+  },
+  {
+    "id": "6335bd71d072265f95f98392",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468cff6eca878bf9882dc"
+  },
+  {
+    "id": "6335bd71d072265f95f98390",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468cff6eca878bf9882db"
+  },
+  {
+    "id": "6335bd71d072265f95f98395",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c4f6eca878bf9882d8"
+  },
+  {
+    "id": "6335bd71d072265f95f98393",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "63346902f6eca878bf9882eb"
+  },
+  {
+    "id": "6335bd71d072265f95f98396",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468cff6eca878bf9882db"
+  },
+  {
+    "id": "6335bd71d072265f95f98394",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c3f6eca878bf9882d7"
+  },
+  {
+    "id": "6335bd71d072265f95f98397",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c4f6eca878bf9882d8"
+  },
+  {
+    "id": "6335bd71d072265f95f98398",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.202Z",
+    "updatedAt": "2022-09-29T15:44:49.202Z",
+    "subjectClassId": "633468c9f6eca878bf9882d9"
+  },
+  {
+    "id": "6335bd71d072265f95f9839a",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468bdf6eca878bf9882d6"
+  },
+  {
+    "id": "6335bd71d072265f95f9839d",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "63346902f6eca878bf9882eb"
+  },
+  {
+    "id": "6335bd71d072265f95f9839b",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.201Z",
+    "updatedAt": "2022-09-29T15:44:49.201Z",
+    "subjectClassId": "633468c3f6eca878bf9882d7"
+  },
+  {
+    "id": "6335bd71d072265f95f9839c",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468d5f6eca878bf9882de"
+  },
+  {
+    "id": "6335bd71d072265f95f98399",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468e8f6eca878bf9882e3"
+  },
+  {
+    "id": "6335bd71d072265f95f9839e",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468eff6eca878bf9882e5"
+  },
+  {
+    "id": "6335bd71d072265f95f9839f",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468daf6eca878bf9882df"
+  },
+  {
+    "id": "6335bd71d072265f95f983a4",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468e3f6eca878bf9882e2"
+  },
+  {
+    "id": "6335bd71d072265f95f983a1",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468e2f6eca878bf9882e1"
+  },
+  {
+    "id": "6335bd71d072265f95f983a7",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468dbf6eca878bf9882e0"
+  },
+  {
+    "id": "6335bd71d072265f95f983a5",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468fcf6eca878bf9882e9"
+  },
+  {
+    "id": "6335bd71d072265f95f983a8",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468daf6eca878bf9882df"
+  },
+  {
+    "id": "6335bd71d072265f95f983a0",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468e2f6eca878bf9882e1"
+  },
+  {
+    "id": "6335bd71d072265f95f983a6",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468cff6eca878bf9882db"
+  },
+  {
+    "id": "6335bd71d072265f95f983a3",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f6f6eca878bf9882e8"
+  },
+  {
+    "id": "6335bd71d072265f95f983a2",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468dbf6eca878bf9882e0"
+  },
+  {
+    "id": "6335bd71d072265f95f983ad",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468e2f6eca878bf9882e1"
+  },
+  {
+    "id": "6335bd71d072265f95f983b0",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468fdf6eca878bf9882ea"
+  },
+  {
+    "id": "6335bd71d072265f95f983af",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468eff6eca878bf9882e5"
+  },
+  {
+    "id": "6335bd71d072265f95f983aa",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346914f6eca878bf9882f0"
+  },
+  {
+    "id": "6335bd71d072265f95f983a9",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468daf6eca878bf9882df"
+  },
+  {
+    "id": "6335bd71d072265f95f983b1",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468daf6eca878bf9882df"
+  },
+  {
+    "id": "6335bd71d072265f95f983ac",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346914f6eca878bf9882f0"
+  },
+  {
+    "id": "6335bd71d072265f95f983ab",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468dbf6eca878bf9882e0"
+  },
+  {
+    "id": "6335bd71d072265f95f983ae",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346907f6eca878bf9882ed"
+  },
+  {
+    "id": "6335bd71d072265f95f983b2",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468dbf6eca878bf9882e0"
+  },
+  {
+    "id": "6335bd71d072265f95f983b3",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468eff6eca878bf9882e5"
+  },
+  {
+    "id": "6335bd71d072265f95f983b4",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "6334690ef6eca878bf9882ef"
+  },
+  {
+    "id": "6335bd71d072265f95f983b7",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "6334690ef6eca878bf9882ef"
+  },
+  {
+    "id": "6335bd71d072265f95f983b5",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "63346903f6eca878bf9882ec"
+  },
+  {
+    "id": "6335bd71d072265f95f983b8",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468fcf6eca878bf9882e9"
+  },
+  {
+    "id": "6335bd71d072265f95f983ba",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468e2f6eca878bf9882e1"
+  },
+  {
+    "id": "6335bd71d072265f95f983b6",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468dbf6eca878bf9882e0"
+  },
+  {
+    "id": "6335bd71d072265f95f983b9",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468d4f6eca878bf9882dd"
+  },
+  {
+    "id": "6335bd71d072265f95f983bc",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346907f6eca878bf9882ed"
+  },
+  {
+    "id": "6335bd71d072265f95f983bb",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468daf6eca878bf9882df"
+  },
+  {
+    "id": "6335bd71d072265f95f983bd",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468fdf6eca878bf9882ea"
+  },
+  {
+    "id": "6335bd71d072265f95f983c2",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468fdf6eca878bf9882ea"
+  },
+  {
+    "id": "6335bd71d072265f95f983c3",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468e3f6eca878bf9882e2"
+  },
+  {
+    "id": "6335bd71d072265f95f983c0",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "63346902f6eca878bf9882eb"
+  },
+  {
+    "id": "6335bd71d072265f95f983c1",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "63346907f6eca878bf9882ed"
+  },
+  {
+    "id": "6335bd71d072265f95f983c4",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468fcf6eca878bf9882e9"
+  },
+  {
+    "id": "6335bd71d072265f95f983bf",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f6f6eca878bf9882e8"
+  },
+  {
+    "id": "6335bd71d072265f95f983be",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346908f6eca878bf9882ee"
+  },
+  {
+    "id": "6335bd71d072265f95f983c5",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f0f6eca878bf9882e6"
+  },
+  {
+    "id": "6335bd71d072265f95f983c6",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f0f6eca878bf9882e6"
+  },
+  {
+    "id": "6335bd71d072265f95f983cd",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468eff6eca878bf9882e5"
+  },
+  {
+    "id": "6335bd71d072265f95f983ce",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f0f6eca878bf9882e6"
+  },
+  {
+    "id": "6335bd71d072265f95f983c9",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468e9f6eca878bf9882e4"
+  },
+  {
+    "id": "6335bd71d072265f95f983ca",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468fcf6eca878bf9882e9"
+  },
+  {
+    "id": "6335bd71d072265f95f983c7",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "63346902f6eca878bf9882eb"
+  },
+  {
+    "id": "6335bd71d072265f95f983c8",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346903f6eca878bf9882ec"
+  },
+  {
+    "id": "6335bd71d072265f95f983cb",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468e3f6eca878bf9882e2"
+  },
+  {
+    "id": "6335bd71d072265f95f983cf",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346908f6eca878bf9882ee"
+  },
+  {
+    "id": "6335bd71d072265f95f983d0",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346908f6eca878bf9882ee"
+  },
+  {
+    "id": "6335bd71d072265f95f983cc",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468f6f6eca878bf9882e7"
+  },
+  {
+    "id": "6335bd71d072265f95f983d4",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468fcf6eca878bf9882e9"
+  },
+  {
+    "id": "6335bd71d072265f95f983d1",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "63346903f6eca878bf9882ec"
+  },
+  {
+    "id": "6335bd71d072265f95f983d6",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468e8f6eca878bf9882e3"
+  },
+  {
+    "id": "6335bd71d072265f95f983d5",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468e8f6eca878bf9882e3"
+  },
+  {
+    "id": "6335bd71d072265f95f983d7",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468f6f6eca878bf9882e8"
+  },
+  {
+    "id": "6335bd71d072265f95f983da",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468e3f6eca878bf9882e2"
+  },
+  {
+    "id": "6335bd71d072265f95f983d9",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "6334690ef6eca878bf9882ef"
+  },
+  {
+    "id": "6335bd71d072265f95f983d3",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "63346903f6eca878bf9882ec"
+  },
+  {
+    "id": "6335bd71d072265f95f983d2",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468d4f6eca878bf9882dd"
+  },
+  {
+    "id": "6335bd71d072265f95f983d8",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468e9f6eca878bf9882e4"
+  },
+  {
+    "id": "6335bd71d072265f95f983db",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468d5f6eca878bf9882de"
+  },
+  {
+    "id": "6335bd71d072265f95f983dc",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468cff6eca878bf9882db"
+  },
+  {
+    "id": "6335bd71d072265f95f983e3",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468e8f6eca878bf9882e3"
+  },
+  {
+    "id": "6335bd71d072265f95f983df",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468e9f6eca878bf9882e4"
+  },
+  {
+    "id": "6335bd71d072265f95f983e1",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346908f6eca878bf9882ee"
+  },
+  {
+    "id": "6335bd71d072265f95f983e2",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f6f6eca878bf9882e8"
+  },
+  {
+    "id": "6335bd71d072265f95f983de",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468e9f6eca878bf9882e4"
+  },
+  {
+    "id": "6335bd71d072265f95f983e0",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346907f6eca878bf9882ed"
+  },
+  {
+    "id": "6335bd71d072265f95f983e4",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "6334690ef6eca878bf9882ef"
+  },
+  {
+    "id": "6335bd71d072265f95f983dd",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "63346902f6eca878bf9882eb"
+  },
+  {
+    "id": "6335bd71d072265f95f983e7",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468d5f6eca878bf9882de"
+  },
+  {
+    "id": "6335bd71d072265f95f983e5",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468eff6eca878bf9882e5"
+  },
+  {
+    "id": "6335bd71d072265f95f983ec",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "6334691bf6eca878bf9882f1"
+  },
+  {
+    "id": "6335bd71d072265f95f983eb",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "6334691bf6eca878bf9882f2"
+  },
+  {
+    "id": "6335bd71d072265f95f983e8",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f0f6eca878bf9882e6"
+  },
+  {
+    "id": "6335bd71d072265f95f983e9",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468fdf6eca878bf9882ea"
+  },
+  {
+    "id": "6335bd71d072265f95f983e6",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468d5f6eca878bf9882de"
+  },
+  {
+    "id": "6335bd71d072265f95f983ed",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468e3f6eca878bf9882e2"
+  },
+  {
+    "id": "6335bd71d072265f95f983ea",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468d5f6eca878bf9882de"
+  },
+  {
+    "id": "6335bd71d072265f95f983ee",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "6334691bf6eca878bf9882f1"
+  },
+  {
+    "id": "6335bd71d072265f95f983f3",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468e9f6eca878bf9882e4"
+  },
+  {
+    "id": "6335bd71d072265f95f983f1",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.208Z",
+    "subjectClassId": "63346914f6eca878bf9882f0"
+  },
+  {
+    "id": "6335bd71d072265f95f983f4",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.208Z",
+    "subjectClassId": "6334691bf6eca878bf9882f1"
+  },
+  {
+    "id": "6335bd71d072265f95f983f0",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.204Z",
+    "updatedAt": "2022-09-29T15:44:49.204Z",
+    "subjectClassId": "633468e8f6eca878bf9882e3"
+  },
+  {
+    "id": "6335bd71d072265f95f983ef",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.208Z",
+    "updatedAt": "2022-09-29T15:44:49.208Z",
+    "subjectClassId": "6334691bf6eca878bf9882f2"
+  },
+  {
+    "id": "6335bd71d072265f95f983f6",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f6f6eca878bf9882e7"
+  },
+  {
+    "id": "6335bd71d072265f95f983f5",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346914f6eca878bf9882f0"
+  },
+  {
+    "id": "6335bd71d072265f95f983f2",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "6334690ef6eca878bf9882ef"
+  },
+  {
+    "id": "6335bd71d072265f95f983f8",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f6f6eca878bf9882e7"
+  },
+  {
+    "id": "6335bd71d072265f95f983f7",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.208Z",
+    "subjectClassId": "6334691bf6eca878bf9882f2"
+  },
+  {
+    "id": "6335bd71d072265f95f983fa",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f6f6eca878bf9882e8"
+  },
+  {
+    "id": "6335bd71d072265f95f983ff",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346908f6eca878bf9882ee"
+  },
+  {
+    "id": "6335bd71d072265f95f983f9",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346914f6eca878bf9882f0"
+  },
+  {
+    "id": "6335bd71d072265f95f983fb",
+    "name": "Kiểm tra thường xuyên 2",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f6f6eca878bf9882e7"
+  },
+  {
+    "id": "6335bd71d072265f95f98402",
+    "name": "Kiểm tra thực hành",
+    "duration": 45,
+    "type": "practice",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.208Z",
+    "subjectClassId": "6334691bf6eca878bf9882f1"
+  },
+  {
+    "id": "6335bd71d072265f95f98400",
+    "name": " Kiểm tra giữa kỳ",
+    "duration": 90,
+    "type": "theory",
+    "factor": 2,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346903f6eca878bf9882ec"
+  },
+  {
+    "id": "6335bd71d072265f95f983fc",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.203Z",
+    "updatedAt": "2022-09-29T15:44:49.203Z",
+    "subjectClassId": "633468d4f6eca878bf9882dd"
+  },
+  {
+    "id": "6335bd71d072265f95f983fe",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.206Z",
+    "updatedAt": "2022-09-29T15:44:49.206Z",
+    "subjectClassId": "633468fdf6eca878bf9882ea"
+  },
+  {
+    "id": "6335bd71d072265f95f98401",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.208Z",
+    "updatedAt": "2022-09-29T15:44:49.208Z",
+    "subjectClassId": "6334691bf6eca878bf9882f2"
+  },
+  {
+    "id": "6335bd71d072265f95f983fd",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.207Z",
+    "subjectClassId": "63346907f6eca878bf9882ed"
+  },
+  {
+    "id": "6335bd71d072265f95f98403",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f0f6eca878bf9882e6"
+  },
+  {
+    "id": "6335bd71d072265f95f98404",
+    "name": "Kiểm tra thường xuyên 1",
+    "duration": 45,
+    "type": "theory",
+    "factor": 1,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.208Z",
+    "subjectClassId": "6334691bf6eca878bf9882f2"
+  },
+  {
+    "id": "6335bd71d072265f95f98406",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.207Z",
+    "updatedAt": "2022-09-29T15:44:49.208Z",
+    "subjectClassId": "6334691bf6eca878bf9882f1"
+  },
+  {
+    "id": "6335bd71d072265f95f98405",
+    "name": "Kiểm tra cuối kỳ",
+    "duration": 180,
+    "type": "practical",
+    "factor": 3,
+    "createdAt": "2022-09-29T15:44:49.205Z",
+    "updatedAt": "2022-09-29T15:44:49.205Z",
+    "subjectClassId": "633468f6f6eca878bf9882e7"
+  }
+]

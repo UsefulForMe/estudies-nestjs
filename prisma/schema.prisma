@@ -122,6 +122,7 @@ model Exam {
   name     String
   duration Int
   type     String
+  factor   Float
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -133,7 +134,7 @@ model Exam {
 
 model Mark {
   id    String @id @default(auto()) @map("_id") @db.ObjectId
-  score Int
+  score Float
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

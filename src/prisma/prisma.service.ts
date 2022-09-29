@@ -39,9 +39,9 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
     }
 
     const modelKeys = Prisma.dmmf.datamodel.models.map((m) => m.name);
-    return Promise.all(
-      modelKeys.map((modelName) => this[camelCase(modelName)].deleteMany()),
-    );
+    for (const model of modelKeys) {
+      await this[camelCase(model)].deleteMany();
+    }
   }
 
   async seedDatabase() {
