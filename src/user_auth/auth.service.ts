@@ -57,6 +57,40 @@ export class AuthService {
     return { access_token: accessToken };
   }
 
+  async loginAdmin(
+    credentials: LoginUserAuthReqDto,
+  ): Promise<LoginUserAuthResDto> {
+    const user = await this.prismaService.userAuth.findFirst({
+      where: {
+        email: credentials.email,
+      },
+    });
+
+    if (!user) {
+      throw new UnauthorizedException('Invalid credentials');
+    }
+
+    if (!user.isAdmin) {
+      throw new UnauthorizedException('Invalid credentials');
+    }
+
+    const isMatch = await this.bryptService.isEqual(
+      credentials.password,
+      user.password,
+    );
+
+    if (!isMatch) {
+      throw new UnauthorizedException('Invalid credentials');
+    }
+
+    const accessToken = this.jwtService.sign({
+      sub: user.email,
+      data: user,
+    });
+
+    return { access_token: accessToken };
+  }
+
   async register(user: RegisterUserAuthDto): Promise<string> {
     const isExists = await this.prismaService.userAuth.findFirst({
       where: {

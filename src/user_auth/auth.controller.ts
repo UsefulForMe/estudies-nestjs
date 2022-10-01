@@ -49,6 +49,30 @@ export class AuthController {
     };
   }
 
+  @Post('login/admin')
+  @ApiBody({
+    type: LoginUserAuthReqDto,
+    examples: {
+      empty_body: {
+        value: {} as LoginUserAuthReqDto,
+      },
+      valid_body: {
+        value: {
+          email: 'example@gmail.com',
+          password: '123456',
+        } as LoginUserAuthReqDto,
+      },
+    },
+  })
+  async loginAdmin(@Body() body: LoginUserAuthReqDto) {
+    const token = await this.authService.loginAdmin(body);
+    return {
+      statusCode: HttpStatus.OK,
+      message: 'success',
+      data: token,
+    };
+  }
+
   @Post('register')
   @ApiBody({
     type: RegisterUserAuthDto,

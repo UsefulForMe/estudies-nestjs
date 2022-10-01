@@ -11,6 +11,7 @@ enum UserType {
   teacher
   student
   parents
+  admin
 }
 
 model UserAuth {
@@ -21,8 +22,16 @@ model UserAuth {
   student  Student?
   teacher  Teacher?
   parents  Parents?
+  admin    Admin?
 
   isAdmin Boolean @default(false)
+}
+
+model Admin {
+  id     String   @id @default(auto()) @map("_id") @db.ObjectId
+  name   String   @db.String
+  auth   UserAuth @relation(fields: [authId], references: [id], onDelete: SetNull)
+  authId String   @unique @db.ObjectId
 }
 
 model Student {
