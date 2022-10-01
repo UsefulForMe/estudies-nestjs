@@ -6,6 +6,7 @@ import {
   Post,
   Put,
   Request,
+  Res,
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
@@ -18,8 +19,23 @@ export class MarkController {
   constructor(private readonly markService: MarkService) {}
   @UseGuards(JwtAuthGuard)
   @Get()
-  async findAll() {
-    return this.markService.findAll();
+  async findAll(@Res() res) {
+    const data = await this.markService.findAll();
+    const output = data.map((item) => {
+      return {
+        ...item,
+        student: item.student.name,
+        exam: item.exam.name,
+        subject: item.exam.subjectClass.name,
+      };
+    });
+
+    res.header(
+      'Content-Range',
+      `X-Total-Count: 0-${data.length}/${data.length}`,
+    );
+    res.header('Access-Control-Expose-Headers', 'Content-Range');
+    res.json(output);
   }
 
   @UseGuards(JwtAuthGuard)

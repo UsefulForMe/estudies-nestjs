@@ -5,7 +5,18 @@ import { PrismaService } from 'src/prisma/prisma.service';
 @Injectable()
 export class ParentsService {
   constructor(private readonly prisma: PrismaService) {}
-
+  async findMany(where?: Prisma.ParentsWhereInput) {
+    return this.prisma.parents.findMany({
+      where,
+      select: {
+        id: true,
+        name: true,
+        address: true,
+        createdAt: true,
+        updatedAt: true,
+      },
+    });
+  }
   async create(req: Prisma.ParentsCreateInput) {
     return this.prisma.parents.create({
       data: req,

@@ -15,7 +15,14 @@ export class SubjectClassService {
   async findAll(where?: Prisma.SubjectClassWhereInput) {
     return this.prismaService.subjectClass.findMany({
       where,
-      include: {
+      select: {
+        id: true,
+        name: true,
+        endAt: true,
+        startAt: true,
+        createdAt: true,
+        updatedAt: true,
+        code: true,
         subject: true,
         teacher: true,
         students: true,

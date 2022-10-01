@@ -15,6 +15,19 @@ export class MarkService {
   async findAll(where?: Prisma.MarkWhereInput) {
     return this.prismaService.mark.findMany({
       where,
+      select: {
+        id: true,
+        score: true,
+        createdAt: true,
+        updatedAt: true,
+        exam: {
+          select: {
+            name: true,
+            subjectClass: true,
+          },
+        },
+        student: true,
+      },
     });
   }
 

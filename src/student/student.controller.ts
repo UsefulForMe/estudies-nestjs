@@ -6,6 +6,7 @@ import {
   Post,
   Put,
   Request,
+  Res,
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
@@ -17,6 +18,25 @@ import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
 @Controller('student')
 export class StudentController {
   constructor(private readonly studentService: StudentService) {}
+
+  @UseGuards(JwtAuthGuard)
+  @Get()
+  async findManyStudents(@Request() request, @Res() res) {
+    const { user } = request;
+    if (!user.isAdmin) {
+      throw new UnauthorizedException(
+        'You are not authorized to view all student profiles',
+      );
+    }
+
+    const data = await this.studentService.findMany();
+    res.header(
+      'Content-Range',
+      `X-Total-Count: 0-${data.length}/${data.length}`,
+    );
+    res.header('Access-Control-Expose-Headers', 'Content-Range');
+    res.json(data);
+  }
 
   @UseGuards(JwtAuthGuard)
   @Post()

@@ -6,6 +6,7 @@ import {
   Post,
   Put,
   Request,
+  Res,
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
@@ -19,7 +20,24 @@ import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
 @Controller('parents')
 export class ParentsController {
   constructor(private readonly parentsService: ParentsService) {}
+  @UseGuards(JwtAuthGuard)
+  @Get()
+  async findManyParents(@Request() request, @Res() res) {
+    const { user } = request;
+    if (!user.isAdmin) {
+      throw new UnauthorizedException(
+        'You are not authorized to view all parents profiles',
+      );
+    }
 
+    const data = await this.parentsService.findMany();
+    res.header(
+      'Content-Range',
+      `X-Total-Count: 0-${data.length}/${data.length}`,
+    );
+    res.header('Access-Control-Expose-Headers', 'Content-Range');
+    res.json(data);
+  }
   @UseGuards(JwtAuthGuard)
   @Post()
   async createParents(@Request() request, @Body() body: CreateParentsReq) {

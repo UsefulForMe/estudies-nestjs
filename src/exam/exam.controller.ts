@@ -6,6 +6,7 @@ import {
   Post,
   Put,
   Request,
+  Response,
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
@@ -19,8 +20,21 @@ export class ExamController {
 
   @UseGuards(JwtAuthGuard)
   @Get()
-  async findAll() {
-    return this.examService.findAll();
+  async findAll(@Response() res) {
+    const data = await this.examService.findAll();
+    const output = data.map((item) => {
+      return {
+        ...item,
+        subjectClass: item.subjectClass.name,
+      };
+    });
+
+    res.header(
+      'Content-Range',
+      `X-Total-Count: 0-${output.length}/${output.length}`,
+    );
+    res.header('Access-Control-Expose-Headers', 'Content-Range');
+    res.json(output);
   }
 
   @UseGuards(JwtAuthGuard)

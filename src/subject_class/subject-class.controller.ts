@@ -7,6 +7,7 @@ import {
   Post,
   Put,
   Request,
+  Res,
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
@@ -29,8 +30,23 @@ export class SubjectClassController {
 
   @UseGuards(JwtAuthGuard)
   @Get()
-  async getAllSubjectClass() {
-    return this.subjectClassService.findAll();
+  async getAllSubjectClass(@Res() res) {
+    const data = await this.subjectClassService.findAll();
+    res.header(
+      'Content-Range',
+      `X-Total-Count: 0-${data.length}/${data.length}`,
+    );
+    const output = data.map((item) => {
+      return {
+        ...item,
+        teacher: item.teacher.name,
+        subject: item.subject.name,
+        students: item.students.length,
+      };
+    });
+
+    res.header('Access-Control-Expose-Headers', 'Content-Range');
+    res.json(output);
   }
 
   @Post()

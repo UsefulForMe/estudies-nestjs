@@ -6,6 +6,7 @@ import {
   Param,
   Post,
   Put,
+  Res,
 } from '@nestjs/common';
 import { ResourceService } from './resource.service';
 
@@ -13,8 +14,20 @@ import { ResourceService } from './resource.service';
 export class ResourceController {
   constructor(private readonly service: ResourceService) {}
   @Get()
-  async index() {
-    return await this.service.findAll();
+  async index(@Res() res) {
+    const data = await this.service.findAll();
+    const output = data.map((item) => {
+      return {
+        ...item,
+        subjectClass: item.subjectClass.name,
+      };
+    });
+    res.header(
+      'Content-Range',
+      `X-Total-Count: 0-${output.length}/${output.length}`,
+    );
+    res.header('Access-Control-Expose-Headers', 'Content-Range');
+    res.json(output);
   }
 
   @Get(':id')

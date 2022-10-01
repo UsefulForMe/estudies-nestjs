@@ -14,6 +14,16 @@ export class ExamService {
   async findAll(where?: Prisma.ExamWhereInput) {
     return this.prismaService.exam.findMany({
       where,
+      select: {
+        id: true,
+        name: true,
+        duration: true,
+        type: true,
+        factor: true,
+        createdAt: true,
+        updatedAt: true,
+        subjectClass: true,
+      },
     });
   }
 

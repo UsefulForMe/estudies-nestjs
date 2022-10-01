@@ -6,6 +6,7 @@ import {
   Param,
   Post,
   Put,
+  Res,
 } from '@nestjs/common';
 import { SubjectService } from './subject.service';
 
@@ -14,8 +15,14 @@ export class SubjectController {
   constructor(private readonly service: SubjectService) {}
 
   @Get()
-  async index() {
-    return await this.service.findAll();
+  async index(@Res() res) {
+    const data = await this.service.findAll();
+    res.header(
+      'Content-Range',
+      `X-Total-Count: 0-${data.length}/${data.length}`,
+    );
+    res.header('Access-Control-Expose-Headers', 'Content-Range');
+    res.json(data);
   }
 
   @Get(':id')

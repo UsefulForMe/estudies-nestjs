@@ -7,8 +7,18 @@ import { Resource } from '@prisma/client';
 export class ResourceService {
   constructor(private readonly prismaService: PrismaService) {}
 
-  async findAll(): Promise<Resource[]> {
-    return await this.prismaService.resource.findMany();
+  async findAll() {
+    return await this.prismaService.resource.findMany({
+      select: {
+        id: true,
+        name: true,
+        type: true,
+        link: true,
+        createdAt: true,
+        subjectClass: true,
+        updatedAt: true,
+      },
+    });
   }
 
   async findById(id: string): Promise<Resource> {
@@ -23,10 +33,7 @@ export class ResourceService {
     });
   }
 
-  async updateResource(
-    id: string,
-    updateResource: any,
-  ): Promise<Resource> {
+  async updateResource(id: string, updateResource: any): Promise<Resource> {
     return await this.prismaService.resource.update({
       where: { id: id },
       data: updateResource,
