@@ -1,13 +1,17 @@
 import { Injectable } from '@nestjs/common';
 import { Subject } from '@prisma/client';
+import { IFindAllAgruments } from 'src/common/interface';
 import { PrismaService } from 'src/prisma/prisma.service';
 
 @Injectable()
 export class SubjectService {
   constructor(private readonly prismaService: PrismaService) {}
 
-  async findAll(): Promise<Subject[]> {
-    return await this.prismaService.subject.findMany();
+  async findAll(args?: IFindAllAgruments) {
+    return Promise.all([
+      this.prismaService.subject.findMany(args),
+      this.prismaService.subject.count(),
+    ]);
   }
 
   async findById(id: string): Promise<Subject> {

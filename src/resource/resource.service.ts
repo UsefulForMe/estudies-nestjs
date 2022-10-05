@@ -2,23 +2,28 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'src/prisma/prisma.service';
 import { Resource } from '@prisma/client';
+import { IFindAllAgruments } from 'src/common/interface';
 
 @Injectable()
 export class ResourceService {
   constructor(private readonly prismaService: PrismaService) {}
 
-  async findAll() {
-    return await this.prismaService.resource.findMany({
-      select: {
-        id: true,
-        name: true,
-        type: true,
-        link: true,
-        createdAt: true,
-        subjectClass: true,
-        updatedAt: true,
-      },
-    });
+  async findAll(args?: IFindAllAgruments) {
+    return Promise.all([
+      this.prismaService.resource.findMany({
+        select: {
+          id: true,
+          name: true,
+          type: true,
+          link: true,
+          createdAt: true,
+          subjectClass: true,
+          updatedAt: true,
+        },
+        ...args,
+      }),
+      this.prismaService.resource.count(),
+    ]);
   }
 
   async findById(id: string): Promise<Resource> {

@@ -6,6 +6,7 @@ import {
   Param,
   Post,
   Put,
+  Query,
   Res,
 } from '@nestjs/common';
 import { SubjectService } from './subject.service';
@@ -15,12 +16,18 @@ export class SubjectController {
   constructor(private readonly service: SubjectService) {}
 
   @Get()
-  async index(@Res() res) {
-    const data = await this.service.findAll();
-    res.header(
-      'Content-Range',
-      `X-Total-Count: 0-${data.length}/${data.length}`,
-    );
+  async index(@Res() res, @Query() query) {
+    const { range } = query;
+    const [skip, take] = range ? JSON.parse(range) : [];
+    const params = {};
+    if (skip) {
+      params['skip'] = skip;
+    }
+    if (take) {
+      params['take'] = take - skip + 1;
+    }
+    const [data, total] = await this.service.findAll(params);
+    res.header('Content-Range', `X-Total-Count: 0-${data.length}/${total}`);
     res.header('Access-Control-Expose-Headers', 'Content-Range');
     res.json(data);
   }

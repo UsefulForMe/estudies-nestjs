@@ -6,6 +6,7 @@ import {
   Param,
   Post,
   Put,
+  Query,
   Request,
   Res,
   UnauthorizedException,
@@ -30,12 +31,19 @@ export class SubjectClassController {
 
   @UseGuards(JwtAuthGuard)
   @Get()
-  async getAllSubjectClass(@Res() res) {
-    const data = await this.subjectClassService.findAll();
-    res.header(
-      'Content-Range',
-      `X-Total-Count: 0-${data.length}/${data.length}`,
-    );
+  async getAllSubjectClass(@Res() res, @Query() query) {
+    const { range } = query;
+    const [skip, take] = range ? JSON.parse(range) : [];
+    const params = {};
+    if (skip) {
+      params['skip'] = skip;
+    }
+    if (take) {
+      params['take'] = take - skip + 1;
+    }
+    const [data, total] = await this.subjectClassService.findAll({}, params);
+    res.header('Content-Range', `X-Total-Count: 0-${data.length}/${total}`);
+
     const output = data.map((item) => {
       return {
         ...item,
@@ -55,7 +63,7 @@ export class SubjectClassController {
     @Body() body: CreateSubjectClassReq,
     @Request() req,
   ) {
-    const { subjectId, teacherId } = body;
+    const { subjectId, teacherId, startAt, endAt } = body;
     const { user } = req;
 
     if (!user.isAdmin) {
@@ -76,6 +84,8 @@ export class SubjectClassController {
     const input = {
       code,
       name,
+      startAt: new Date(startAt),
+      endAt: new Date(endAt),
       teacher: {
         connect: {
           id: teacherId,

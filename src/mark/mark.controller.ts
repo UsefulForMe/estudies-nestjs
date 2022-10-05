@@ -5,6 +5,7 @@ import {
   Param,
   Post,
   Put,
+  Query,
   Request,
   Res,
   UnauthorizedException,
@@ -19,8 +20,17 @@ export class MarkController {
   constructor(private readonly markService: MarkService) {}
   @UseGuards(JwtAuthGuard)
   @Get()
-  async findAll(@Res() res) {
-    const data = await this.markService.findAll();
+  async findAll(@Res() res, @Query() query) {
+    const { range } = query;
+    const [skip, take] = range ? JSON.parse(range) : [];
+    const params = {};
+    if (skip) {
+      params['skip'] = skip;
+    }
+    if (take) {
+      params['take'] = take - skip + 1;
+    }
+    const [data, total] = await this.markService.findAll({}, params);
     const output = data.map((item) => {
       return {
         ...item,
@@ -30,10 +40,7 @@ export class MarkController {
       };
     });
 
-    res.header(
-      'Content-Range',
-      `X-Total-Count: 0-${data.length}/${data.length}`,
-    );
+    res.header('Content-Range', `X-Total-Count: 0-${data.length}/${total}`);
     res.header('Access-Control-Expose-Headers', 'Content-Range');
     res.json(output);
   }

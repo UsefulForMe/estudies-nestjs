@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
+import { IFindAllAgruments } from 'src/common/interface';
 import { PrismaService } from 'src/prisma/prisma.service';
 
 @Injectable()
@@ -12,22 +13,29 @@ export class SubjectClassService {
     });
   }
 
-  async findAll(where?: Prisma.SubjectClassWhereInput) {
-    return this.prismaService.subjectClass.findMany({
-      where,
-      select: {
-        id: true,
-        name: true,
-        endAt: true,
-        startAt: true,
-        createdAt: true,
-        updatedAt: true,
-        code: true,
-        subject: true,
-        teacher: true,
-        students: true,
-      },
-    });
+  async findAll(
+    where?: Prisma.SubjectClassWhereInput,
+    args?: IFindAllAgruments,
+  ) {
+    return Promise.all([
+      this.prismaService.subjectClass.findMany({
+        where,
+        select: {
+          id: true, 
+          name: true,
+          endAt: true,
+          startAt: true,
+          createdAt: true,
+          updatedAt: true,
+          code: true,
+          subject: true,
+          teacher: true,
+          students: true,
+        },
+        ...args,
+      }),
+      this.prismaService.subjectClass.count(),
+    ]);
   }
 
   async findUnique(where: Prisma.SubjectClassWhereUniqueInput) {
@@ -36,6 +44,7 @@ export class SubjectClassService {
       include: {
         subject: true,
         teacher: true,
+        students: true,
       },
     });
   }

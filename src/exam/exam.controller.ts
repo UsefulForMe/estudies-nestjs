@@ -5,6 +5,7 @@ import {
   Param,
   Post,
   Put,
+  Query,
   Request,
   Response,
   UnauthorizedException,
@@ -20,8 +21,17 @@ export class ExamController {
 
   @UseGuards(JwtAuthGuard)
   @Get()
-  async findAll(@Response() res) {
-    const data = await this.examService.findAll();
+  async findAll(@Response() res, @Query() query) {
+    const { range } = query;
+    const [skip, take] = range ? JSON.parse(range) : [];
+    const params = {};
+    if (skip) {
+      params['skip'] = skip;
+    }
+    if (take) {
+      params['take'] = take - skip + 1;
+    }
+    const [data, total] = await this.examService.findAll({}, params);
     const output = data.map((item) => {
       return {
         ...item,
@@ -29,10 +39,7 @@ export class ExamController {
       };
     });
 
-    res.header(
-      'Content-Range',
-      `X-Total-Count: 0-${output.length}/${output.length}`,
-    );
+    res.header('Content-Range', `X-Total-Count: 0-${output.length}/${total}`);
     res.header('Access-Control-Expose-Headers', 'Content-Range');
     res.json(output);
   }

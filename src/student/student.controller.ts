@@ -5,6 +5,7 @@ import {
   Param,
   Post,
   Put,
+  Query,
   Request,
   Res,
   UnauthorizedException,
@@ -21,7 +22,9 @@ export class StudentController {
 
   @UseGuards(JwtAuthGuard)
   @Get()
-  async findManyStudents(@Request() request, @Res() res) {
+  async findManyStudents(@Request() request, @Res() res, @Query() query) {
+    const { range } = query;
+    const [skip, take] = range ? JSON.parse(range) : [];
     const { user } = request;
     if (!user.isAdmin) {
       throw new UnauthorizedException(
@@ -29,11 +32,16 @@ export class StudentController {
       );
     }
 
-    const data = await this.studentService.findMany();
-    res.header(
-      'Content-Range',
-      `X-Total-Count: 0-${data.length}/${data.length}`,
-    );
+    const params = {};
+    if (skip) {
+      params['skip'] = skip;
+    }
+    if (take) {
+      params['take'] = take - skip + 1;
+    }
+
+    const [data, total] = await this.studentService.findMany({}, params);
+    res.header('Content-Range', `X-Total-Count: 0-${data.length}/${total}`);
     res.header('Access-Control-Expose-Headers', 'Content-Range');
     res.json(data);
   }

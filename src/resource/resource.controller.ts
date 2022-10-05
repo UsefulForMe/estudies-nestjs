@@ -6,6 +6,7 @@ import {
   Param,
   Post,
   Put,
+  Query,
   Res,
 } from '@nestjs/common';
 import { ResourceService } from './resource.service';
@@ -14,18 +15,25 @@ import { ResourceService } from './resource.service';
 export class ResourceController {
   constructor(private readonly service: ResourceService) {}
   @Get()
-  async index(@Res() res) {
-    const data = await this.service.findAll();
+  async index(@Res() res, @Query() query) {
+    const { range } = query;
+    const [skip, take] = range ? JSON.parse(range) : [];
+    const params = {};
+    if (skip) {
+      params['skip'] = skip;
+    }
+    if (take) {
+      params['take'] = take - skip + 1;
+    }
+
+    const [data, total] = await this.service.findAll(params);
     const output = data.map((item) => {
       return {
         ...item,
         subjectClass: item.subjectClass.name,
       };
     });
-    res.header(
-      'Content-Range',
-      `X-Total-Count: 0-${output.length}/${output.length}`,
-    );
+    res.header('Content-Range', `X-Total-Count: 0-${output.length}/${total}`);
     res.header('Access-Control-Expose-Headers', 'Content-Range');
     res.json(output);
   }
@@ -35,7 +43,7 @@ export class ResourceController {
     return await this.service.findById(id);
   }
 
-  @Post('create')
+  @Post()
   async create(@Body() createResource: any) {
     return await this.service.createResource(createResource);
   }

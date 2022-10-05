@@ -5,6 +5,7 @@ import {
   Param,
   Post,
   Put,
+  Query,
   Request,
   Res,
   UnauthorizedException,
@@ -22,19 +23,24 @@ export class ParentsController {
   constructor(private readonly parentsService: ParentsService) {}
   @UseGuards(JwtAuthGuard)
   @Get()
-  async findManyParents(@Request() request, @Res() res) {
+  async findManyParents(@Request() request, @Res() res, @Query() query) {
+    const { range } = query;
+    const [skip, take] = range ? JSON.parse(range) : [];
     const { user } = request;
     if (!user.isAdmin) {
       throw new UnauthorizedException(
         'You are not authorized to view all parents profiles',
       );
     }
-
-    const data = await this.parentsService.findMany();
-    res.header(
-      'Content-Range',
-      `X-Total-Count: 0-${data.length}/${data.length}`,
-    );
+    const params = {};
+    if (skip) {
+      params['skip'] = skip;
+    }
+    if (take) {
+      params['take'] = take - skip + 1;
+    }
+    const [data, total] = await this.parentsService.findMany({}, params);
+    res.header('Content-Range', `X-Total-Count: 0-${data.length}/${total}`);
     res.header('Access-Control-Expose-Headers', 'Content-Range');
     res.json(data);
   }

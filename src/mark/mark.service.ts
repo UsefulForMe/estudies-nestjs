@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
+import { IFindAllAgruments } from 'src/common/interface';
 import { PrismaService } from 'src/prisma/prisma.service';
 
 @Injectable()
@@ -12,23 +13,27 @@ export class MarkService {
     });
   }
 
-  async findAll(where?: Prisma.MarkWhereInput) {
-    return this.prismaService.mark.findMany({
-      where,
-      select: {
-        id: true,
-        score: true,
-        createdAt: true,
-        updatedAt: true,
-        exam: {
-          select: {
-            name: true,
-            subjectClass: true,
+  async findAll(where?: Prisma.MarkWhereInput, args?: IFindAllAgruments) {
+    return Promise.all([
+      this.prismaService.mark.findMany({
+        where,
+        select: {
+          id: true,
+          score: true,
+          createdAt: true,
+          updatedAt: true,
+          exam: {
+            select: {
+              name: true,
+              subjectClass: true,
+            },
           },
+          student: true,
         },
-        student: true,
-      },
-    });
+        ...args,
+      }),
+      this.prismaService.mark.count(),
+    ]);
   }
 
   async findUnique(where: Prisma.MarkWhereUniqueInput) {

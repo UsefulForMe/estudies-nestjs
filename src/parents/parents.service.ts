@@ -1,21 +1,26 @@
 import { Injectable } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
+import { IFindAllAgruments } from 'src/common/interface';
 import { PrismaService } from 'src/prisma/prisma.service';
 
 @Injectable()
 export class ParentsService {
   constructor(private readonly prisma: PrismaService) {}
-  async findMany(where?: Prisma.ParentsWhereInput) {
-    return this.prisma.parents.findMany({
-      where,
-      select: {
-        id: true,
-        name: true,
-        address: true,
-        createdAt: true,
-        updatedAt: true,
-      },
-    });
+  async findMany(where?: Prisma.ParentsWhereInput, args?: IFindAllAgruments) {
+    return Promise.all([
+      this.prisma.parents.findMany({
+        where,
+        select: {
+          id: true,
+          name: true,
+          address: true,
+          createdAt: true,
+          updatedAt: true,
+        },
+        ...args,
+      }),
+      this.prisma.parents.count(),
+    ]);
   }
   async create(req: Prisma.ParentsCreateInput) {
     return this.prisma.parents.create({
@@ -26,6 +31,9 @@ export class ParentsService {
   async findUnique(where: Prisma.ParentsWhereUniqueInput) {
     return this.prisma.parents.findUnique({
       where,
+      include: {
+        student: true,
+      },
     });
   }
 
