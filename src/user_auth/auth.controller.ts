@@ -6,7 +6,11 @@ import {
   Injectable,
   Param,
   Post,
+  Query,
+  Request,
+  Res,
   UnauthorizedException,
+  UseGuards,
 } from '@nestjs/common';
 import { ApiBody, ApiTags } from '@nestjs/swagger';
 import { AppConfigService } from 'src/config/app-config.service';
@@ -15,6 +19,7 @@ import {
   RegisterUserAuthDto,
 } from 'src/user_auth/auth.dto';
 import { AuthService } from 'src/user_auth/auth.service';
+import { JwtAuthGuard } from './jwt-auth.guard';
 
 @Injectable()
 @ApiTags('auth')
@@ -110,5 +115,12 @@ export class AuthController {
       statusCode: HttpStatus.OK,
       message: 'success',
     };
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Get('verify')
+  async verifyToken(@Request() request, @Res() res, @Query() query) {
+    const { user } = request;
+    res.json(user);
   }
 }

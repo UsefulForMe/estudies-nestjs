@@ -128,6 +128,15 @@ export class AuthService {
     return verifyToken;
   }
 
+  async verifyToken(token: string): Promise<any> {
+    try {
+      const payload = this.jwtService.verify(token);
+      return payload;
+    } catch (err) {
+      return null;
+    }
+  }
+
   async verifyRegister(verifyToken: string): Promise<boolean> {
     const key = `verifyToken:${verifyToken}`;
 
