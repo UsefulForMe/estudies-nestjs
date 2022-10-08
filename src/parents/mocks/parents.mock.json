@@ -3,13 +3,15 @@
     "id": "63344f37770d98995745cabd",
     "name": "Phạm Thị H",
     "address": "thôn Bá Đông||xã Bình Minh||huyện Bình Giang||tỉnh Hải Dương",
-    "authId": "63344dce2cc99fc7a87fef6d"
+    "authId": "63344dce2cc99fc7a87fef6d",
+    "phone": "0989999999"
   },
 
   {
     "id": "63344f37770d98995745cabe",
     "name": "Vũ Đình Q",
     "address": "thôn Bá Đông||xã Bình Minh||huyện Bình Giang||tỉnh Hải Dương",
-    "authId": "63344dce2cc99fc7a87fef6c"
+    "authId": "63344dce2cc99fc7a87fef6c",
+    "phone": "0989999998"
   }
 ]

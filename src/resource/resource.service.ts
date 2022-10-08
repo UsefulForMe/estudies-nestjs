@@ -1,16 +1,17 @@
 /* eslint-disable prettier/prettier */
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'src/prisma/prisma.service';
-import { Resource } from '@prisma/client';
+import { Prisma, Resource } from '@prisma/client';
 import { IFindAllAgruments } from 'src/common/interface';
 
 @Injectable()
 export class ResourceService {
   constructor(private readonly prismaService: PrismaService) {}
 
-  async findAll(args?: IFindAllAgruments) {
+  async findAll(args?: IFindAllAgruments, where?: Prisma.ResourceWhereInput) {
     return Promise.all([
       this.prismaService.resource.findMany({
+        where: where,
         select: {
           id: true,
           name: true,
