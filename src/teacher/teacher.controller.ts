@@ -33,11 +33,11 @@ export class TeacherController {
       params['take'] = take - skip + 1;
     }
     const { user } = request;
-    if (!user.isAdmin) {
-      throw new UnauthorizedException(
-        'You are not authorized to view all teacher profiles',
-      );
-    }
+    // if (!user.isAdmin) {
+    //   throw new UnauthorizedException(
+    //     'You are not authorized to view all teacher profiles',
+    //   );
+    // }
 
     const [data, total] = await this.teacherService.findMany({}, params);
     res.header('Content-Range', `X-Total-Count: 0-${data.length}/${total}`);
