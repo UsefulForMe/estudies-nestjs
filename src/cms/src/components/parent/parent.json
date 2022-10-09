@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_parent_parents",
+  "info": {
+    "displayName": "parent"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

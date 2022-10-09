@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_resource_resources",
+  "info": {
+    "displayName": "resource",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

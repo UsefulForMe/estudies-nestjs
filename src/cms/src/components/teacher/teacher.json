@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_teacher_teachers",
+  "info": {
+    "displayName": "teacher",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

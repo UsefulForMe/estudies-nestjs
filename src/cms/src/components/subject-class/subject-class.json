@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_subject_class_subject_classes",
+  "info": {
+    "displayName": "subject-class",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text",
+      "required": true
+    },
+    "resource": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resource.resource"
+    },
+    "subject": {
+      "type": "component",
+      "repeatable": true,
+      "component": "subject.subject"
+    },
+    "teacher": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teacher.teacher"
+    },
+    "exam": {
+      "type": "component",
+      "repeatable": true,
+      "component": "exam.exam"
+    }
+  }
+}
