@@ -34,7 +34,7 @@ async function bootstrap() {
   setupSwagger(app);
 
   await app.listen(port, () => {
-    logger.log(`Server is running on port ${port}`, 'Bootstrap');
+    logger.log(`Server is running on port ${port}`, 'Bootstrap hi');
   });
 
   await prismaSerivce.enableShutdownHooks(app);

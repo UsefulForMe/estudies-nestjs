@@ -24,7 +24,17 @@ model UserAuth {
   parents  Parents?
   admin    Admin?
 
-  isAdmin Boolean @default(false)
+  isAdmin   Boolean    @default(false)
+  feedbacks Feedback[]
+}
+
+model Feedback {
+  id      String   @id @default(auto()) @map("_id") @db.ObjectId
+  message String   @db.String
+  time    DateTime @default(now())
+
+  user   UserAuth @relation(fields: [userId], references: [id], onDelete: SetNull)
+  userId String
 }
 
 model Admin {
