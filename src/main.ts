@@ -47,6 +47,7 @@ function setupSwagger(app: INestApplication) {
     .setDescription('The Estudies API documentation')
     .setVersion('1.0')
     .addTag('estudies')
+    .addBearerAuth()
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('docs', app, document);

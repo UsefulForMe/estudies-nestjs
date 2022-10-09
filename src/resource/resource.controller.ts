@@ -8,12 +8,25 @@ import {
   Put,
   Query,
   Res,
+  UseGuards,
 } from '@nestjs/common';
+import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
 import { ResourceService } from './resource.service';
 
 @Controller('resource')
 export class ResourceController {
   constructor(private readonly service: ResourceService) {}
+  @UseGuards(JwtAuthGuard)
+  @Get('/subject-class/:id')
+  async getResourceBySubjectClassId(@Param('id') id: string) {
+    const [data] = await this.service.findAll(
+      {},
+      {
+        subjectClassId: id,
+      },
+    );
+    return data;
+  }
   @Get()
   async index(@Res() res, @Query() query) {
     const { range } = query;
