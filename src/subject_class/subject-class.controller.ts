@@ -105,23 +105,28 @@ export class SubjectClassController {
   @UseGuards(JwtAuthGuard)
   @Get('/teacher/:id')
   async getSubjectClassByTeacherId(@Param('id') id: string) {
-    return this.subjectClassService.findAll({ teacherId: id });
+    const [data] = await this.subjectClassService.findAll({
+      teacherId: id,
+    });
+    return data;
   }
 
   @UseGuards(JwtAuthGuard)
   @Get('/subject/:id')
   async getSubjectClassBySubjectId(@Param('id') id: string) {
-    return this.subjectClassService.findAll({ subjectId: id });
+    const [data] = await this.subjectClassService.findAll({ subjectId: id });
+    return data;
   }
 
   @UseGuards(JwtAuthGuard)
   @Get('/student/:id')
   async getSubjectClassByStudentId(@Param('id') id: string) {
-    return this.subjectClassService.findAll({
+    const [data] = await this.subjectClassService.findAll({
       studentIds: {
         has: id,
       },
     });
+    return data;
   }
 
   @UseGuards(JwtAuthGuard)

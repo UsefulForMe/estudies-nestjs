@@ -89,7 +89,8 @@ export class MarkController {
     @Param('studentId') studentId: string,
     @Param('examId') examId: string,
   ) {
-    return this.markService.findAll({ studentId, examId });
+    const [data] = await this.markService.findAll({ studentId, examId });
+    return data;
   }
 
   @UseGuards(JwtAuthGuard)

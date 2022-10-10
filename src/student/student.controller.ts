@@ -12,6 +12,7 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { get } from 'lodash';
+import { SortOrderMap } from 'src/common/interface';
 import { CreateStudentReq, UpdateStudentReq } from 'src/student/student.dto';
 import { StudentService } from 'src/student/student.service';
 import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
@@ -23,8 +24,9 @@ export class StudentController {
   @UseGuards(JwtAuthGuard)
   @Get()
   async findManyStudents(@Request() request, @Res() res, @Query() query) {
-    const { range } = query;
+    const { range, sort } = query;
     const [skip, take] = range ? JSON.parse(range) : [];
+    const [sortField, sortOrder] = sort ? JSON.parse(sort) : [];
     const { user } = request;
     if (!user.isAdmin) {
       throw new UnauthorizedException(
@@ -38,6 +40,12 @@ export class StudentController {
     }
     if (take) {
       params['take'] = take - skip + 1;
+    }
+
+    if (sortField && sortOrder) {
+      params['orderBy'] = {
+        [sortField]: SortOrderMap[sortOrder],
+      };
     }
 
     const [data, total] = await this.studentService.findMany({}, params);

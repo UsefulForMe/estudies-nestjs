@@ -23,7 +23,9 @@ export class ResourceService {
         },
         ...args,
       }),
-      this.prismaService.resource.count(),
+      this.prismaService.resource.count({
+        where,
+      }),
     ]);
   }
 

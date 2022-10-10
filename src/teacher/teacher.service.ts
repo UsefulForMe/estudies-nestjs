@@ -19,7 +19,9 @@ export class TeacherService {
         },
         ...args,
       }),
-      this.prisma.teacher.count(),
+      this.prisma.teacher.count({
+        where,
+      }),
     ]);
   }
   async create(req: Prisma.TeacherCreateInput) {

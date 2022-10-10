@@ -72,7 +72,8 @@ export class ExamController {
   @UseGuards(JwtAuthGuard)
   @Get('subject-class/:id')
   async findBySubjectClass(@Param('id') id: string) {
-    return this.examService.findAll({ subjectClassId: id });
+    const [data] = await this.examService.findAll({ subjectClassId: id });
+    return data;
   }
 
   @UseGuards(JwtAuthGuard)

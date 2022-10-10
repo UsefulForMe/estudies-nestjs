@@ -21,7 +21,7 @@ export class SubjectClassService {
       this.prismaService.subjectClass.findMany({
         where,
         select: {
-          id: true, 
+          id: true,
           name: true,
           endAt: true,
           startAt: true,
@@ -34,7 +34,9 @@ export class SubjectClassService {
         },
         ...args,
       }),
-      this.prismaService.subjectClass.count(),
+      this.prismaService.subjectClass.count({
+        where,
+      }),
     ]);
   }
 

@@ -28,7 +28,9 @@ export class ExamService {
         },
         ...args,
       }),
-      this.prismaService.exam.count(),
+      this.prismaService.exam.count({
+        where,
+      }),
     ]);
   }
 

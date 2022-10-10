@@ -1,5 +1,10 @@
 export interface IFindAllAgruments {
   skip?: number;
   take?: number;
-  sort?: never;
+  orderBy?: any;
 }
+
+export const SortOrderMap = {
+  ASC: 'asc',
+  DESC: 'desc',
+};
