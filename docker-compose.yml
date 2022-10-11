@@ -1,17 +1,17 @@
 version: '3.5'
 services:
-  estudies_app:
-    build: .
-    container_name: estudies_app
-    env_file: .env
-    ports:
-      - '${HTTP_SERVER_PORT}:${HTTP_SERVER_PORT}'
-    restart: always
-    networks:
-      - estudies_network
-    depends_on:
-      - estudies_mongo
-      - estudies_redis
+  # estudies_app:
+  #   build: .
+  #   container_name: estudies_app
+  #   env_file: .env
+  #   ports:
+  #     - '${HTTP_SERVER_PORT}:${HTTP_SERVER_PORT}'
+  #   restart: always
+  #   networks:
+  #     - estudies_network
+  #   depends_on:
+  #     - estudies_mongo
+  #     - estudies_redis
 
   estudies_mongo:
     image: mongo:latest
