@@ -9,6 +9,7 @@ import {
   Res,
   UseGuards,
 } from '@nestjs/common';
+import { ApiBearerAuth } from '@nestjs/swagger';
 import { FeedbackService } from 'src/feedback/feedback.service';
 import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
 
@@ -17,6 +18,7 @@ export class FeedbackController {
   constructor(private readonly service: FeedbackService) {}
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get()
   async getAll(@Res() res, @Query() query) {
     const { range } = query;
@@ -42,12 +44,14 @@ export class FeedbackController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get(':id')
   async find(@Param('id') id: string) {
     return await this.service.findById({ id });
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Post()
   async create(@Body() data: any, @Request() req) {
     const { user } = req;

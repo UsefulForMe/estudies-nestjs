@@ -11,6 +11,7 @@ import {
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
+import { ApiBearerAuth } from '@nestjs/swagger';
 import { CreateMarkReq, UpdateMarkReq } from 'src/mark/mark.dto';
 import { MarkService } from 'src/mark/mark.service';
 import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
@@ -19,6 +20,7 @@ import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
 export class MarkController {
   constructor(private readonly markService: MarkService) {}
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get()
   async findAll(@Res() res, @Query() query) {
     const { range } = query;
@@ -46,6 +48,7 @@ export class MarkController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Post('/student/:studentId/exam/:examId')
   async createMark(
     @Body() data: CreateMarkReq,
@@ -78,22 +81,33 @@ export class MarkController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get(':id')
   async findUnique(@Param('id') id: string) {
     return this.markService.findUnique({ id });
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get('student/:studentId/exam/:examId')
   async findByStudentAndExam(
     @Param('studentId') studentId: string,
     @Param('examId') examId: string,
   ) {
     const [data] = await this.markService.findAll({ studentId, examId });
-    return data;
+    const output = data.map((item) => {
+      return {
+        ...item,
+        student: item.student.name,
+        exam: item.exam.name,
+        subject: item.exam.subjectClass.name,
+      };
+    });
+    return output;
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Put(':id')
   async updateMark(
     @Param('id') id: string,

@@ -11,6 +11,7 @@ import {
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
+import { ApiBearerAuth } from '@nestjs/swagger';
 import { CreateExamReq, UpdateExamReq } from 'src/exam/exam.dto';
 import { ExamService } from 'src/exam/exam.service';
 import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
@@ -20,6 +21,7 @@ export class ExamController {
   constructor(private readonly examService: ExamService) {}
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get()
   async findAll(@Response() res, @Query() query) {
     const { range } = query;
@@ -45,6 +47,7 @@ export class ExamController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Post()
   async createExam(@Body() data: CreateExamReq, @Request() req) {
     const { user } = req;
@@ -70,19 +73,28 @@ export class ExamController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get('subject-class/:id')
   async findBySubjectClass(@Param('id') id: string) {
     const [data] = await this.examService.findAll({ subjectClassId: id });
-    return data;
+    const output = data.map((item) => {
+      return {
+        ...item,
+        subjectClass: item.subjectClass.name,
+      };
+    });
+    return output;
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get(':id')
   async findUnique(@Param('id') id: string) {
     return this.examService.findUnique({ id });
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Put(':id')
   async updateExam(
     @Param('id') id: string,

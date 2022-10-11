@@ -7,6 +7,7 @@ import {
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
+import { ApiBearerAuth } from '@nestjs/swagger';
 import { AdminService } from 'src/admin/admin.service';
 import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
 
@@ -15,6 +16,7 @@ export class AdminController {
   constructor(private readonly adminService: AdminService) {}
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get('me')
   async myProfile(@Req() req) {
     const { user } = req;
@@ -29,6 +31,7 @@ export class AdminController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Post('me')
   createProfile(@Req() req) {
     const { user } = req;

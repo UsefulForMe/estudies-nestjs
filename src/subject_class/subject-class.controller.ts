@@ -12,6 +12,7 @@ import {
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
+import { ApiBearerAuth } from '@nestjs/swagger';
 
 import { SubjectService } from 'src/subject/subject.service';
 import {
@@ -30,6 +31,7 @@ export class SubjectClassController {
   ) {}
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get()
   async getAllSubjectClass(@Res() res, @Query() query) {
     const { range } = query;
@@ -59,6 +61,7 @@ export class SubjectClassController {
 
   @Post()
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   async createNewSubjectClass(
     @Body() body: CreateSubjectClassReq,
     @Request() req,
@@ -103,22 +106,42 @@ export class SubjectClassController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get('/teacher/:id')
   async getSubjectClassByTeacherId(@Param('id') id: string) {
     const [data] = await this.subjectClassService.findAll({
       teacherId: id,
     });
-    return data;
+
+    const output = data.map((item) => {
+      return {
+        ...item,
+        teacher: item.teacher.name,
+        subject: item.subject.name,
+        students: item.students.length,
+      };
+    });
+    return output;
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get('/subject/:id')
   async getSubjectClassBySubjectId(@Param('id') id: string) {
     const [data] = await this.subjectClassService.findAll({ subjectId: id });
-    return data;
+    const output = data.map((item) => {
+      return {
+        ...item,
+        teacher: item.teacher.name,
+        subject: item.subject.name,
+        students: item.students.length,
+      };
+    });
+    return output;
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get('/student/:id')
   async getSubjectClassByStudentId(@Param('id') id: string) {
     const [data] = await this.subjectClassService.findAll({
@@ -126,16 +149,26 @@ export class SubjectClassController {
         has: id,
       },
     });
-    return data;
+    const output = data.map((item) => {
+      return {
+        ...item,
+        teacher: item.teacher.name,
+        subject: item.subject.name,
+        students: item.students.length,
+      };
+    });
+    return output;
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get(':id')
   async getSubjectClass(@Param('id') id: string) {
     return this.subjectClassService.findUnique({ id });
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Put(':id')
   async updateSubjectClass(
     @Param('id') id: string,
@@ -159,6 +192,7 @@ export class SubjectClassController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Put(':id/add-students')
   async addStudentsToSubjectClass(
     @Param('id') id: string,

@@ -11,6 +11,7 @@ import {
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
+import { ApiBearerAuth } from '@nestjs/swagger';
 import { get } from 'lodash';
 import { CreateTeacherReq, UpdateTeacherReq } from 'src/teacher/teacher.dto';
 import { TeacherService } from 'src/teacher/teacher.service';
@@ -21,6 +22,7 @@ export class TeacherController {
   constructor(private readonly teacherService: TeacherService) {}
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get()
   async findManyTeacher(@Request() request, @Res() res, @Query() query) {
     const { range } = query;
@@ -46,6 +48,7 @@ export class TeacherController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Post()
   async createTeacher(@Request() request, @Body() body: CreateTeacherReq) {
     const { user } = request;
@@ -63,6 +66,7 @@ export class TeacherController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get('/me')
   async getMyProfile(@Request() request) {
     const { user } = request;
@@ -70,6 +74,7 @@ export class TeacherController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Put('/me')
   async updateMyProfile(@Request() request, @Body() body: UpdateTeacherReq) {
     const id = get(request, 'user.teacher.id');
@@ -82,6 +87,7 @@ export class TeacherController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get(':id')
   async getTeacher(@Param('id') id: string, @Request() request) {
     const { user } = request;
@@ -101,6 +107,7 @@ export class TeacherController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Put(':id')
   async updateTeacher(
     @Param('id') id: string,

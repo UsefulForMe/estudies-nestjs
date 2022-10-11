@@ -12,7 +12,7 @@ import {
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
-import { ApiBody, ApiTags } from '@nestjs/swagger';
+import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { AppConfigService } from 'src/config/app-config.service';
 import {
   LoginUserAuthReqDto,
@@ -39,7 +39,7 @@ export class AuthController {
       },
       valid_body: {
         value: {
-          email: 'example@gmail.com',
+          email: 'admin@gmail.com',
           password: '123456',
         } as LoginUserAuthReqDto,
       },
@@ -63,7 +63,7 @@ export class AuthController {
       },
       valid_body: {
         value: {
-          email: 'example@gmail.com',
+          email: 'admin@gmail.com',
           password: '123456',
         } as LoginUserAuthReqDto,
       },
@@ -87,7 +87,7 @@ export class AuthController {
       },
       valid_body: {
         value: {
-          email: 'example@gmail.com',
+          email: 'admin@gmail.com',
           password: '123456',
         } as RegisterUserAuthDto,
       },
@@ -118,6 +118,7 @@ export class AuthController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get('verify')
   async verifyToken(@Request() request, @Res() res, @Query() query) {
     const { user } = request;

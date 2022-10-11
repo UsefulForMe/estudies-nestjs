@@ -11,6 +11,7 @@ import {
   UnauthorizedException,
   UseGuards,
 } from '@nestjs/common';
+import { ApiBearerAuth } from '@nestjs/swagger';
 import { get } from 'lodash';
 import { CreateParentsReq, UpdateParentsReq } from 'src/parents/parents.dto';
 import { ParentsService } from 'src/parents/parents.service';
@@ -22,6 +23,7 @@ import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
 export class ParentsController {
   constructor(private readonly parentsService: ParentsService) {}
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get()
   async findManyParents(@Request() request, @Res() res, @Query() query) {
     const { range } = query;
@@ -45,6 +47,7 @@ export class ParentsController {
     res.json(data);
   }
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Post()
   async createParents(@Request() request, @Body() body: CreateParentsReq) {
     const { user } = request;
@@ -62,6 +65,7 @@ export class ParentsController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get('/me')
   async getMyProfile(@Request() request) {
     const { user } = request;
@@ -69,6 +73,7 @@ export class ParentsController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Put('/me')
   async updateMyProfile(@Request() request, @Body() body: UpdateParentsReq) {
     const id = get(request, 'user.parents.id');
@@ -81,6 +86,7 @@ export class ParentsController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get(':id')
   async getParents(@Param('id') id: string, @Request() request) {
     const { user } = request;
@@ -103,6 +109,7 @@ export class ParentsController {
   }
 
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Put(':id')
   async updateParents(
     @Param('id') id: string,

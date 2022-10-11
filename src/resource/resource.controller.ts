@@ -10,6 +10,7 @@ import {
   Res,
   UseGuards,
 } from '@nestjs/common';
+import { ApiBearerAuth } from '@nestjs/swagger';
 import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
 import { ResourceService } from './resource.service';
 
@@ -17,6 +18,7 @@ import { ResourceService } from './resource.service';
 export class ResourceController {
   constructor(private readonly service: ResourceService) {}
   @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
   @Get('/subject-class/:id')
   async getResourceBySubjectClassId(@Param('id') id: string) {
     const [data] = await this.service.findAll(
@@ -25,7 +27,13 @@ export class ResourceController {
         subjectClassId: id,
       },
     );
-    return data;
+    const output = data.map((item) => {
+      return {
+        ...item,
+        subjectClass: item.subjectClass.name,
+      };
+    });
+    return output;
   }
   @Get()
   async index(@Res() res, @Query() query) {
