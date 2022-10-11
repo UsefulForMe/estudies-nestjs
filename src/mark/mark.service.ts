@@ -24,6 +24,7 @@ export class MarkService {
           updatedAt: true,
           exam: {
             select: {
+              id: true,
               name: true,
               subjectClass: true,
             },

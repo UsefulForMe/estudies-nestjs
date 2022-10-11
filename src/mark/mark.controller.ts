@@ -12,13 +12,17 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { ApiBearerAuth } from '@nestjs/swagger';
+import { ExamService } from 'src/exam/exam.service';
 import { CreateMarkReq, UpdateMarkReq } from 'src/mark/mark.dto';
 import { MarkService } from 'src/mark/mark.service';
 import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
 
 @Controller('mark')
 export class MarkController {
-  constructor(private readonly markService: MarkService) {}
+  constructor(
+    private readonly markService: MarkService,
+    private readonly examService: ExamService,
+  ) {}
   @UseGuards(JwtAuthGuard)
   @ApiBearerAuth()
   @Get()
@@ -101,6 +105,31 @@ export class MarkController {
         student: item.student.name,
         exam: item.exam.name,
         subject: item.exam.subjectClass.name,
+      };
+    });
+    return output;
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
+  @Get('subject-class/:subjectClassId')
+  async findBySubjectClass(@Param('subjectClassId') subjectClassId: string) {
+    const [exams] = await this.examService.findAll({ subjectClassId });
+    const examIds = exams.map((item) => item.id);
+    const [data] = await this.markService.findAll({
+      examId: {
+        in: examIds,
+      },
+    });
+    const output = data.map((item) => {
+      return {
+        ...item,
+        student: item.student.name,
+        studentId: item.student.id,
+        exam: item.exam.name,
+        examId: item.exam.id,
+        subject: item.exam.subjectClass.name,
+        subjectId: item.exam.subjectClass.id,
       };
     });
     return output;
