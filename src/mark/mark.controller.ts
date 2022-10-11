@@ -12,6 +12,7 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { ApiBearerAuth } from '@nestjs/swagger';
+import { groupBy, reduce } from 'lodash';
 import { ExamService } from 'src/exam/exam.service';
 import { CreateMarkReq, UpdateMarkReq } from 'src/mark/mark.dto';
 import { MarkService } from 'src/mark/mark.service';
@@ -132,7 +133,35 @@ export class MarkController {
         subjectId: item.exam.subjectClass.id,
       };
     });
-    return output;
+
+    const groupStudents = groupBy(output, 'studentId');
+    const result = reduce(
+      groupStudents,
+      (result, value) => {
+        if (!value.length) {
+          return result;
+        }
+        console.log(result);
+
+        const item = {
+          student: value[0].student,
+          studentId: value[0].studentId,
+          subject: value[0].subject,
+          exams: value.map((item) => {
+            return {
+              exam: item.exam,
+              examId: item.examId,
+              score: item.score,
+            };
+          }),
+        };
+        result.push(item);
+        return result;
+      },
+      [],
+    );
+
+    return result;
   }
 
   @UseGuards(JwtAuthGuard)
