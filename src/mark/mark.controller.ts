@@ -152,6 +152,7 @@ export class MarkController {
               exam: item.exam,
               examId: item.examId,
               score: item.score,
+              markId:item.id
             };
           }),
         };
