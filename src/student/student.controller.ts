@@ -26,9 +26,11 @@ export class StudentController {
   @ApiBearerAuth()
   @Get()
   async findManyStudents(@Request() request, @Res() res, @Query() query) {
-    const { range, sort } = query;
+    const { range, sort, filter } = query;
+
     const [skip, take] = range ? JSON.parse(range) : [];
     const [sortField, sortOrder] = sort ? JSON.parse(sort) : [];
+
     const { user } = request;
     if (!user.isAdmin) {
       throw new UnauthorizedException(
@@ -50,7 +52,31 @@ export class StudentController {
       };
     }
 
-    const [data, total] = await this.studentService.findMany({}, params);
+    const { name, address } = filter
+      ? JSON.parse(filter)
+      : {
+          name: '',
+          address: '',
+        };
+    let where = {};
+
+    if (name) {
+      where = {
+        name: {
+          contains: name,
+        },
+      };
+    }
+    if (address) {
+      where = {
+        ...where,
+        address: {
+          contains: address,
+        },
+      };
+    }
+
+    const [data, total] = await this.studentService.findMany(where, params);
     res.header('Content-Range', `X-Total-Count: 0-${data.length}/${total}`);
     res.header('Access-Control-Expose-Headers', 'Content-Range');
     res.json(data);
