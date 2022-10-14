@@ -35,8 +35,11 @@ export class AuthService {
         email: credentials.email,
       },
     });
-
     if (!user) {
+      throw new UnauthorizedException('Invalid credentials');
+    }
+
+    if (user.isAdmin) {
       throw new UnauthorizedException('Invalid credentials');
     }
 

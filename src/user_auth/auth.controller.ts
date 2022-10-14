@@ -39,7 +39,7 @@ export class AuthController {
       },
       valid_body: {
         value: {
-          email: 'admin@gmail.com',
+          email: 'student1@gmail.com',
           password: '123456',
         } as LoginUserAuthReqDto,
       },
