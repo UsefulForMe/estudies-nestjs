@@ -13,6 +13,7 @@ import {
 } from '@nestjs/common';
 import { ApiBearerAuth } from '@nestjs/swagger';
 import { groupBy, reduce } from 'lodash';
+import { SortOrderMap } from 'src/common/interface';
 import { ExamService } from 'src/exam/exam.service';
 import { CreateMarkReq, UpdateMarkReq } from 'src/mark/mark.dto';
 import { MarkService } from 'src/mark/mark.service';
@@ -37,7 +38,74 @@ export class MarkController {
     if (take) {
       params['take'] = take - skip + 1;
     }
-    const [data, total] = await this.markService.findAll({}, params);
+
+    const { sort, filter } = query;
+    const [sortField, sortOrder] = sort ? JSON.parse(sort) : [];
+    if (sortField && sortOrder) {
+      const sortFields = sortField.split('.');
+      if (sortFields.length === 1) {
+        params['orderBy'] = {
+          [sortField]: SortOrderMap[sortOrder],
+        };
+      } else {
+        params['orderBy'] = {
+          [sortFields[0]]: {
+            [sortFields[1]]: SortOrderMap[sortOrder],
+          },
+        };
+      }
+    }
+
+    const { exam, student, score, subject } = filter
+      ? JSON.parse(filter)
+      : {
+          exam: '',
+          score: '',
+          student: '',
+          subject: '',
+        };
+    let where = {};
+
+    if (exam) {
+      where = {
+        exam: {
+          name: {
+            contains: exam,
+          },
+        },
+      };
+    }
+    if (student) {
+      where = {
+        ...where,
+        student: {
+          name: {
+            contains: student,
+          },
+        },
+      };
+    }
+    if (subject) {
+      where = {
+        ...where,
+        exam: {
+          subjectClass: {
+            name: {
+              contains: subject,
+            },
+          },
+        },
+      };
+    }
+    if (score) {
+      where = {
+        ...where,
+        score: {
+          equals: score,
+        },
+      };
+    }
+    const [data, total] = await this.markService.findAll(where, params);
     const output = data.map((item) => {
       return {
         ...item,
@@ -141,7 +209,6 @@ export class MarkController {
         if (!value.length) {
           return result;
         }
-        console.log(result);
 
         const item = {
           student: value[0].student,
@@ -152,7 +219,7 @@ export class MarkController {
               exam: item.exam,
               examId: item.examId,
               score: item.score,
-              markId:item.id
+              markId: item.id,
             };
           }),
         };

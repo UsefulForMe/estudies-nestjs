@@ -19,7 +19,7 @@ export class ParentsService {
         },
         ...args,
       }),
-      this.prisma.parents.count(),
+      this.prisma.parents.count({ where }),
     ]);
   }
   async create(req: Prisma.ParentsCreateInput) {

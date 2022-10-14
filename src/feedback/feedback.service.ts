@@ -16,10 +16,11 @@ export class FeedbackService {
           message: true,
           time: true,
           user: true,
+          userId: true,
         },
         ...args,
       }),
-      this.prismaService.feedback.count(),
+      this.prismaService.feedback.count({ where }),
     ]);
   }
 

@@ -9,6 +9,7 @@ import {
   Query,
   Res,
 } from '@nestjs/common';
+import { SortOrderMap } from 'src/common/interface';
 import { SubjectService } from './subject.service';
 
 @Controller('subject')
@@ -26,7 +27,32 @@ export class SubjectController {
     if (take) {
       params['take'] = take - skip + 1;
     }
-    const [data, total] = await this.service.findAll(params);
+
+    const { sort, filter } = query;
+
+    const [sortField, sortOrder] = sort ? JSON.parse(sort) : [];
+    if (sortField && sortOrder) {
+      params['orderBy'] = {
+        [sortField]: SortOrderMap[sortOrder],
+      };
+    }
+
+    const { name } = filter
+      ? JSON.parse(filter)
+      : {
+          name: '',
+        };
+    let where = {};
+
+    if (name) {
+      where = {
+        name: {
+          contains: name.trim(),
+        },
+      };
+    }
+
+    const [data, total] = await this.service.findAll(where, params);
     res.header('Content-Range', `X-Total-Count: 0-${data.length}/${total}`);
     res.header('Access-Control-Expose-Headers', 'Content-Range');
     res.json(data);

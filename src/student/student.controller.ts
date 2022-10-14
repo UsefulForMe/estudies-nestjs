@@ -63,7 +63,7 @@ export class StudentController {
     if (name) {
       where = {
         name: {
-          contains: name,
+          contains: name.trim(),
         },
       };
     }
@@ -71,7 +71,7 @@ export class StudentController {
       where = {
         ...where,
         address: {
-          contains: address,
+          contains: address.trim(),
         },
       };
     }

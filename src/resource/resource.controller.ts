@@ -11,6 +11,7 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { ApiBearerAuth } from '@nestjs/swagger';
+import { SortOrderMap } from 'src/common/interface';
 import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
 import { ResourceService } from './resource.service';
 
@@ -47,7 +48,58 @@ export class ResourceController {
       params['take'] = take - skip + 1;
     }
 
-    const [data, total] = await this.service.findAll(params);
+    const { sort, filter } = query;
+    const [sortField, sortOrder] = sort ? JSON.parse(sort) : [];
+    if (sortField && sortOrder) {
+      const sortFields = sortField.split('.');
+      if (sortFields.length === 1) {
+        params['orderBy'] = {
+          [sortField]: SortOrderMap[sortOrder],
+        };
+      } else {
+        params['orderBy'] = {
+          [sortFields[0]]: {
+            [sortFields[1]]: SortOrderMap[sortOrder],
+          },
+        };
+      }
+    }
+
+    const { name, type, link } = filter
+      ? JSON.parse(filter)
+      : {
+          name: '',
+          type: '',
+          link: '',
+        };
+    let where = {};
+
+    if (name) {
+      where = {
+        name: {
+          contains: name.trim(),
+        },
+      };
+    }
+    if (type) {
+      where = {
+        ...where,
+        type: {
+          contains: type.trim(),
+        },
+      };
+    }
+
+    if (link) {
+      where = {
+        ...where,
+        link: {
+          contains: link.trim(),
+        },
+      };
+    }
+
+    const [data, total] = await this.service.findAll(params, where);
     const output = data.map((item) => {
       return {
         ...item,

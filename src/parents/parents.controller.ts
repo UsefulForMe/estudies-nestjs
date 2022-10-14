@@ -13,6 +13,7 @@ import {
 } from '@nestjs/common';
 import { ApiBearerAuth } from '@nestjs/swagger';
 import { get } from 'lodash';
+import { SortOrderMap } from 'src/common/interface';
 import { CreateParentsReq, UpdateParentsReq } from 'src/parents/parents.dto';
 import { ParentsService } from 'src/parents/parents.service';
 import { UpdateStudentReq } from 'src/student/student.dto';
@@ -41,7 +42,40 @@ export class ParentsController {
     if (take) {
       params['take'] = take - skip + 1;
     }
-    const [data, total] = await this.parentsService.findMany({}, params);
+
+    const { sort, filter } = query;
+
+    const [sortField, sortOrder] = sort ? JSON.parse(sort) : [];
+    if (sortField && sortOrder) {
+      params['orderBy'] = {
+        [sortField]: SortOrderMap[sortOrder],
+      };
+    }
+
+    const { name, address } = filter
+      ? JSON.parse(filter)
+      : {
+          name: '',
+          address: '',
+        };
+    let where = {};
+
+    if (name) {
+      where = {
+        name: {
+          contains: name.trim(),
+        },
+      };
+    }
+    if (address) {
+      where = {
+        ...where,
+        address: {
+          contains: address.trim(),
+        },
+      };
+    }
+    const [data, total] = await this.parentsService.findMany(where, params);
     res.header('Content-Range', `X-Total-Count: 0-${data.length}/${total}`);
     res.header('Access-Control-Expose-Headers', 'Content-Range');
     res.json(data);

@@ -33,7 +33,9 @@ export class MarkService {
         },
         ...args,
       }),
-      this.prismaService.mark.count(),
+      this.prismaService.mark.count({
+        where,
+      }),
     ]);
   }
 

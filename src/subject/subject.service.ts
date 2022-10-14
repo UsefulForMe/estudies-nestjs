@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Subject } from '@prisma/client';
+import { Prisma, Subject } from '@prisma/client';
 import { IFindAllAgruments } from 'src/common/interface';
 import { PrismaService } from 'src/prisma/prisma.service';
 
@@ -7,10 +7,15 @@ import { PrismaService } from 'src/prisma/prisma.service';
 export class SubjectService {
   constructor(private readonly prismaService: PrismaService) {}
 
-  async findAll(args?: IFindAllAgruments) {
+  async findAll(where: Prisma.SubjectWhereInput, args?: IFindAllAgruments) {
     return Promise.all([
-      this.prismaService.subject.findMany(args),
-      this.prismaService.subject.count(),
+      this.prismaService.subject.findMany({
+        where: where,
+        ...args,
+      }),
+      this.prismaService.subject.count({
+        where,
+      }),
     ]);
   }
 

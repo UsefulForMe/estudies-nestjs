@@ -13,6 +13,7 @@ import {
 } from '@nestjs/common';
 import { ApiBearerAuth } from '@nestjs/swagger';
 import { get } from 'lodash';
+import { SortOrderMap } from 'src/common/interface';
 import { CreateTeacherReq, UpdateTeacherReq } from 'src/teacher/teacher.dto';
 import { TeacherService } from 'src/teacher/teacher.service';
 import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
@@ -34,14 +35,41 @@ export class TeacherController {
     if (take) {
       params['take'] = take - skip + 1;
     }
-    const { user } = request;
-    // if (!user.isAdmin) {
-    //   throw new UnauthorizedException(
-    //     'You are not authorized to view all teacher profiles',
-    //   );
-    // }
 
-    const [data, total] = await this.teacherService.findMany({}, params);
+    const { sort, filter } = query;
+
+    const [sortField, sortOrder] = sort ? JSON.parse(sort) : [];
+    if (sortField && sortOrder) {
+      params['orderBy'] = {
+        [sortField]: SortOrderMap[sortOrder],
+      };
+    }
+
+    const { name, address } = filter
+      ? JSON.parse(filter)
+      : {
+          name: '',
+          address: '',
+        };
+    let where = {};
+
+    if (name) {
+      where = {
+        name: {
+          contains: name.trim(),
+        },
+      };
+    }
+    if (address) {
+      where = {
+        ...where,
+        address: {
+          contains: address.trim(),
+        },
+      };
+    }
+
+    const [data, total] = await this.teacherService.findMany(where, params);
     res.header('Content-Range', `X-Total-Count: 0-${data.length}/${total}`);
     res.header('Access-Control-Expose-Headers', 'Content-Range');
     res.json(data);

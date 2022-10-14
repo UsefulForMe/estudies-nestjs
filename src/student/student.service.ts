@@ -21,7 +21,7 @@ export class StudentService {
         },
         ...args,
       }),
-      this.prisma.student.count(),
+      this.prisma.student.count({ where }),
     ]);
   }
 

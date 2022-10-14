@@ -12,6 +12,7 @@ import {
   UseGuards,
 } from '@nestjs/common';
 import { ApiBearerAuth } from '@nestjs/swagger';
+import { SortOrderMap } from 'src/common/interface';
 import { CreateExamReq, UpdateExamReq } from 'src/exam/exam.dto';
 import { ExamService } from 'src/exam/exam.service';
 import { JwtAuthGuard } from 'src/user_auth/jwt-auth.guard';
@@ -33,7 +34,57 @@ export class ExamController {
     if (take) {
       params['take'] = take - skip + 1;
     }
-    const [data, total] = await this.examService.findAll({}, params);
+
+    const { sort, filter } = query;
+    const [sortField, sortOrder] = sort ? JSON.parse(sort) : [];
+    if (sortField && sortOrder) {
+      const sortFields = sortField.split('.');
+      if (sortFields.length === 1) {
+        params['orderBy'] = {
+          [sortField]: SortOrderMap[sortOrder],
+        };
+      } else {
+        params['orderBy'] = {
+          [sortFields[0]]: {
+            [sortFields[1]]: SortOrderMap[sortOrder],
+          },
+        };
+      }
+    }
+
+    const { name, type, factor } = filter
+      ? JSON.parse(filter)
+      : {
+          name: '',
+          type: '',
+          factor: '',
+        };
+    let where = {};
+
+    if (name) {
+      where = {
+        name: {
+          contains: name.trim(),
+        },
+      };
+    }
+    if (type) {
+      where = {
+        ...where,
+        type: {
+          contains: type.trim(),
+        },
+      };
+    }
+    if (factor) {
+      where = {
+        ...where,
+        factor: {
+          equals: factor,
+        },
+      };
+    }
+    const [data, total] = await this.examService.findAll(where, params);
     const output = data.map((item) => {
       return {
         ...item,
