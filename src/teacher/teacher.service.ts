@@ -16,6 +16,7 @@ export class TeacherService {
           address: true,
           createdAt: true,
           updatedAt: true,
+          phone: true,
         },
         ...args,
       }),

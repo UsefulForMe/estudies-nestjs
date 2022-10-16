@@ -18,6 +18,7 @@ export class StudentService {
           birthday: true,
           createdAt: true,
           updatedAt: true,
+          phone: true,
         },
         ...args,
       }),
