@@ -34,3 +34,8 @@ export class JwtUserResDto {
   @IsNotEmpty()
   type: string;
 }
+
+export interface IUpdateUserAuthDto {
+  password?: string;
+  avatar?: string;
+}

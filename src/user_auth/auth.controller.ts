@@ -6,6 +6,7 @@ import {
   Injectable,
   Param,
   Post,
+  Put,
   Query,
   Request,
   Res,
@@ -15,6 +16,7 @@ import {
 import { ApiBearerAuth, ApiBody, ApiTags } from '@nestjs/swagger';
 import { AppConfigService } from 'src/config/app-config.service';
 import {
+  IUpdateUserAuthDto,
   LoginUserAuthReqDto,
   RegisterUserAuthDto,
 } from 'src/user_auth/auth.dto';
@@ -123,5 +125,23 @@ export class AuthController {
   async verifyToken(@Request() request, @Res() res, @Query() query) {
     const { user } = request;
     res.json(user);
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
+  @Put('me')
+  async update(@Request() request, @Body() body: IUpdateUserAuthDto) {
+    const { user } = request;
+    const token = await this.authService.update(
+      {
+        id: user.id,
+      },
+      body,
+    );
+    return {
+      statusCode: HttpStatus.OK,
+      message: 'success',
+      data: token,
+    };
   }
 }

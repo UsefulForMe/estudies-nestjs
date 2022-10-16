@@ -18,6 +18,7 @@ model UserAuth {
   id       String   @id @default(auto()) @map("_id") @db.ObjectId
   email    String   @unique @db.String
   password String   @db.String
+  avatar   String?  @db.String
   type     UserType @default(student)
   student  Student?
   teacher  Teacher?

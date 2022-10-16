@@ -16,6 +16,7 @@ import { PrismaService } from 'src/prisma/prisma.service';
 import { RedisService } from 'src/redis/redis.service';
 import TimeUtil from 'src/utils/time/time';
 import { MailService } from 'src/mail/mail.service';
+import { Prisma } from '@prisma/client';
 
 @Injectable()
 export class AuthService {
@@ -168,5 +169,15 @@ export class AuthService {
     await this.redisService.client.del(key);
 
     return true;
+  }
+
+  async update(
+    where: Prisma.UserAuthWhereUniqueInput,
+    data: Prisma.UserAuthUpdateInput,
+  ) {
+    return this.prismaService.userAuth.update({
+      where,
+      data,
+    });
   }
 }
