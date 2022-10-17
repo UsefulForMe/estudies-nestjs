@@ -137,10 +137,12 @@ export class MarkController {
         ...item,
         student: item.student.name,
         exam: item.exam.name,
-        subject: item.exam.subjectClass.name,
+        subject: item.exam.subjectClass.subject.name,
+        subjectClass: item.exam.subjectClass.name,
         studentId: item.student.id,
         examId: item.exam.id,
-        subjectId: item.exam.subjectClass.id,
+        subjectClassId: item.exam.subjectClass.id,
+        subjectId: item.exam.subjectClass.subject.id,
       };
     });
     return output;
@@ -158,10 +160,12 @@ export class MarkController {
         ...item,
         student: item.student.name,
         exam: item.exam.name,
-        subject: item.exam.subjectClass.name,
+        subject: item.exam.subjectClass.subject.name,
+        subjectClass: item.exam.subjectClass.name,
         studentId: item.student.id,
         examId: item.exam.id,
-        subjectId: item.exam.subjectClass.id,
+        subjectClassId: item.exam.subjectClass.id,
+        subjectId: item.exam.subjectClass.subject.id,
       };
     });
     return output;

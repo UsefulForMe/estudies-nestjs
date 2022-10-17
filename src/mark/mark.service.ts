@@ -26,7 +26,13 @@ export class MarkService {
             select: {
               id: true,
               name: true,
-              subjectClass: true,
+              subjectClass: {
+                select: {
+                  id: true,
+                  subject: true,
+                  name: true,
+                },
+              },
             },
           },
           student: true,

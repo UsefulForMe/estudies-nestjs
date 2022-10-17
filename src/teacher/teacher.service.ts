@@ -17,6 +17,7 @@ export class TeacherService {
           createdAt: true,
           updatedAt: true,
           phone: true,
+          auth: true,
         },
         ...args,
       }),

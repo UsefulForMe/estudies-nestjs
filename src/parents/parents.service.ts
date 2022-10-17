@@ -17,6 +17,7 @@ export class ParentsService {
           createdAt: true,
           updatedAt: true,
           phone: true,
+          auth: true,
         },
         ...args,
       }),
