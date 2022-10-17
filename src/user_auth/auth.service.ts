@@ -175,6 +175,12 @@ export class AuthService {
     where: Prisma.UserAuthWhereUniqueInput,
     data: Prisma.UserAuthUpdateInput,
   ) {
+    if (data.password) {
+      data.password = await this.bryptService.hashString(
+        data.password.toString(),
+      );
+    }
+
     return this.prismaService.userAuth.update({
       where,
       data,
