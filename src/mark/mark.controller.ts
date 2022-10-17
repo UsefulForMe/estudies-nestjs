@@ -119,6 +119,53 @@ export class MarkController {
     res.header('Access-Control-Expose-Headers', 'Content-Range');
     res.json(output);
   }
+  @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
+  @Get('me')
+  async me(@Request() req) {
+    const { user } = req;
+
+    if (user.type !== 'student') {
+      return [];
+    }
+
+    const [data] = await this.markService.findAll({
+      studentId: user.student.id,
+    });
+    const output = data.map((item) => {
+      return {
+        ...item,
+        student: item.student.name,
+        exam: item.exam.name,
+        subject: item.exam.subjectClass.name,
+        studentId: item.student.id,
+        examId: item.exam.id,
+        subjectId: item.exam.subjectClass.id,
+      };
+    });
+    return output;
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth()
+  @Get('student/:studentId')
+  async findByStudent(@Param('studentId') studentId: string) {
+    const [data] = await this.markService.findAll({
+      studentId,
+    });
+    const output = data.map((item) => {
+      return {
+        ...item,
+        student: item.student.name,
+        exam: item.exam.name,
+        subject: item.exam.subjectClass.name,
+        studentId: item.student.id,
+        examId: item.exam.id,
+        subjectId: item.exam.subjectClass.id,
+      };
+    });
+    return output;
+  }
 
   @UseGuards(JwtAuthGuard)
   @ApiBearerAuth()
@@ -194,10 +241,10 @@ export class MarkController {
       return {
         ...item,
         student: item.student.name,
-        studentId: item.student.id,
         exam: item.exam.name,
-        examId: item.exam.id,
         subject: item.exam.subjectClass.name,
+        studentId: item.student.id,
+        examId: item.exam.id,
         subjectId: item.exam.subjectClass.id,
       };
     });
